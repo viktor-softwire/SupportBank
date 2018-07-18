@@ -28,18 +28,50 @@ class User {
     add(ammount) {
         this.account += ammount;
     }
+
+    logAccount() {
+        const convertedAccount = convertMoneyIntToString(this.account);
+        console.log(`${this.name} has ${convertedAccount} in the bank`);
+    }
+
 }
 
 
-/*
 console.log(`Please select mode: `);
 console.log(`(List All  or  List [Account])`);
 const response = readLine.prompt();
-*/
+
+if (response === `List All`) {
+    const tranactions = parseCSV(fileName);
+    getAllUsers(tranactions);
+} else if (response.substring(0, 5) === `List `) {
+    const userName = response.substring(5); 
+    const tranactions = parseCSV(fileName);
+    getUser(userName, tranactions);
+} else {
+    console.log(`Wrong mode of operation`);
+}
+
+// Logs specific user's bank account
+function getUser(name, tranactions) {
+    const users = calculateAccounts(tranactions);
+    if (users.has(name)) {
+        users.get(name).logAccount();
+    } else {
+        console.log(`User not found`);
+    }
+}
 
 
-const tranactions = parseCSV(fileName);
-listAccounts(tranactions);
+
+// Logs all users' bank accounts
+function getAllUsers(tranactions) {
+    const users = calculateAccounts(tranactions);
+    
+    users.forEach(function(value, key, map) {
+        value.logAccount();
+    });
+}
 
 function parseCSV(fileName) {
     // Reading csv file to string
@@ -59,9 +91,8 @@ function parseCSV(fileName) {
 
 }
 
-
-
-function listAccounts(transactions) {
+// Returns the created accounts in a Map object
+function calculateAccounts(transactions) {
 
     // Storing all previously encountered users
     const accounts = new Map();
@@ -93,10 +124,7 @@ function listAccounts(transactions) {
     }
     
     // List all accounts
-    accounts.forEach(function(value, key, map) {
-        const convertedAccount = convertMoneyIntToString(value.account);
-        console.log(`${value.name} has ${convertedAccount} in the bank`);
-    });
+    return accounts;
 }
 
 // Converts money from "xx.yy" to xxyy (int)
