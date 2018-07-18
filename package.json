@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^3.1.0",
+    "moment": "^2.22.2",
+    "readline-sync": "^1.4.9"
+  }
 }
