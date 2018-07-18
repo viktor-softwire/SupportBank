@@ -1,468 +1,1220 @@
-[2018-07-18T16:32:30.541] [DEBUG] logs\debug.log - Application has started
-[2018-07-18T16:32:34.687] [DEBUG] logs\debug.log - User has entered operation mode: List All
-[2018-07-18T16:32:34.688] [DEBUG] logs\debug.log - User input has been matched to List All
-[2018-07-18T16:32:34.689] [DEBUG] logs\debug.log - Starting to read CSV file; file name: DodgyTransactions2015.csv
-[2018-07-18T16:32:34.695] [DEBUG] logs\debug.log - Parsing string
-[2018-07-18T16:32:34.710] [DEBUG] logs\debug.log - Length of transactions (including header): 52
-[2018-07-18T16:32:34.716] [DEBUG] logs\debug.log - Converting 10.54 to int
-[2018-07-18T16:32:34.717] [DEBUG] logs\debug.log - Result of conversion: 1054
-[2018-07-18T16:32:34.718] [DEBUG] logs\debug.log - Converting 3.22 to int
-[2018-07-18T16:32:34.720] [DEBUG] logs\debug.log - Result of conversion: 322
-[2018-07-18T16:32:34.721] [DEBUG] logs\debug.log - Converting 9.93 to int
-[2018-07-18T16:32:34.722] [DEBUG] logs\debug.log - Result of conversion: 993
-[2018-07-18T16:32:34.723] [DEBUG] logs\debug.log - Converting 7.33 to int
-[2018-07-18T16:32:34.723] [DEBUG] logs\debug.log - Result of conversion: 733
-[2018-07-18T16:32:34.724] [DEBUG] logs\debug.log - Converting 8.94 to int
-[2018-07-18T16:32:34.728] [DEBUG] logs\debug.log - Result of conversion: 894
-[2018-07-18T16:32:34.729] [DEBUG] logs\debug.log - Converting 10.19 to int
-[2018-07-18T16:32:34.734] [DEBUG] logs\debug.log - Result of conversion: 1019
-[2018-07-18T16:32:34.735] [DEBUG] logs\debug.log - Converting 0.69 to int
-[2018-07-18T16:32:34.736] [DEBUG] logs\debug.log - Result of conversion: 69
-[2018-07-18T16:32:34.737] [DEBUG] logs\debug.log - Converting 10.73 to int
-[2018-07-18T16:32:34.742] [DEBUG] logs\debug.log - Result of conversion: 1073
-[2018-07-18T16:32:34.743] [DEBUG] logs\debug.log - Converting 0.8 to int
-[2018-07-18T16:32:34.744] [DEBUG] logs\debug.log - Result of conversion: 8
-[2018-07-18T16:32:34.745] [DEBUG] logs\debug.log - Converting 8.49 to int
-[2018-07-18T16:32:34.745] [DEBUG] logs\debug.log - Result of conversion: 849
-[2018-07-18T16:32:34.746] [DEBUG] logs\debug.log - Converting 0.52 to int
-[2018-07-18T16:32:34.751] [DEBUG] logs\debug.log - Result of conversion: 52
-[2018-07-18T16:32:34.752] [DEBUG] logs\debug.log - Converting 9.01 to int
-[2018-07-18T16:32:34.752] [DEBUG] logs\debug.log - Result of conversion: 901
-[2018-07-18T16:32:34.754] [DEBUG] logs\debug.log - Converting 7.53 to int
-[2018-07-18T16:32:34.754] [DEBUG] logs\debug.log - Result of conversion: 753
-[2018-07-18T16:32:34.755] [DEBUG] logs\debug.log - Converting 7.43 to int
-[2018-07-18T16:32:34.760] [DEBUG] logs\debug.log - Result of conversion: 743
-[2018-07-18T16:32:34.765] [DEBUG] logs\debug.log - Converting 5.78 to int
-[2018-07-18T16:32:34.765] [DEBUG] logs\debug.log - Result of conversion: 578
-[2018-07-18T16:32:34.766] [DEBUG] logs\debug.log - Converting 10.29 to int
-[2018-07-18T16:32:34.767] [DEBUG] logs\debug.log - Result of conversion: 1029
-[2018-07-18T16:32:34.768] [DEBUG] logs\debug.log - Converting 7.37 to int
-[2018-07-18T16:32:34.772] [DEBUG] logs\debug.log - Result of conversion: 737
-[2018-07-18T16:32:34.773] [DEBUG] logs\debug.log - Converting 9.84 to int
-[2018-07-18T16:32:34.777] [DEBUG] logs\debug.log - Result of conversion: 984
-[2018-07-18T16:32:34.778] [DEBUG] logs\debug.log - Converting 0.68 to int
-[2018-07-18T16:32:34.779] [DEBUG] logs\debug.log - Result of conversion: 68
-[2018-07-18T16:32:34.780] [DEBUG] logs\debug.log - Converting 6.56 to int
-[2018-07-18T16:32:34.785] [DEBUG] logs\debug.log - Result of conversion: 656
-[2018-07-18T16:32:34.786] [DEBUG] logs\debug.log - Converting 1.28 to int
-[2018-07-18T16:32:34.791] [DEBUG] logs\debug.log - Result of conversion: 128
-[2018-07-18T16:32:34.792] [DEBUG] logs\debug.log - Converting 11.48 to int
-[2018-07-18T16:32:34.796] [DEBUG] logs\debug.log - Result of conversion: 1148
-[2018-07-18T16:32:34.797] [DEBUG] logs\debug.log - Converting 4.83 to int
-[2018-07-18T16:32:34.798] [DEBUG] logs\debug.log - Result of conversion: 483
-[2018-07-18T16:32:34.799] [DEBUG] logs\debug.log - Converting 0.5 to int
-[2018-07-18T16:32:34.803] [DEBUG] logs\debug.log - Result of conversion: 5
-[2018-07-18T16:32:34.804] [DEBUG] logs\debug.log - Converting 9.08 to int
-[2018-07-18T16:32:34.804] [DEBUG] logs\debug.log - Result of conversion: 908
-[2018-07-18T16:32:34.805] [DEBUG] logs\debug.log - Converting 4.23 to int
-[2018-07-18T16:32:34.810] [DEBUG] logs\debug.log - Result of conversion: 423
-[2018-07-18T16:32:34.811] [DEBUG] logs\debug.log - Converting One Cheeseburger to int
-[2018-07-18T16:32:34.811] [ERROR] logs\debug.log - Trying to convert non-money format: One Cheeseburger
-[2018-07-18T16:32:34.812] [DEBUG] logs\debug.log - Converting 1.92 to int
-[2018-07-18T16:32:34.816] [DEBUG] logs\debug.log - Result of conversion: 192
-[2018-07-18T16:32:34.817] [DEBUG] logs\debug.log - Converting 9.09 to int
-[2018-07-18T16:32:34.818] [DEBUG] logs\debug.log - Result of conversion: 909
-[2018-07-18T16:32:34.818] [DEBUG] logs\debug.log - Converting 9.4 to int
-[2018-07-18T16:32:34.819] [DEBUG] logs\debug.log - Result of conversion: 904
-[2018-07-18T16:32:34.820] [DEBUG] logs\debug.log - Converting 11.32 to int
-[2018-07-18T16:32:34.824] [DEBUG] logs\debug.log - Result of conversion: 1132
-[2018-07-18T16:32:34.825] [DEBUG] logs\debug.log - Converting 11.57 to int
-[2018-07-18T16:32:34.826] [DEBUG] logs\debug.log - Result of conversion: 1157
-[2018-07-18T16:32:34.831] [DEBUG] logs\debug.log - Converting 2.29 to int
-[2018-07-18T16:32:34.831] [DEBUG] logs\debug.log - Result of conversion: 229
-[2018-07-18T16:32:34.832] [DEBUG] logs\debug.log - Converting 9.96 to int
-[2018-07-18T16:32:34.837] [DEBUG] logs\debug.log - Result of conversion: 996
-[2018-07-18T16:32:34.837] [DEBUG] logs\debug.log - Converting 7.54 to int
-[2018-07-18T16:32:34.838] [DEBUG] logs\debug.log - Result of conversion: 754
-[2018-07-18T16:32:34.839] [DEBUG] logs\debug.log - Converting 2.39 to int
-[2018-07-18T16:32:34.844] [DEBUG] logs\debug.log - Result of conversion: 239
-[2018-07-18T16:32:34.845] [DEBUG] logs\debug.log - Converting 5.83 to int
-[2018-07-18T16:32:34.850] [DEBUG] logs\debug.log - Result of conversion: 583
-[2018-07-18T16:32:34.850] [DEBUG] logs\debug.log - Converting 10.85 to int
-[2018-07-18T16:32:34.855] [DEBUG] logs\debug.log - Result of conversion: 1085
-[2018-07-18T16:32:34.856] [DEBUG] logs\debug.log - Converting 8.6 to int
-[2018-07-18T16:32:34.860] [DEBUG] logs\debug.log - Result of conversion: 806
-[2018-07-18T16:32:34.861] [DEBUG] logs\debug.log - Converting 1.11 to int
-[2018-07-18T16:32:34.862] [DEBUG] logs\debug.log - Result of conversion: 111
-[2018-07-18T16:32:34.863] [DEBUG] logs\debug.log - Converting 0.96 to int
-[2018-07-18T16:32:34.867] [DEBUG] logs\debug.log - Result of conversion: 96
-[2018-07-18T16:32:34.868] [DEBUG] logs\debug.log - Converting 11.79 to int
-[2018-07-18T16:32:34.868] [DEBUG] logs\debug.log - Result of conversion: 1179
-[2018-07-18T16:32:34.869] [DEBUG] logs\debug.log - Converting 8.37 to int
-[2018-07-18T16:32:34.870] [DEBUG] logs\debug.log - Result of conversion: 837
-[2018-07-18T16:32:34.875] [DEBUG] logs\debug.log - Converting 1.27 to int
-[2018-07-18T16:32:34.881] [DEBUG] logs\debug.log - Result of conversion: 127
-[2018-07-18T16:32:34.882] [DEBUG] logs\debug.log - Converting 8.5 to int
-[2018-07-18T16:32:34.882] [DEBUG] logs\debug.log - Result of conversion: 805
-[2018-07-18T16:32:34.883] [DEBUG] logs\debug.log - Converting 8.91 to int
-[2018-07-18T16:32:34.884] [DEBUG] logs\debug.log - Result of conversion: 891
-[2018-07-18T16:32:34.884] [DEBUG] logs\debug.log - Converting 8.1 to int
-[2018-07-18T16:32:34.885] [DEBUG] logs\debug.log - Result of conversion: 801
-[2018-07-18T16:32:34.886] [DEBUG] logs\debug.log - Converting 6.38 to int
-[2018-07-18T16:32:34.890] [DEBUG] logs\debug.log - Result of conversion: 638
-[2018-07-18T16:32:34.891] [DEBUG] logs\debug.log - Converting 8.44 to int
-[2018-07-18T16:32:34.892] [DEBUG] logs\debug.log - Result of conversion: 844
-[2018-07-18T16:32:34.893] [DEBUG] logs\debug.log - Converting 10.91 to int
-[2018-07-18T16:32:34.893] [DEBUG] logs\debug.log - Result of conversion: 1091
-[2018-07-18T16:32:34.894] [WARN] logs\debug.log - Invaild date (or wrong format): Last Thursday
-[2018-07-18T16:32:34.895] [DEBUG] logs\debug.log - Converting 5.42 to int
-[2018-07-18T16:32:34.896] [DEBUG] logs\debug.log - Result of conversion: 542
-[2018-07-18T16:32:34.897] [DEBUG] logs\debug.log - Transactions have been successfully parsed
-[2018-07-18T16:32:34.897] [DEBUG] logs\debug.log - Getting all users' info
-[2018-07-18T16:32:34.898] [DEBUG] logs\debug.log - Started calculating accounts
-[2018-07-18T16:32:34.899] [DEBUG] logs\debug.log - Converting 1054 to string
-[2018-07-18T16:32:34.900] [DEBUG] logs\debug.log - Result of conversion: 10.54
-[2018-07-18T16:32:34.904] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Sarah T £10.54
-@Thu Jan 01 2015 00:00:00 GMT+0000 message: Misc Morale
-[2018-07-18T16:32:34.905] [DEBUG] logs\debug.log - Adding new user Laura B to Map
-[2018-07-18T16:32:34.910] [DEBUG] logs\debug.log - Created User instance Laura B
-[2018-07-18T16:32:34.911] [DEBUG] logs\debug.log - Deducting 1054 from Laura B
-[2018-07-18T16:32:34.911] [DEBUG] logs\debug.log - Adding new user Sarah T to Map
-[2018-07-18T16:32:34.917] [DEBUG] logs\debug.log - Created User instance Sarah T
-[2018-07-18T16:32:34.917] [DEBUG] logs\debug.log - Adding 1054 to Sarah T
-[2018-07-18T16:32:34.918] [DEBUG] logs\debug.log - Converting 322 to string
-[2018-07-18T16:32:34.919] [DEBUG] logs\debug.log - Result of conversion: 3.22
-[2018-07-18T16:32:34.920] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Gergana I £3.22
-@Sun Jan 04 2015 00:00:00 GMT+0000 message: Lunch
-[2018-07-18T16:32:34.925] [DEBUG] logs\debug.log - Adding new user Stephen S to Map
-[2018-07-18T16:32:34.930] [DEBUG] logs\debug.log - Created User instance Stephen S
-[2018-07-18T16:32:34.931] [DEBUG] logs\debug.log - Deducting 322 from Stephen S
-[2018-07-18T16:32:34.932] [DEBUG] logs\debug.log - Adding new user Gergana I to Map
-[2018-07-18T16:32:34.932] [DEBUG] logs\debug.log - Created User instance Gergana I
-[2018-07-18T16:32:34.933] [DEBUG] logs\debug.log - Adding 322 to Gergana I
-[2018-07-18T16:32:34.939] [DEBUG] logs\debug.log - Converting 993 to string
-[2018-07-18T16:32:34.939] [DEBUG] logs\debug.log - Result of conversion: 9.93
-[2018-07-18T16:32:34.940] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Jon A £9.93
-@Wed Jan 07 2015 00:00:00 GMT+0000 message: Fantasy Football
-[2018-07-18T16:32:34.941] [DEBUG] logs\debug.log - Adding new user Ben B to Map
-[2018-07-18T16:32:34.941] [DEBUG] logs\debug.log - Created User instance Ben B
-[2018-07-18T16:32:34.946] [DEBUG] logs\debug.log - Deducting 993 from Ben B
-[2018-07-18T16:32:34.947] [DEBUG] logs\debug.log - Adding new user Jon A to Map
-[2018-07-18T16:32:34.952] [DEBUG] logs\debug.log - Created User instance Jon A
-[2018-07-18T16:32:34.953] [DEBUG] logs\debug.log - Adding 993 to Jon A
-[2018-07-18T16:32:34.958] [DEBUG] logs\debug.log - Converting 733 to string
-[2018-07-18T16:32:34.959] [DEBUG] logs\debug.log - Result of conversion: 7.33
-[2018-07-18T16:32:34.959] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Todd £7.33
-@Sun Jan 11 2015 00:00:00 GMT+0000 message: Lunch
-[2018-07-18T16:32:34.964] [DEBUG] logs\debug.log - Deducting 733 from Ben B
-[2018-07-18T16:32:34.969] [DEBUG] logs\debug.log - Adding new user Todd to Map
-[2018-07-18T16:32:34.970] [DEBUG] logs\debug.log - Created User instance Todd
-[2018-07-18T16:32:34.971] [DEBUG] logs\debug.log - Adding 733 to Todd
-[2018-07-18T16:32:34.972] [DEBUG] logs\debug.log - Converting 894 to string
-[2018-07-18T16:32:34.976] [DEBUG] logs\debug.log - Result of conversion: 8.94
-[2018-07-18T16:32:34.977] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Ben B £8.94
-@Mon Jan 12 2015 00:00:00 GMT+0000 message: Beers
-[2018-07-18T16:32:34.982] [DEBUG] logs\debug.log - Deducting 894 from Laura B
-[2018-07-18T16:32:34.983] [DEBUG] logs\debug.log - Adding 894 to Ben B
-[2018-07-18T16:32:34.988] [DEBUG] logs\debug.log - Converting 1019 to string
-[2018-07-18T16:32:34.993] [DEBUG] logs\debug.log - Result of conversion: 10.19
-[2018-07-18T16:32:34.994] [DEBUG] logs\debug.log - Started processing transaction Todd -> Rob S £10.19
-@Thu Jan 15 2015 00:00:00 GMT+0000 message: Beers
-[2018-07-18T16:32:34.995] [DEBUG] logs\debug.log - Deducting 1019 from Todd
-[2018-07-18T16:32:34.996] [DEBUG] logs\debug.log - Adding new user Rob S to Map
-[2018-07-18T16:32:35.001] [DEBUG] logs\debug.log - Created User instance Rob S
-[2018-07-18T16:32:35.007] [DEBUG] logs\debug.log - Adding 1019 to Rob S
-[2018-07-18T16:32:35.008] [DEBUG] logs\debug.log - Converting 69 to string
-[2018-07-18T16:32:35.013] [DEBUG] logs\debug.log - Result of conversion: 0.69
-[2018-07-18T16:32:35.014] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Jon A £0.69
-@Fri Jan 16 2015 00:00:00 GMT+0000 message: Lego Assistance
-[2018-07-18T16:32:35.015] [DEBUG] logs\debug.log - Deducting 69 from Laura B
-[2018-07-18T16:32:35.015] [DEBUG] logs\debug.log - Adding 69 to Jon A
-[2018-07-18T16:32:35.016] [DEBUG] logs\debug.log - Converting 1073 to string
-[2018-07-18T16:32:35.021] [DEBUG] logs\debug.log - Result of conversion: 10.73
-[2018-07-18T16:32:35.022] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Sarah T £10.73
-@Sun Jan 18 2015 00:00:00 GMT+0000 message: Coffee
-[2018-07-18T16:32:35.027] [DEBUG] logs\debug.log - Deducting 1073 from Jon A
-[2018-07-18T16:32:35.028] [DEBUG] logs\debug.log - Adding 1073 to Sarah T
-[2018-07-18T16:32:35.028] [DEBUG] logs\debug.log - Converting 8 to string
-[2018-07-18T16:32:35.029] [DEBUG] logs\debug.log - Result of conversion: 0.8
-[2018-07-18T16:32:35.030] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Todd £0.8
-@Thu Jan 22 2015 00:00:00 GMT+0000 message: Coffee
-[2018-07-18T16:32:35.030] [DEBUG] logs\debug.log - Deducting 8 from Gergana I
-[2018-07-18T16:32:35.031] [DEBUG] logs\debug.log - Adding 8 to Todd
-[2018-07-18T16:32:35.032] [DEBUG] logs\debug.log - Converting 849 to string
-[2018-07-18T16:32:35.032] [DEBUG] logs\debug.log - Result of conversion: 8.49
-[2018-07-18T16:32:35.033] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Chris W £8.49
-@Sat Jan 24 2015 00:00:00 GMT+0000 message: Coffee
-[2018-07-18T16:32:35.038] [DEBUG] logs\debug.log - Deducting 849 from Gergana I
-[2018-07-18T16:32:35.039] [DEBUG] logs\debug.log - Adding new user Chris W to Map
-[2018-07-18T16:32:35.039] [DEBUG] logs\debug.log - Created User instance Chris W
-[2018-07-18T16:32:35.040] [DEBUG] logs\debug.log - Adding 849 to Chris W
-[2018-07-18T16:32:35.041] [DEBUG] logs\debug.log - Converting 52 to string
-[2018-07-18T16:32:35.042] [DEBUG] logs\debug.log - Result of conversion: 0.52
-[2018-07-18T16:32:35.047] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Tim L £0.52
-@Tue Jan 27 2015 00:00:00 GMT+0000 message: Jenkins Fees
-[2018-07-18T16:32:35.052] [DEBUG] logs\debug.log - Deducting 52 from Laura B
-[2018-07-18T16:32:35.057] [DEBUG] logs\debug.log - Adding new user Tim L to Map
-[2018-07-18T16:32:35.058] [DEBUG] logs\debug.log - Created User instance Tim L
-[2018-07-18T16:32:35.063] [DEBUG] logs\debug.log - Adding 52 to Tim L
-[2018-07-18T16:32:35.064] [DEBUG] logs\debug.log - Converting 901 to string
-[2018-07-18T16:32:35.064] [DEBUG] logs\debug.log - Result of conversion: 9.1
-[2018-07-18T16:32:35.065] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Chris W £9.1
-@Thu Jan 29 2015 00:00:00 GMT+0000 message: Lunch
-[2018-07-18T16:32:35.070] [DEBUG] logs\debug.log - Adding new user Sam N to Map
-[2018-07-18T16:32:35.070] [DEBUG] logs\debug.log - Created User instance Sam N
-[2018-07-18T16:32:35.076] [DEBUG] logs\debug.log - Deducting 901 from Sam N
-[2018-07-18T16:32:35.076] [DEBUG] logs\debug.log - Adding 901 to Chris W
-[2018-07-18T16:32:35.077] [DEBUG] logs\debug.log - Converting 753 to string
-[2018-07-18T16:32:35.082] [DEBUG] logs\debug.log - Result of conversion: 7.53
-[2018-07-18T16:32:35.083] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Laura B £7.53
-@Sun Feb 01 2015 00:00:00 GMT+0000 message: Coffee
-[2018-07-18T16:32:35.088] [DEBUG] logs\debug.log - Deducting 753 from Stephen S
-[2018-07-18T16:32:35.089] [DEBUG] logs\debug.log - Adding 753 to Laura B
-[2018-07-18T16:32:35.090] [DEBUG] logs\debug.log - Converting 743 to string
-[2018-07-18T16:32:35.090] [DEBUG] logs\debug.log - Result of conversion: 7.43
-[2018-07-18T16:32:35.095] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Rob S £7.43
-@Mon Feb 02 2015 00:00:00 GMT+0000 message: Fantasy Football
-[2018-07-18T16:32:35.096] [DEBUG] logs\debug.log - Deducting 743 from Stephen S
-[2018-07-18T16:32:35.097] [DEBUG] logs\debug.log - Adding 743 to Rob S
-[2018-07-18T16:32:35.097] [DEBUG] logs\debug.log - Converting 578 to string
-[2018-07-18T16:32:35.102] [DEBUG] logs\debug.log - Result of conversion: 5.78
-[2018-07-18T16:32:35.107] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Stephen S £5.78
-@Wed Feb 04 2015 00:00:00 GMT+0000 message: Fantasy Football
-[2018-07-18T16:32:35.108] [DEBUG] logs\debug.log - Deducting 578 from Rob S
-[2018-07-18T16:32:35.109] [DEBUG] logs\debug.log - Adding 578 to Stephen S
-[2018-07-18T16:32:35.110] [DEBUG] logs\debug.log - Converting 1029 to string
-[2018-07-18T16:32:35.110] [DEBUG] logs\debug.log - Result of conversion: 10.29
-[2018-07-18T16:32:35.111] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Gergana I £10.29
-@Fri Feb 06 2015 00:00:00 GMT+0000 message: Automated Testing Services
-[2018-07-18T16:32:35.115] [DEBUG] logs\debug.log - Adding new user Dan W to Map
-[2018-07-18T16:32:35.116] [DEBUG] logs\debug.log - Created User instance Dan W
-[2018-07-18T16:32:35.117] [DEBUG] logs\debug.log - Deducting 1029 from Dan W
-[2018-07-18T16:32:35.118] [DEBUG] logs\debug.log - Adding 1029 to Gergana I
-[2018-07-18T16:32:35.118] [DEBUG] logs\debug.log - Converting 737 to string
-[2018-07-18T16:32:35.119] [DEBUG] logs\debug.log - Result of conversion: 7.37
-[2018-07-18T16:32:35.120] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Chris W £7.37
-@Sat Feb 07 2015 00:00:00 GMT+0000 message: Rails Consultancy
-[2018-07-18T16:32:35.120] [DEBUG] logs\debug.log - Deducting 737 from Jon A
-[2018-07-18T16:32:35.121] [DEBUG] logs\debug.log - Adding 737 to Chris W
-[2018-07-18T16:32:35.126] [DEBUG] logs\debug.log - Converting 984 to string
-[2018-07-18T16:32:35.128] [DEBUG] logs\debug.log - Result of conversion: 9.84
-[2018-07-18T16:32:35.133] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Gergana I £9.84
-@Tue Feb 10 2015 00:00:00 GMT+0000 message: Sandbox Help
-[2018-07-18T16:32:35.134] [DEBUG] logs\debug.log - Deducting 984 from Sam N
-[2018-07-18T16:32:35.134] [DEBUG] logs\debug.log - Adding 984 to Gergana I
-[2018-07-18T16:32:35.135] [DEBUG] logs\debug.log - Converting 68 to string
-[2018-07-18T16:32:35.136] [DEBUG] logs\debug.log - Result of conversion: 0.68
-[2018-07-18T16:32:35.136] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Stephen S £0.68
-@Wed Feb 11 2015 00:00:00 GMT+0000 message: Misc Morale
-[2018-07-18T16:32:35.141] [DEBUG] logs\debug.log - Deducting 68 from Chris W
-[2018-07-18T16:32:35.142] [DEBUG] logs\debug.log - Adding 68 to Stephen S
-[2018-07-18T16:32:35.143] [DEBUG] logs\debug.log - Converting 656 to string
-[2018-07-18T16:32:35.143] [DEBUG] logs\debug.log - Result of conversion: 6.56
-[2018-07-18T16:32:35.148] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Gergana I £6.56
-@Fri Feb 13 2015 00:00:00 GMT+0000 message: Beers
-[2018-07-18T16:32:35.149] [DEBUG] logs\debug.log - Deducting 656 from Laura B
-[2018-07-18T16:32:35.154] [DEBUG] logs\debug.log - Adding 656 to Gergana I
-[2018-07-18T16:32:35.155] [DEBUG] logs\debug.log - Converting 128 to string
-[2018-07-18T16:32:35.155] [DEBUG] logs\debug.log - Result of conversion: 1.28
-[2018-07-18T16:32:35.156] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Dan W £1.28
-@Mon Feb 16 2015 00:00:00 GMT+0000 message: Jenkins Fees
-[2018-07-18T16:32:35.157] [DEBUG] logs\debug.log - Deducting 128 from Chris W
-[2018-07-18T16:32:35.157] [DEBUG] logs\debug.log - Adding 128 to Dan W
-[2018-07-18T16:32:35.164] [DEBUG] logs\debug.log - Converting 1148 to string
-[2018-07-18T16:32:35.165] [DEBUG] logs\debug.log - Result of conversion: 11.48
-[2018-07-18T16:32:35.166] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Dan W £11.48
-@Tue Feb 17 2015 00:00:00 GMT+0000 message: Sandbox Help
-[2018-07-18T16:32:35.166] [DEBUG] logs\debug.log - Deducting 1148 from Sarah T
-[2018-07-18T16:32:35.167] [DEBUG] logs\debug.log - Adding 1148 to Dan W
-[2018-07-18T16:32:35.168] [DEBUG] logs\debug.log - Converting 483 to string
-[2018-07-18T16:32:35.168] [DEBUG] logs\debug.log - Result of conversion: 4.83
-[2018-07-18T16:32:35.169] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Rob S £4.83
-@Wed Feb 18 2015 00:00:00 GMT+0000 message: Lego Assistance
-[2018-07-18T16:32:35.170] [DEBUG] logs\debug.log - Deducting 483 from Stephen S
-[2018-07-18T16:32:35.170] [DEBUG] logs\debug.log - Adding 483 to Rob S
-[2018-07-18T16:32:35.171] [DEBUG] logs\debug.log - Converting 5 to string
-[2018-07-18T16:32:35.172] [DEBUG] logs\debug.log - Result of conversion: 0.5
-[2018-07-18T16:32:35.172] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Ben B £0.5
-@Sat Feb 21 2015 00:00:00 GMT+0000 message: Pokemon Training
-[2018-07-18T16:32:35.173] [DEBUG] logs\debug.log - Deducting 5 from Dan W
-[2018-07-18T16:32:35.174] [DEBUG] logs\debug.log - Adding 5 to Ben B
-[2018-07-18T16:32:35.174] [DEBUG] logs\debug.log - Converting 908 to string
-[2018-07-18T16:32:35.175] [DEBUG] logs\debug.log - Result of conversion: 9.8
-[2018-07-18T16:32:35.176] [DEBUG] logs\debug.log - Started processing transaction Todd -> Gergana I £9.8
-@Tue Feb 24 2015 00:00:00 GMT+0000 message: Coffee
-[2018-07-18T16:32:35.176] [DEBUG] logs\debug.log - Deducting 908 from Todd
-[2018-07-18T16:32:35.177] [DEBUG] logs\debug.log - Adding 908 to Gergana I
-[2018-07-18T16:32:35.177] [DEBUG] logs\debug.log - Converting 423 to string
-[2018-07-18T16:32:35.178] [DEBUG] logs\debug.log - Result of conversion: 4.23
-[2018-07-18T16:32:35.179] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Jon A £4.23
-@Thu Feb 26 2015 00:00:00 GMT+0000 message: Pokemon Training
-[2018-07-18T16:32:35.184] [DEBUG] logs\debug.log - Deducting 423 from Stephen S
-[2018-07-18T16:32:35.185] [DEBUG] logs\debug.log - Adding 423 to Jon A
-[2018-07-18T16:32:35.190] [DEBUG] logs\debug.log - Converting null to string
-[2018-07-18T16:32:35.191] [ERROR] logs\debug.log - Trying to convert a non-integer number: null
-[2018-07-18T16:32:35.191] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sam N £null
-@Sun Mar 01 2015 00:00:00 GMT+0000 message: Lunch
-[2018-07-18T16:32:35.196] [DEBUG] logs\debug.log - Deducting null from Ben B
-[2018-07-18T16:32:35.197] [DEBUG] logs\debug.log - Adding null to Sam N
-[2018-07-18T16:32:35.198] [DEBUG] logs\debug.log - Converting 192 to string
-[2018-07-18T16:32:35.202] [DEBUG] logs\debug.log - Result of conversion: 1.92
-[2018-07-18T16:32:35.203] [DEBUG] logs\debug.log - Started processing transaction Todd -> Chris W £1.92
-@Mon Mar 02 2015 00:00:00 GMT+0000 message: Sandbox Help
-[2018-07-18T16:32:35.204] [DEBUG] logs\debug.log - Deducting 192 from Todd
-[2018-07-18T16:32:35.204] [DEBUG] logs\debug.log - Adding 192 to Chris W
-[2018-07-18T16:32:35.209] [DEBUG] logs\debug.log - Converting 909 to string
-[2018-07-18T16:32:35.210] [DEBUG] logs\debug.log - Result of conversion: 9.9
-[2018-07-18T16:32:35.211] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Jon A £9.9
-@Wed Mar 04 2015 00:00:00 GMT+0000 message: Sandcastle Help
-[2018-07-18T16:32:35.211] [DEBUG] logs\debug.log - Deducting 909 from Laura B
-[2018-07-18T16:32:35.212] [DEBUG] logs\debug.log - Adding 909 to Jon A
-[2018-07-18T16:32:35.213] [DEBUG] logs\debug.log - Converting 904 to string
-[2018-07-18T16:32:35.213] [DEBUG] logs\debug.log - Result of conversion: 9.4
-[2018-07-18T16:32:35.218] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Gergana I £9.4
-@Fri Mar 06 2015 00:00:00 GMT+0000 message: Lego Assistance
-[2018-07-18T16:32:35.219] [DEBUG] logs\debug.log - Deducting 904 from Stephen S
-[2018-07-18T16:32:35.220] [DEBUG] logs\debug.log - Adding 904 to Gergana I
-[2018-07-18T16:32:35.220] [DEBUG] logs\debug.log - Converting 1132 to string
-[2018-07-18T16:32:35.221] [DEBUG] logs\debug.log - Result of conversion: 11.32
-[2018-07-18T16:32:35.222] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sam N £11.32
-@Sun Mar 08 2015 00:00:00 GMT+0000 message: Pokemon Training
-[2018-07-18T16:32:35.226] [DEBUG] logs\debug.log - Deducting 1132 from Ben B
-[2018-07-18T16:32:35.227] [DEBUG] logs\debug.log - Adding 1132 to Sam N
-[2018-07-18T16:32:35.228] [DEBUG] logs\debug.log - Converting 1157 to string
-[2018-07-18T16:32:35.229] [DEBUG] logs\debug.log - Result of conversion: 11.57
-[2018-07-18T16:32:35.229] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Jon A £11.57
-@Wed Mar 11 2015 00:00:00 GMT+0000 message: Sandcastle Help
-[2018-07-18T16:32:35.235] [DEBUG] logs\debug.log - Deducting 1157 from Stephen S
-[2018-07-18T16:32:35.236] [DEBUG] logs\debug.log - Adding 1157 to Jon A
-[2018-07-18T16:32:35.236] [DEBUG] logs\debug.log - Converting 229 to string
-[2018-07-18T16:32:35.237] [DEBUG] logs\debug.log - Result of conversion: 2.29
-[2018-07-18T16:32:35.238] [DEBUG] logs\debug.log - Started processing transaction Todd -> Sam N £2.29
-@Sun Mar 15 2015 00:00:00 GMT+0000 message: Pokemon Training
-[2018-07-18T16:32:35.242] [DEBUG] logs\debug.log - Deducting 229 from Todd
-[2018-07-18T16:32:35.243] [DEBUG] logs\debug.log - Adding 229 to Sam N
-[2018-07-18T16:32:35.244] [DEBUG] logs\debug.log - Converting 996 to string
-[2018-07-18T16:32:35.245] [DEBUG] logs\debug.log - Result of conversion: 9.96
-[2018-07-18T16:32:35.249] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Chris W £9.96
-@Thu Mar 19 2015 00:00:00 GMT+0000 message: Coffee
-[2018-07-18T16:32:35.250] [DEBUG] logs\debug.log - Deducting 996 from Laura B
-[2018-07-18T16:32:35.255] [DEBUG] logs\debug.log - Adding 996 to Chris W
-[2018-07-18T16:32:35.256] [DEBUG] logs\debug.log - Converting 754 to string
-[2018-07-18T16:32:35.256] [DEBUG] logs\debug.log - Result of conversion: 7.54
-[2018-07-18T16:32:35.257] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Gergana I £7.54
-@Sat Mar 21 2015 00:00:00 GMT+0000 message: Beers
-[2018-07-18T16:32:35.258] [DEBUG] logs\debug.log - Deducting 754 from Jon A
-[2018-07-18T16:32:35.259] [DEBUG] logs\debug.log - Adding 754 to Gergana I
-[2018-07-18T16:32:35.264] [DEBUG] logs\debug.log - Converting 239 to string
-[2018-07-18T16:32:35.264] [DEBUG] logs\debug.log - Result of conversion: 2.39
-[2018-07-18T16:32:35.265] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Ben B £2.39
-@Wed Mar 25 2015 00:00:00 GMT+0000 message: Automated Testing Services
-[2018-07-18T16:32:35.266] [DEBUG] logs\debug.log - Deducting 239 from Gergana I
-[2018-07-18T16:32:35.266] [DEBUG] logs\debug.log - Adding 239 to Ben B
-[2018-07-18T16:32:35.267] [DEBUG] logs\debug.log - Converting 583 to string
-[2018-07-18T16:32:35.272] [DEBUG] logs\debug.log - Result of conversion: 5.83
-[2018-07-18T16:32:35.273] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Tim L £5.83
-@Sat Mar 28 2015 00:00:00 GMT+0000 message: Lunch
-[2018-07-18T16:32:35.274] [DEBUG] logs\debug.log - Deducting 583 from Stephen S
-[2018-07-18T16:32:35.279] [DEBUG] logs\debug.log - Adding 583 to Tim L
-[2018-07-18T16:32:35.280] [DEBUG] logs\debug.log - Converting 1085 to string
-[2018-07-18T16:32:35.284] [DEBUG] logs\debug.log - Result of conversion: 10.85
-[2018-07-18T16:32:35.285] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Ben B £10.85
-@Sun Mar 29 2015 00:00:00 GMT+0000 message: Audit and Other Financial Services
-[2018-07-18T16:32:35.291] [DEBUG] logs\debug.log - Deducting 1085 from Gergana I
-[2018-07-18T16:32:35.292] [DEBUG] logs\debug.log - Adding 1085 to Ben B
-[2018-07-18T16:32:35.292] [DEBUG] logs\debug.log - Converting 806 to string
-[2018-07-18T16:32:35.293] [DEBUG] logs\debug.log - Result of conversion: 8.6
-[2018-07-18T16:32:35.294] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Todd £8.6
-@Mon Mar 30 2015 00:00:00 GMT+0100 message: Pokemon Training
-[2018-07-18T16:32:35.299] [DEBUG] logs\debug.log - Deducting 806 from Tim L
-[2018-07-18T16:32:35.304] [DEBUG] logs\debug.log - Adding 806 to Todd
-[2018-07-18T16:32:35.305] [DEBUG] logs\debug.log - Converting 111 to string
-[2018-07-18T16:32:35.306] [DEBUG] logs\debug.log - Result of conversion: 1.11
-[2018-07-18T16:32:35.311] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Chris W £1.11
-@Thu Apr 02 2015 00:00:00 GMT+0100 message: Pokemon Training
-[2018-07-18T16:32:35.311] [DEBUG] logs\debug.log - Deducting 111 from Stephen S
-[2018-07-18T16:32:35.317] [DEBUG] logs\debug.log - Adding 111 to Chris W
-[2018-07-18T16:32:35.317] [DEBUG] logs\debug.log - Converting 96 to string
-[2018-07-18T16:32:35.318] [DEBUG] logs\debug.log - Result of conversion: 0.96
-[2018-07-18T16:32:35.319] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Ben B £0.96
-@Sun Apr 05 2015 00:00:00 GMT+0100 message: Lunch
-[2018-07-18T16:32:35.324] [DEBUG] logs\debug.log - Deducting 96 from Chris W
-[2018-07-18T16:32:35.324] [DEBUG] logs\debug.log - Adding 96 to Ben B
-[2018-07-18T16:32:35.329] [DEBUG] logs\debug.log - Converting 1179 to string
-[2018-07-18T16:32:35.330] [DEBUG] logs\debug.log - Result of conversion: 11.79
-[2018-07-18T16:32:35.331] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Rob S £11.79
-@Thu Apr 09 2015 00:00:00 GMT+0100 message: Audit and Other Financial Services
-[2018-07-18T16:32:35.332] [DEBUG] logs\debug.log - Deducting 1179 from Chris W
-[2018-07-18T16:32:35.336] [DEBUG] logs\debug.log - Adding 1179 to Rob S
-[2018-07-18T16:32:35.337] [DEBUG] logs\debug.log - Converting 837 to string
-[2018-07-18T16:32:35.338] [DEBUG] logs\debug.log - Result of conversion: 8.37
-[2018-07-18T16:32:35.339] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Laura B £8.37
-@Sun Apr 12 2015 00:00:00 GMT+0100 message: Stationary Items
-[2018-07-18T16:32:35.339] [DEBUG] logs\debug.log - Deducting 837 from Gergana I
-[2018-07-18T16:32:35.340] [DEBUG] logs\debug.log - Adding 837 to Laura B
-[2018-07-18T16:32:35.345] [DEBUG] logs\debug.log - Converting 127 to string
-[2018-07-18T16:32:35.345] [DEBUG] logs\debug.log - Result of conversion: 1.27
-[2018-07-18T16:32:35.346] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Tim L £1.27
-@Mon Apr 13 2015 00:00:00 GMT+0100 message: Services Rendered
-[2018-07-18T16:32:35.347] [DEBUG] logs\debug.log - Deducting 127 from Laura B
-[2018-07-18T16:32:35.348] [DEBUG] logs\debug.log - Adding 127 to Tim L
-[2018-07-18T16:32:35.349] [DEBUG] logs\debug.log - Converting 805 to string
-[2018-07-18T16:32:35.349] [DEBUG] logs\debug.log - Result of conversion: 8.5
-[2018-07-18T16:32:35.350] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sam N £8.5
-@Wed Apr 15 2015 00:00:00 GMT+0100 message: Lego Assistance
-[2018-07-18T16:32:35.351] [DEBUG] logs\debug.log - Deducting 805 from Ben B
-[2018-07-18T16:32:35.351] [DEBUG] logs\debug.log - Adding 805 to Sam N
-[2018-07-18T16:32:35.356] [DEBUG] logs\debug.log - Converting 891 to string
-[2018-07-18T16:32:35.357] [DEBUG] logs\debug.log - Result of conversion: 8.91
-[2018-07-18T16:32:35.362] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Chris W £8.91
-@Sun Apr 19 2015 00:00:00 GMT+0100 message: White Water Rafting
-[2018-07-18T16:32:35.363] [DEBUG] logs\debug.log - Deducting 891 from Stephen S
-[2018-07-18T16:32:35.363] [DEBUG] logs\debug.log - Adding 891 to Chris W
-[2018-07-18T16:32:35.368] [DEBUG] logs\debug.log - Converting 801 to string
-[2018-07-18T16:32:35.369] [DEBUG] logs\debug.log - Result of conversion: 8.1
-[2018-07-18T16:32:35.370] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Todd £8.1
-@Thu Apr 23 2015 00:00:00 GMT+0100 message: Misc Morale
-[2018-07-18T16:32:35.371] [DEBUG] logs\debug.log - Deducting 801 from Tim L
-[2018-07-18T16:32:35.371] [DEBUG] logs\debug.log - Adding 801 to Todd
-[2018-07-18T16:32:35.372] [DEBUG] logs\debug.log - Converting 638 to string
-[2018-07-18T16:32:35.377] [DEBUG] logs\debug.log - Result of conversion: 6.38
-[2018-07-18T16:32:35.378] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Sarah T £6.38
-@Fri Apr 24 2015 00:00:00 GMT+0100 message: Arcade Social
-[2018-07-18T16:32:35.378] [DEBUG] logs\debug.log - Deducting 638 from Tim L
-[2018-07-18T16:32:35.379] [DEBUG] logs\debug.log - Adding 638 to Sarah T
-[2018-07-18T16:32:35.380] [DEBUG] logs\debug.log - Converting 844 to string
-[2018-07-18T16:32:35.380] [DEBUG] logs\debug.log - Result of conversion: 8.44
-[2018-07-18T16:32:35.385] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Todd £8.44
-@Sun Apr 26 2015 00:00:00 GMT+0100 message: Stationary Items
-[2018-07-18T16:32:35.386] [DEBUG] logs\debug.log - Deducting 844 from Jon A
-[2018-07-18T16:32:35.387] [DEBUG] logs\debug.log - Adding 844 to Todd
-[2018-07-18T16:32:35.387] [DEBUG] logs\debug.log - Converting 1091 to string
-[2018-07-18T16:32:35.388] [DEBUG] logs\debug.log - Result of conversion: 10.91
-[2018-07-18T16:32:35.389] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Jon A £10.91
-@Mon Apr 27 2015 00:00:00 GMT+0100 message: Pokemon Training
-[2018-07-18T16:32:35.390] [DEBUG] logs\debug.log - Deducting 1091 from Ben B
-[2018-07-18T16:32:35.390] [DEBUG] logs\debug.log - Adding 1091 to Jon A
-[2018-07-18T16:32:35.391] [DEBUG] logs\debug.log - Converting 542 to string
-[2018-07-18T16:32:35.392] [DEBUG] logs\debug.log - Result of conversion: 5.42
-[2018-07-18T16:32:35.392] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Dan W £5.42
-@Invalid date message: Beers
-[2018-07-18T16:32:35.397] [DEBUG] logs\debug.log - Deducting 542 from Sarah T
-[2018-07-18T16:32:35.398] [DEBUG] logs\debug.log - Adding 542 to Dan W
-[2018-07-18T16:32:35.398] [DEBUG] logs\debug.log - Transactions have been processed
-[2018-07-18T16:32:35.399] [DEBUG] logs\debug.log - Starting to print out users' info
-[2018-07-18T16:32:35.400] [DEBUG] logs\debug.log - Converting -3167 to string
-[2018-07-18T16:32:35.401] [DEBUG] logs\debug.log - Result of conversion: -31.67
-[2018-07-18T16:32:35.406] [DEBUG] logs\debug.log - Converting 1075 to string
-[2018-07-18T16:32:35.407] [DEBUG] logs\debug.log - Result of conversion: 10.75
-[2018-07-18T16:32:35.409] [DEBUG] logs\debug.log - Converting -5724 to string
-[2018-07-18T16:32:35.413] [DEBUG] logs\debug.log - Result of conversion: -57.24
-[2018-07-18T16:32:35.415] [DEBUG] logs\debug.log - Converting 2539 to string
-[2018-07-18T16:32:35.415] [DEBUG] logs\debug.log - Result of conversion: 25.39
-[2018-07-18T16:32:35.420] [DEBUG] logs\debug.log - Converting -2435 to string
-[2018-07-18T16:32:35.421] [DEBUG] logs\debug.log - Result of conversion: -24.35
-[2018-07-18T16:32:35.422] [DEBUG] logs\debug.log - Converting 1234 to string
-[2018-07-18T16:32:35.423] [DEBUG] logs\debug.log - Result of conversion: 12.34
-[2018-07-18T16:32:35.424] [DEBUG] logs\debug.log - Converting 844 to string
-[2018-07-18T16:32:35.429] [DEBUG] logs\debug.log - Result of conversion: 8.44
-[2018-07-18T16:32:35.435] [DEBUG] logs\debug.log - Converting 2846 to string
-[2018-07-18T16:32:35.436] [DEBUG] logs\debug.log - Result of conversion: 28.46
-[2018-07-18T16:32:35.437] [DEBUG] logs\debug.log - Converting 3206 to string
-[2018-07-18T16:32:35.438] [DEBUG] logs\debug.log - Result of conversion: 32.6
-[2018-07-18T16:32:35.439] [DEBUG] logs\debug.log - Converting -1483 to string
-[2018-07-18T16:32:35.440] [DEBUG] logs\debug.log - Result of conversion: -14.83
-[2018-07-18T16:32:35.441] [DEBUG] logs\debug.log - Converting 281 to string
-[2018-07-18T16:32:35.441] [DEBUG] logs\debug.log - Result of conversion: 2.81
-[2018-07-18T16:32:35.451] [DEBUG] logs\debug.log - Converting 784 to string
-[2018-07-18T16:32:35.452] [DEBUG] logs\debug.log - Result of conversion: 7.84
+[2018-07-18T17:25:05.075] [DEBUG] logs\debug.log - Application has started
+[2018-07-18T17:25:07.789] [DEBUG] logs\debug.log - User has entered operation mode: List All
+[2018-07-18T17:25:07.790] [DEBUG] logs\debug.log - User input has been matched to List All
+[2018-07-18T17:25:07.792] [DEBUG] logs\debug.log - Trying to load file: Transactions2013.json
+[2018-07-18T17:25:07.793] [DEBUG] logs\debug.log - JSON format detected
+[2018-07-18T17:25:07.794] [DEBUG] logs\debug.log - Parsing string as JSON
+[2018-07-18T17:25:07.796] [DEBUG] logs\debug.log - Length of transactions (including header): 146
+[2018-07-18T17:25:07.804] [DEBUG] logs\debug.log - Converting 2.14 to int
+[2018-07-18T17:25:07.804] [DEBUG] logs\debug.log - Result of conversion: 214
+[2018-07-18T17:25:07.813] [DEBUG] logs\debug.log - Converting 10.53 to int
+[2018-07-18T17:25:07.814] [DEBUG] logs\debug.log - Result of conversion: 1053
+[2018-07-18T17:25:07.815] [DEBUG] logs\debug.log - Converting 10.57 to int
+[2018-07-18T17:25:07.815] [DEBUG] logs\debug.log - Result of conversion: 1057
+[2018-07-18T17:25:07.816] [DEBUG] logs\debug.log - Converting 8.19 to int
+[2018-07-18T17:25:07.817] [DEBUG] logs\debug.log - Result of conversion: 819
+[2018-07-18T17:25:07.818] [DEBUG] logs\debug.log - Converting 1.01 to int
+[2018-07-18T17:25:07.819] [DEBUG] logs\debug.log - Result of conversion: 101
+[2018-07-18T17:25:07.820] [DEBUG] logs\debug.log - Converting 2.71 to int
+[2018-07-18T17:25:07.820] [DEBUG] logs\debug.log - Result of conversion: 271
+[2018-07-18T17:25:07.826] [DEBUG] logs\debug.log - Converting 7.17 to int
+[2018-07-18T17:25:07.827] [DEBUG] logs\debug.log - Result of conversion: 717
+[2018-07-18T17:25:07.828] [DEBUG] logs\debug.log - Converting 11.12 to int
+[2018-07-18T17:25:07.829] [DEBUG] logs\debug.log - Result of conversion: 1112
+[2018-07-18T17:25:07.832] [DEBUG] logs\debug.log - Converting 4.86 to int
+[2018-07-18T17:25:07.833] [DEBUG] logs\debug.log - Result of conversion: 486
+[2018-07-18T17:25:07.833] [DEBUG] logs\debug.log - Converting 1.92 to int
+[2018-07-18T17:25:07.834] [DEBUG] logs\debug.log - Result of conversion: 192
+[2018-07-18T17:25:07.835] [DEBUG] logs\debug.log - Converting 11.95 to int
+[2018-07-18T17:25:07.836] [DEBUG] logs\debug.log - Result of conversion: 1195
+[2018-07-18T17:25:07.837] [DEBUG] logs\debug.log - Converting 7.55 to int
+[2018-07-18T17:25:07.838] [DEBUG] logs\debug.log - Result of conversion: 755
+[2018-07-18T17:25:07.839] [DEBUG] logs\debug.log - Converting 5.52 to int
+[2018-07-18T17:25:07.840] [DEBUG] logs\debug.log - Result of conversion: 552
+[2018-07-18T17:25:07.841] [DEBUG] logs\debug.log - Converting 8.07 to int
+[2018-07-18T17:25:07.846] [DEBUG] logs\debug.log - Result of conversion: 807
+[2018-07-18T17:25:07.847] [DEBUG] logs\debug.log - Converting 7.63 to int
+[2018-07-18T17:25:07.848] [DEBUG] logs\debug.log - Result of conversion: 763
+[2018-07-18T17:25:07.849] [DEBUG] logs\debug.log - Converting 10.4 to int
+[2018-07-18T17:25:07.850] [DEBUG] logs\debug.log - Result of conversion: 1004
+[2018-07-18T17:25:07.855] [DEBUG] logs\debug.log - Converting 5.76 to int
+[2018-07-18T17:25:07.856] [DEBUG] logs\debug.log - Result of conversion: 576
+[2018-07-18T17:25:07.857] [DEBUG] logs\debug.log - Converting 1.54 to int
+[2018-07-18T17:25:07.858] [DEBUG] logs\debug.log - Result of conversion: 154
+[2018-07-18T17:25:07.866] [DEBUG] logs\debug.log - Converting 6.98 to int
+[2018-07-18T17:25:07.867] [DEBUG] logs\debug.log - Result of conversion: 698
+[2018-07-18T17:25:07.868] [DEBUG] logs\debug.log - Converting 8.77 to int
+[2018-07-18T17:25:07.869] [DEBUG] logs\debug.log - Result of conversion: 877
+[2018-07-18T17:25:07.870] [DEBUG] logs\debug.log - Converting 5.94 to int
+[2018-07-18T17:25:07.876] [DEBUG] logs\debug.log - Result of conversion: 594
+[2018-07-18T17:25:07.877] [DEBUG] logs\debug.log - Converting 10.58 to int
+[2018-07-18T17:25:07.878] [DEBUG] logs\debug.log - Result of conversion: 1058
+[2018-07-18T17:25:07.879] [DEBUG] logs\debug.log - Converting 1.73 to int
+[2018-07-18T17:25:07.885] [DEBUG] logs\debug.log - Result of conversion: 173
+[2018-07-18T17:25:07.886] [DEBUG] logs\debug.log - Converting 7.26 to int
+[2018-07-18T17:25:07.887] [DEBUG] logs\debug.log - Result of conversion: 726
+[2018-07-18T17:25:07.888] [DEBUG] logs\debug.log - Converting 6.2 to int
+[2018-07-18T17:25:07.889] [DEBUG] logs\debug.log - Result of conversion: 602
+[2018-07-18T17:25:07.890] [DEBUG] logs\debug.log - Converting 0.9 to int
+[2018-07-18T17:25:07.891] [DEBUG] logs\debug.log - Result of conversion: 9
+[2018-07-18T17:25:07.897] [DEBUG] logs\debug.log - Converting 8.97 to int
+[2018-07-18T17:25:07.898] [DEBUG] logs\debug.log - Result of conversion: 897
+[2018-07-18T17:25:07.898] [DEBUG] logs\debug.log - Converting 3.34 to int
+[2018-07-18T17:25:07.900] [DEBUG] logs\debug.log - Result of conversion: 334
+[2018-07-18T17:25:07.901] [DEBUG] logs\debug.log - Converting 2.85 to int
+[2018-07-18T17:25:07.901] [DEBUG] logs\debug.log - Result of conversion: 285
+[2018-07-18T17:25:07.902] [DEBUG] logs\debug.log - Converting 4.15 to int
+[2018-07-18T17:25:07.903] [DEBUG] logs\debug.log - Result of conversion: 415
+[2018-07-18T17:25:07.910] [DEBUG] logs\debug.log - Converting 2.39 to int
+[2018-07-18T17:25:07.911] [DEBUG] logs\debug.log - Result of conversion: 239
+[2018-07-18T17:25:07.912] [DEBUG] logs\debug.log - Converting 7.82 to int
+[2018-07-18T17:25:07.913] [DEBUG] logs\debug.log - Result of conversion: 782
+[2018-07-18T17:25:07.919] [DEBUG] logs\debug.log - Converting 6.36 to int
+[2018-07-18T17:25:07.919] [DEBUG] logs\debug.log - Result of conversion: 636
+[2018-07-18T17:25:07.921] [DEBUG] logs\debug.log - Converting 4.77 to int
+[2018-07-18T17:25:07.922] [DEBUG] logs\debug.log - Result of conversion: 477
+[2018-07-18T17:25:07.923] [DEBUG] logs\debug.log - Converting 2.64 to int
+[2018-07-18T17:25:07.924] [DEBUG] logs\debug.log - Result of conversion: 264
+[2018-07-18T17:25:07.925] [DEBUG] logs\debug.log - Converting 3.4 to int
+[2018-07-18T17:25:07.926] [DEBUG] logs\debug.log - Result of conversion: 304
+[2018-07-18T17:25:07.931] [DEBUG] logs\debug.log - Converting 4.27 to int
+[2018-07-18T17:25:07.932] [DEBUG] logs\debug.log - Result of conversion: 427
+[2018-07-18T17:25:07.933] [DEBUG] logs\debug.log - Converting 2.6 to int
+[2018-07-18T17:25:07.934] [DEBUG] logs\debug.log - Result of conversion: 206
+[2018-07-18T17:25:07.940] [DEBUG] logs\debug.log - Converting 3 to int
+[2018-07-18T17:25:07.941] [DEBUG] logs\debug.log - Result of conversion: 300
+[2018-07-18T17:25:07.943] [DEBUG] logs\debug.log - Converting 5.49 to int
+[2018-07-18T17:25:07.943] [DEBUG] logs\debug.log - Result of conversion: 549
+[2018-07-18T17:25:07.944] [DEBUG] logs\debug.log - Converting 9.07 to int
+[2018-07-18T17:25:07.945] [DEBUG] logs\debug.log - Result of conversion: 907
+[2018-07-18T17:25:07.946] [DEBUG] logs\debug.log - Converting 5.32 to int
+[2018-07-18T17:25:07.947] [DEBUG] logs\debug.log - Result of conversion: 532
+[2018-07-18T17:25:07.948] [DEBUG] logs\debug.log - Converting 1.15 to int
+[2018-07-18T17:25:07.949] [DEBUG] logs\debug.log - Result of conversion: 115
+[2018-07-18T17:25:07.950] [DEBUG] logs\debug.log - Converting 2.47 to int
+[2018-07-18T17:25:07.951] [DEBUG] logs\debug.log - Result of conversion: 247
+[2018-07-18T17:25:07.951] [DEBUG] logs\debug.log - Converting 9.1 to int
+[2018-07-18T17:25:07.952] [DEBUG] logs\debug.log - Result of conversion: 901
+[2018-07-18T17:25:07.953] [DEBUG] logs\debug.log - Converting 9.91 to int
+[2018-07-18T17:25:07.954] [DEBUG] logs\debug.log - Result of conversion: 991
+[2018-07-18T17:25:07.955] [DEBUG] logs\debug.log - Converting 9.85 to int
+[2018-07-18T17:25:07.956] [DEBUG] logs\debug.log - Result of conversion: 985
+[2018-07-18T17:25:07.957] [DEBUG] logs\debug.log - Converting 1.34 to int
+[2018-07-18T17:25:07.958] [DEBUG] logs\debug.log - Result of conversion: 134
+[2018-07-18T17:25:07.959] [DEBUG] logs\debug.log - Converting 0.51 to int
+[2018-07-18T17:25:07.960] [DEBUG] logs\debug.log - Result of conversion: 51
+[2018-07-18T17:25:07.961] [DEBUG] logs\debug.log - Converting 4.92 to int
+[2018-07-18T17:25:07.961] [DEBUG] logs\debug.log - Result of conversion: 492
+[2018-07-18T17:25:07.970] [DEBUG] logs\debug.log - Converting 5.94 to int
+[2018-07-18T17:25:07.971] [DEBUG] logs\debug.log - Result of conversion: 594
+[2018-07-18T17:25:07.972] [DEBUG] logs\debug.log - Converting 2.27 to int
+[2018-07-18T17:25:07.978] [DEBUG] logs\debug.log - Result of conversion: 227
+[2018-07-18T17:25:07.979] [DEBUG] logs\debug.log - Converting 11.07 to int
+[2018-07-18T17:25:07.980] [DEBUG] logs\debug.log - Result of conversion: 1107
+[2018-07-18T17:25:07.986] [DEBUG] logs\debug.log - Converting 9.96 to int
+[2018-07-18T17:25:07.992] [DEBUG] logs\debug.log - Result of conversion: 996
+[2018-07-18T17:25:07.998] [DEBUG] logs\debug.log - Converting 11.94 to int
+[2018-07-18T17:25:07.999] [DEBUG] logs\debug.log - Result of conversion: 1194
+[2018-07-18T17:25:08.000] [DEBUG] logs\debug.log - Converting 9.24 to int
+[2018-07-18T17:25:08.005] [DEBUG] logs\debug.log - Result of conversion: 924
+[2018-07-18T17:25:08.006] [DEBUG] logs\debug.log - Converting 2.85 to int
+[2018-07-18T17:25:08.007] [DEBUG] logs\debug.log - Result of conversion: 285
+[2018-07-18T17:25:08.008] [DEBUG] logs\debug.log - Converting 1.51 to int
+[2018-07-18T17:25:08.009] [DEBUG] logs\debug.log - Result of conversion: 151
+[2018-07-18T17:25:08.015] [DEBUG] logs\debug.log - Converting 11.83 to int
+[2018-07-18T17:25:08.016] [DEBUG] logs\debug.log - Result of conversion: 1183
+[2018-07-18T17:25:08.017] [DEBUG] logs\debug.log - Converting 2.16 to int
+[2018-07-18T17:25:08.018] [DEBUG] logs\debug.log - Result of conversion: 216
+[2018-07-18T17:25:08.019] [DEBUG] logs\debug.log - Converting 1.96 to int
+[2018-07-18T17:25:08.024] [DEBUG] logs\debug.log - Result of conversion: 196
+[2018-07-18T17:25:08.025] [DEBUG] logs\debug.log - Converting 1.06 to int
+[2018-07-18T17:25:08.026] [DEBUG] logs\debug.log - Result of conversion: 106
+[2018-07-18T17:25:08.027] [DEBUG] logs\debug.log - Converting 10.81 to int
+[2018-07-18T17:25:08.032] [DEBUG] logs\debug.log - Result of conversion: 1081
+[2018-07-18T17:25:08.039] [DEBUG] logs\debug.log - Converting 6.75 to int
+[2018-07-18T17:25:08.040] [DEBUG] logs\debug.log - Result of conversion: 675
+[2018-07-18T17:25:08.041] [DEBUG] logs\debug.log - Converting 5.15 to int
+[2018-07-18T17:25:08.042] [DEBUG] logs\debug.log - Result of conversion: 515
+[2018-07-18T17:25:08.048] [DEBUG] logs\debug.log - Converting 9.24 to int
+[2018-07-18T17:25:08.049] [DEBUG] logs\debug.log - Result of conversion: 924
+[2018-07-18T17:25:08.050] [DEBUG] logs\debug.log - Converting 3.68 to int
+[2018-07-18T17:25:08.051] [DEBUG] logs\debug.log - Result of conversion: 368
+[2018-07-18T17:25:08.051] [DEBUG] logs\debug.log - Converting 5.43 to int
+[2018-07-18T17:25:08.052] [DEBUG] logs\debug.log - Result of conversion: 543
+[2018-07-18T17:25:08.053] [DEBUG] logs\debug.log - Converting 0.98 to int
+[2018-07-18T17:25:08.054] [DEBUG] logs\debug.log - Result of conversion: 98
+[2018-07-18T17:25:08.055] [DEBUG] logs\debug.log - Converting 6.12 to int
+[2018-07-18T17:25:08.060] [DEBUG] logs\debug.log - Result of conversion: 612
+[2018-07-18T17:25:08.066] [DEBUG] logs\debug.log - Converting 8.39 to int
+[2018-07-18T17:25:08.068] [DEBUG] logs\debug.log - Result of conversion: 839
+[2018-07-18T17:25:08.069] [DEBUG] logs\debug.log - Converting 10.41 to int
+[2018-07-18T17:25:08.074] [DEBUG] logs\debug.log - Result of conversion: 1041
+[2018-07-18T17:25:08.076] [DEBUG] logs\debug.log - Converting 6.51 to int
+[2018-07-18T17:25:08.076] [DEBUG] logs\debug.log - Result of conversion: 651
+[2018-07-18T17:25:08.077] [DEBUG] logs\debug.log - Converting 1.48 to int
+[2018-07-18T17:25:08.078] [DEBUG] logs\debug.log - Result of conversion: 148
+[2018-07-18T17:25:08.079] [DEBUG] logs\debug.log - Converting 5.63 to int
+[2018-07-18T17:25:08.084] [DEBUG] logs\debug.log - Result of conversion: 563
+[2018-07-18T17:25:08.086] [DEBUG] logs\debug.log - Converting 6.73 to int
+[2018-07-18T17:25:08.086] [DEBUG] logs\debug.log - Result of conversion: 673
+[2018-07-18T17:25:08.087] [DEBUG] logs\debug.log - Converting 6.69 to int
+[2018-07-18T17:25:08.088] [DEBUG] logs\debug.log - Result of conversion: 669
+[2018-07-18T17:25:08.089] [DEBUG] logs\debug.log - Converting 3.88 to int
+[2018-07-18T17:25:08.095] [DEBUG] logs\debug.log - Result of conversion: 388
+[2018-07-18T17:25:08.097] [DEBUG] logs\debug.log - Converting 2.08 to int
+[2018-07-18T17:25:08.097] [DEBUG] logs\debug.log - Result of conversion: 208
+[2018-07-18T17:25:08.098] [DEBUG] logs\debug.log - Converting 6.95 to int
+[2018-07-18T17:25:08.099] [DEBUG] logs\debug.log - Result of conversion: 695
+[2018-07-18T17:25:08.101] [DEBUG] logs\debug.log - Converting 3.21 to int
+[2018-07-18T17:25:08.101] [DEBUG] logs\debug.log - Result of conversion: 321
+[2018-07-18T17:25:08.103] [DEBUG] logs\debug.log - Converting 11.17 to int
+[2018-07-18T17:25:08.103] [DEBUG] logs\debug.log - Result of conversion: 1117
+[2018-07-18T17:25:08.110] [DEBUG] logs\debug.log - Converting 4.29 to int
+[2018-07-18T17:25:08.111] [DEBUG] logs\debug.log - Result of conversion: 429
+[2018-07-18T17:25:08.112] [DEBUG] logs\debug.log - Converting 0.69 to int
+[2018-07-18T17:25:08.113] [DEBUG] logs\debug.log - Result of conversion: 69
+[2018-07-18T17:25:08.118] [DEBUG] logs\debug.log - Converting 1.2 to int
+[2018-07-18T17:25:08.119] [DEBUG] logs\debug.log - Result of conversion: 102
+[2018-07-18T17:25:08.120] [DEBUG] logs\debug.log - Converting 11.18 to int
+[2018-07-18T17:25:08.121] [DEBUG] logs\debug.log - Result of conversion: 1118
+[2018-07-18T17:25:08.128] [DEBUG] logs\debug.log - Converting 11.34 to int
+[2018-07-18T17:25:08.128] [DEBUG] logs\debug.log - Result of conversion: 1134
+[2018-07-18T17:25:08.129] [DEBUG] logs\debug.log - Converting 10.78 to int
+[2018-07-18T17:25:08.130] [DEBUG] logs\debug.log - Result of conversion: 1078
+[2018-07-18T17:25:08.131] [DEBUG] logs\debug.log - Converting 10.07 to int
+[2018-07-18T17:25:08.132] [DEBUG] logs\debug.log - Result of conversion: 1007
+[2018-07-18T17:25:08.133] [DEBUG] logs\debug.log - Converting 7.27 to int
+[2018-07-18T17:25:08.141] [DEBUG] logs\debug.log - Result of conversion: 727
+[2018-07-18T17:25:08.143] [DEBUG] logs\debug.log - Converting 9.96 to int
+[2018-07-18T17:25:08.144] [DEBUG] logs\debug.log - Result of conversion: 996
+[2018-07-18T17:25:08.145] [DEBUG] logs\debug.log - Converting 10.91 to int
+[2018-07-18T17:25:08.150] [DEBUG] logs\debug.log - Result of conversion: 1091
+[2018-07-18T17:25:08.151] [DEBUG] logs\debug.log - Converting 7.51 to int
+[2018-07-18T17:25:08.152] [DEBUG] logs\debug.log - Result of conversion: 751
+[2018-07-18T17:25:08.153] [DEBUG] logs\debug.log - Converting 7.05 to int
+[2018-07-18T17:25:08.154] [DEBUG] logs\debug.log - Result of conversion: 705
+[2018-07-18T17:25:08.155] [DEBUG] logs\debug.log - Converting 0.6 to int
+[2018-07-18T17:25:08.161] [DEBUG] logs\debug.log - Result of conversion: 6
+[2018-07-18T17:25:08.162] [DEBUG] logs\debug.log - Converting 3.85 to int
+[2018-07-18T17:25:08.163] [DEBUG] logs\debug.log - Result of conversion: 385
+[2018-07-18T17:25:08.164] [DEBUG] logs\debug.log - Converting 5.45 to int
+[2018-07-18T17:25:08.165] [DEBUG] logs\debug.log - Result of conversion: 545
+[2018-07-18T17:25:08.172] [DEBUG] logs\debug.log - Converting 11.13 to int
+[2018-07-18T17:25:08.173] [DEBUG] logs\debug.log - Result of conversion: 1113
+[2018-07-18T17:25:08.174] [DEBUG] logs\debug.log - Converting 5.54 to int
+[2018-07-18T17:25:08.175] [DEBUG] logs\debug.log - Result of conversion: 554
+[2018-07-18T17:25:08.176] [DEBUG] logs\debug.log - Converting 9.48 to int
+[2018-07-18T17:25:08.182] [DEBUG] logs\debug.log - Result of conversion: 948
+[2018-07-18T17:25:08.184] [DEBUG] logs\debug.log - Converting 10.58 to int
+[2018-07-18T17:25:08.185] [DEBUG] logs\debug.log - Result of conversion: 1058
+[2018-07-18T17:25:08.190] [DEBUG] logs\debug.log - Converting 3.32 to int
+[2018-07-18T17:25:08.192] [DEBUG] logs\debug.log - Result of conversion: 332
+[2018-07-18T17:25:08.193] [DEBUG] logs\debug.log - Converting 8.68 to int
+[2018-07-18T17:25:08.199] [DEBUG] logs\debug.log - Result of conversion: 868
+[2018-07-18T17:25:08.200] [DEBUG] logs\debug.log - Converting 2.53 to int
+[2018-07-18T17:25:08.201] [DEBUG] logs\debug.log - Result of conversion: 253
+[2018-07-18T17:25:08.202] [DEBUG] logs\debug.log - Converting 1.96 to int
+[2018-07-18T17:25:08.208] [DEBUG] logs\debug.log - Result of conversion: 196
+[2018-07-18T17:25:08.209] [DEBUG] logs\debug.log - Converting 2.81 to int
+[2018-07-18T17:25:08.210] [DEBUG] logs\debug.log - Result of conversion: 281
+[2018-07-18T17:25:08.211] [DEBUG] logs\debug.log - Converting 5.52 to int
+[2018-07-18T17:25:08.212] [DEBUG] logs\debug.log - Result of conversion: 552
+[2018-07-18T17:25:08.213] [DEBUG] logs\debug.log - Converting 9.28 to int
+[2018-07-18T17:25:08.213] [DEBUG] logs\debug.log - Result of conversion: 928
+[2018-07-18T17:25:08.214] [DEBUG] logs\debug.log - Converting 5.13 to int
+[2018-07-18T17:25:08.220] [DEBUG] logs\debug.log - Result of conversion: 513
+[2018-07-18T17:25:08.220] [DEBUG] logs\debug.log - Converting 7.05 to int
+[2018-07-18T17:25:08.221] [DEBUG] logs\debug.log - Result of conversion: 705
+[2018-07-18T17:25:08.222] [DEBUG] logs\debug.log - Converting 10.13 to int
+[2018-07-18T17:25:08.223] [DEBUG] logs\debug.log - Result of conversion: 1013
+[2018-07-18T17:25:08.224] [DEBUG] logs\debug.log - Converting 5.96 to int
+[2018-07-18T17:25:08.225] [DEBUG] logs\debug.log - Result of conversion: 596
+[2018-07-18T17:25:08.231] [DEBUG] logs\debug.log - Converting 5.33 to int
+[2018-07-18T17:25:08.231] [DEBUG] logs\debug.log - Result of conversion: 533
+[2018-07-18T17:25:08.232] [DEBUG] logs\debug.log - Converting 10.62 to int
+[2018-07-18T17:25:08.233] [DEBUG] logs\debug.log - Result of conversion: 1062
+[2018-07-18T17:25:08.234] [DEBUG] logs\debug.log - Converting 7.78 to int
+[2018-07-18T17:25:08.235] [DEBUG] logs\debug.log - Result of conversion: 778
+[2018-07-18T17:25:08.236] [DEBUG] logs\debug.log - Converting 5.71 to int
+[2018-07-18T17:25:08.237] [DEBUG] logs\debug.log - Result of conversion: 571
+[2018-07-18T17:25:08.238] [DEBUG] logs\debug.log - Converting 7.71 to int
+[2018-07-18T17:25:08.244] [DEBUG] logs\debug.log - Result of conversion: 771
+[2018-07-18T17:25:08.245] [DEBUG] logs\debug.log - Converting 10.6 to int
+[2018-07-18T17:25:08.246] [DEBUG] logs\debug.log - Result of conversion: 1006
+[2018-07-18T17:25:08.247] [DEBUG] logs\debug.log - Converting 3.42 to int
+[2018-07-18T17:25:08.254] [DEBUG] logs\debug.log - Result of conversion: 342
+[2018-07-18T17:25:08.256] [DEBUG] logs\debug.log - Converting 6.89 to int
+[2018-07-18T17:25:08.256] [DEBUG] logs\debug.log - Result of conversion: 689
+[2018-07-18T17:25:08.262] [DEBUG] logs\debug.log - Converting 9.99 to int
+[2018-07-18T17:25:08.263] [DEBUG] logs\debug.log - Result of conversion: 999
+[2018-07-18T17:25:08.264] [DEBUG] logs\debug.log - Converting 7.01 to int
+[2018-07-18T17:25:08.270] [DEBUG] logs\debug.log - Result of conversion: 701
+[2018-07-18T17:25:08.271] [DEBUG] logs\debug.log - Converting 8.3 to int
+[2018-07-18T17:25:08.277] [DEBUG] logs\debug.log - Result of conversion: 803
+[2018-07-18T17:25:08.278] [DEBUG] logs\debug.log - Converting 10.09 to int
+[2018-07-18T17:25:08.283] [DEBUG] logs\debug.log - Result of conversion: 1009
+[2018-07-18T17:25:08.285] [DEBUG] logs\debug.log - Converting 11 to int
+[2018-07-18T17:25:08.286] [DEBUG] logs\debug.log - Result of conversion: 1100
+[2018-07-18T17:25:08.287] [DEBUG] logs\debug.log - Converting 1.25 to int
+[2018-07-18T17:25:08.288] [DEBUG] logs\debug.log - Result of conversion: 125
+[2018-07-18T17:25:08.292] [DEBUG] logs\debug.log - Converting 9.13 to int
+[2018-07-18T17:25:08.293] [DEBUG] logs\debug.log - Result of conversion: 913
+[2018-07-18T17:25:08.294] [DEBUG] logs\debug.log - Converting 9.4 to int
+[2018-07-18T17:25:08.295] [DEBUG] logs\debug.log - Result of conversion: 904
+[2018-07-18T17:25:08.296] [DEBUG] logs\debug.log - Converting 2.53 to int
+[2018-07-18T17:25:08.297] [DEBUG] logs\debug.log - Result of conversion: 253
+[2018-07-18T17:25:08.298] [DEBUG] logs\debug.log - Converting 7.59 to int
+[2018-07-18T17:25:08.299] [DEBUG] logs\debug.log - Result of conversion: 759
+[2018-07-18T17:25:08.308] [DEBUG] logs\debug.log - Converting 2.15 to int
+[2018-07-18T17:25:08.309] [DEBUG] logs\debug.log - Result of conversion: 215
+[2018-07-18T17:25:08.315] [DEBUG] logs\debug.log - Converting 4.01 to int
+[2018-07-18T17:25:08.316] [DEBUG] logs\debug.log - Result of conversion: 401
+[2018-07-18T17:25:08.317] [DEBUG] logs\debug.log - Converting 6.35 to int
+[2018-07-18T17:25:08.317] [DEBUG] logs\debug.log - Result of conversion: 635
+[2018-07-18T17:25:08.319] [DEBUG] logs\debug.log - Converting 10.19 to int
+[2018-07-18T17:25:08.319] [DEBUG] logs\debug.log - Result of conversion: 1019
+[2018-07-18T17:25:08.321] [DEBUG] logs\debug.log - Converting 9 to int
+[2018-07-18T17:25:08.322] [DEBUG] logs\debug.log - Result of conversion: 900
+[2018-07-18T17:25:08.323] [DEBUG] logs\debug.log - Converting 9.39 to int
+[2018-07-18T17:25:08.324] [DEBUG] logs\debug.log - Result of conversion: 939
+[2018-07-18T17:25:08.325] [DEBUG] logs\debug.log - Converting 11.44 to int
+[2018-07-18T17:25:08.326] [DEBUG] logs\debug.log - Result of conversion: 1144
+[2018-07-18T17:25:08.327] [DEBUG] logs\debug.log - Converting 9.19 to int
+[2018-07-18T17:25:08.328] [DEBUG] logs\debug.log - Result of conversion: 919
+[2018-07-18T17:25:08.328] [DEBUG] logs\debug.log - Converting 8.72 to int
+[2018-07-18T17:25:08.329] [DEBUG] logs\debug.log - Result of conversion: 872
+[2018-07-18T17:25:08.330] [DEBUG] logs\debug.log - Converting 8.72 to int
+[2018-07-18T17:25:08.331] [DEBUG] logs\debug.log - Result of conversion: 872
+[2018-07-18T17:25:08.332] [DEBUG] logs\debug.log - Converting 1.32 to int
+[2018-07-18T17:25:08.337] [DEBUG] logs\debug.log - Result of conversion: 132
+[2018-07-18T17:25:08.338] [DEBUG] logs\debug.log - Converting 10.14 to int
+[2018-07-18T17:25:08.339] [DEBUG] logs\debug.log - Result of conversion: 1014
+[2018-07-18T17:25:08.340] [DEBUG] logs\debug.log - Converting 4.34 to int
+[2018-07-18T17:25:08.341] [DEBUG] logs\debug.log - Result of conversion: 434
+[2018-07-18T17:25:08.342] [DEBUG] logs\debug.log - Converting 5.99 to int
+[2018-07-18T17:25:08.343] [DEBUG] logs\debug.log - Result of conversion: 599
+[2018-07-18T17:25:08.344] [DEBUG] logs\debug.log - Converting 2.54 to int
+[2018-07-18T17:25:08.345] [DEBUG] logs\debug.log - Result of conversion: 254
+[2018-07-18T17:25:08.351] [DEBUG] logs\debug.log - Transactions have been successfully parsed
+[2018-07-18T17:25:08.352] [DEBUG] logs\debug.log - Getting all users' info
+[2018-07-18T17:25:08.354] [DEBUG] logs\debug.log - Started calculating accounts
+[2018-07-18T17:25:08.354] [DEBUG] logs\debug.log - Converting 214 to string
+[2018-07-18T17:25:08.361] [DEBUG] logs\debug.log - Result of conversion: 2.14
+[2018-07-18T17:25:08.366] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Gergana I £2.14
+@Tue Jan 01 2013 00:00:00 GMT+0000 message: Sandbox Help
+[2018-07-18T17:25:08.367] [DEBUG] logs\debug.log - Adding new user Jon A to Map
+[2018-07-18T17:25:08.368] [DEBUG] logs\debug.log - Created User instance Jon A
+[2018-07-18T17:25:08.369] [DEBUG] logs\debug.log - Deducting 214 from Jon A
+[2018-07-18T17:25:08.369] [DEBUG] logs\debug.log - Adding new user Gergana I to Map
+[2018-07-18T17:25:08.370] [DEBUG] logs\debug.log - Created User instance Gergana I
+[2018-07-18T17:25:08.371] [DEBUG] logs\debug.log - Adding 214 to Gergana I
+[2018-07-18T17:25:08.372] [DEBUG] logs\debug.log - Converting 1053 to string
+[2018-07-18T17:25:08.372] [DEBUG] logs\debug.log - Result of conversion: 10.53
+[2018-07-18T17:25:08.373] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Dan W £10.53
+@Fri Jan 04 2013 00:00:00 GMT+0000 message: Coffee
+[2018-07-18T17:25:08.374] [DEBUG] logs\debug.log - Adding new user Chris W to Map
+[2018-07-18T17:25:08.375] [DEBUG] logs\debug.log - Created User instance Chris W
+[2018-07-18T17:25:08.375] [DEBUG] logs\debug.log - Deducting 1053 from Chris W
+[2018-07-18T17:25:08.376] [DEBUG] logs\debug.log - Adding new user Dan W to Map
+[2018-07-18T17:25:08.377] [DEBUG] logs\debug.log - Created User instance Dan W
+[2018-07-18T17:25:08.378] [DEBUG] logs\debug.log - Adding 1053 to Dan W
+[2018-07-18T17:25:08.378] [DEBUG] logs\debug.log - Converting 1057 to string
+[2018-07-18T17:25:08.379] [DEBUG] logs\debug.log - Result of conversion: 10.57
+[2018-07-18T17:25:08.380] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Tim L £10.57
+@Sat Jan 05 2013 00:00:00 GMT+0000 message: Sandcastle Help
+[2018-07-18T17:25:08.381] [DEBUG] logs\debug.log - Adding new user Stephen S to Map
+[2018-07-18T17:25:08.386] [DEBUG] logs\debug.log - Created User instance Stephen S
+[2018-07-18T17:25:08.387] [DEBUG] logs\debug.log - Deducting 1057 from Stephen S
+[2018-07-18T17:25:08.393] [DEBUG] logs\debug.log - Adding new user Tim L to Map
+[2018-07-18T17:25:08.394] [DEBUG] logs\debug.log - Created User instance Tim L
+[2018-07-18T17:25:08.395] [DEBUG] logs\debug.log - Adding 1057 to Tim L
+[2018-07-18T17:25:08.395] [DEBUG] logs\debug.log - Converting 819 to string
+[2018-07-18T17:25:08.396] [DEBUG] logs\debug.log - Result of conversion: 8.19
+[2018-07-18T17:25:08.397] [DEBUG] logs\debug.log - Started processing transaction Todd -> Rob S £8.19
+@Wed Jan 09 2013 00:00:00 GMT+0000 message: Coffee
+[2018-07-18T17:25:08.398] [DEBUG] logs\debug.log - Adding new user Todd to Map
+[2018-07-18T17:25:08.399] [DEBUG] logs\debug.log - Created User instance Todd
+[2018-07-18T17:25:08.399] [DEBUG] logs\debug.log - Deducting 819 from Todd
+[2018-07-18T17:25:08.400] [DEBUG] logs\debug.log - Adding new user Rob S to Map
+[2018-07-18T17:25:08.401] [DEBUG] logs\debug.log - Created User instance Rob S
+[2018-07-18T17:25:08.401] [DEBUG] logs\debug.log - Adding 819 to Rob S
+[2018-07-18T17:25:08.402] [DEBUG] logs\debug.log - Converting 101 to string
+[2018-07-18T17:25:08.403] [DEBUG] logs\debug.log - Result of conversion: 1.1
+[2018-07-18T17:25:08.404] [DEBUG] logs\debug.log - Started processing transaction Todd -> Sarah T £1.1
+@Sun Jan 13 2013 00:00:00 GMT+0000 message: Coffee
+[2018-07-18T17:25:08.409] [DEBUG] logs\debug.log - Deducting 101 from Todd
+[2018-07-18T17:25:08.415] [DEBUG] logs\debug.log - Adding new user Sarah T to Map
+[2018-07-18T17:25:08.416] [DEBUG] logs\debug.log - Created User instance Sarah T
+[2018-07-18T17:25:08.417] [DEBUG] logs\debug.log - Adding 101 to Sarah T
+[2018-07-18T17:25:08.418] [DEBUG] logs\debug.log - Converting 271 to string
+[2018-07-18T17:25:08.419] [DEBUG] logs\debug.log - Result of conversion: 2.71
+[2018-07-18T17:25:08.419] [DEBUG] logs\debug.log - Started processing transaction Todd -> Laura B £2.71
+@Tue Jan 15 2013 00:00:00 GMT+0000 message: Golf Bets
+[2018-07-18T17:25:08.420] [DEBUG] logs\debug.log - Deducting 271 from Todd
+[2018-07-18T17:25:08.421] [DEBUG] logs\debug.log - Adding new user Laura B to Map
+[2018-07-18T17:25:08.422] [DEBUG] logs\debug.log - Created User instance Laura B
+[2018-07-18T17:25:08.428] [DEBUG] logs\debug.log - Adding 271 to Laura B
+[2018-07-18T17:25:08.429] [DEBUG] logs\debug.log - Converting 717 to string
+[2018-07-18T17:25:08.430] [DEBUG] logs\debug.log - Result of conversion: 7.17
+[2018-07-18T17:25:08.430] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Tim L £7.17
+@Fri Jan 18 2013 00:00:00 GMT+0000 message: Jenkins Fees
+[2018-07-18T17:25:08.431] [DEBUG] logs\debug.log - Deducting 717 from Laura B
+[2018-07-18T17:25:08.432] [DEBUG] logs\debug.log - Adding 717 to Tim L
+[2018-07-18T17:25:08.433] [DEBUG] logs\debug.log - Converting 1112 to string
+[2018-07-18T17:25:08.433] [DEBUG] logs\debug.log - Result of conversion: 11.12
+[2018-07-18T17:25:08.434] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Rob S £11.12
+@Tue Jan 22 2013 00:00:00 GMT+0000 message: Sandcastle Help
+[2018-07-18T17:25:08.435] [DEBUG] logs\debug.log - Deducting 1112 from Dan W
+[2018-07-18T17:25:08.435] [DEBUG] logs\debug.log - Adding 1112 to Rob S
+[2018-07-18T17:25:08.436] [DEBUG] logs\debug.log - Converting 486 to string
+[2018-07-18T17:25:08.437] [DEBUG] logs\debug.log - Result of conversion: 4.86
+[2018-07-18T17:25:08.438] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Jon A £4.86
+@Fri Jan 25 2013 00:00:00 GMT+0000 message: Coffee
+[2018-07-18T17:25:08.444] [DEBUG] logs\debug.log - Adding new user Ben B to Map
+[2018-07-18T17:25:08.445] [DEBUG] logs\debug.log - Created User instance Ben B
+[2018-07-18T17:25:08.446] [DEBUG] logs\debug.log - Deducting 486 from Ben B
+[2018-07-18T17:25:08.447] [DEBUG] logs\debug.log - Adding 486 to Jon A
+[2018-07-18T17:25:08.447] [DEBUG] logs\debug.log - Converting 192 to string
+[2018-07-18T17:25:08.448] [DEBUG] logs\debug.log - Result of conversion: 1.92
+[2018-07-18T17:25:08.449] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Ben B £1.92
+@Mon Jan 28 2013 00:00:00 GMT+0000 message: Services Rendered
+[2018-07-18T17:25:08.450] [DEBUG] logs\debug.log - Deducting 192 from Stephen S
+[2018-07-18T17:25:08.456] [DEBUG] logs\debug.log - Adding 192 to Ben B
+[2018-07-18T17:25:08.462] [DEBUG] logs\debug.log - Converting 1195 to string
+[2018-07-18T17:25:08.463] [DEBUG] logs\debug.log - Result of conversion: 11.95
+[2018-07-18T17:25:08.468] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Todd £11.95
+@Wed Jan 30 2013 00:00:00 GMT+0000 message: Jenkins Fees
+[2018-07-18T17:25:08.469] [DEBUG] logs\debug.log - Deducting 1195 from Sarah T
+[2018-07-18T17:25:08.470] [DEBUG] logs\debug.log - Adding 1195 to Todd
+[2018-07-18T17:25:08.476] [DEBUG] logs\debug.log - Converting 755 to string
+[2018-07-18T17:25:08.476] [DEBUG] logs\debug.log - Result of conversion: 7.55
+[2018-07-18T17:25:08.477] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Chris W £7.55
+@Thu Jan 31 2013 00:00:00 GMT+0000 message: Poker Winnings
+[2018-07-18T17:25:08.483] [DEBUG] logs\debug.log - Deducting 755 from Sarah T
+[2018-07-18T17:25:08.489] [DEBUG] logs\debug.log - Adding 755 to Chris W
+[2018-07-18T17:25:08.490] [DEBUG] logs\debug.log - Converting 552 to string
+[2018-07-18T17:25:08.491] [DEBUG] logs\debug.log - Result of conversion: 5.52
+[2018-07-18T17:25:08.493] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Sarah T £5.52
+@Mon Feb 04 2013 00:00:00 GMT+0000 message: Arcade Social
+[2018-07-18T17:25:08.493] [DEBUG] logs\debug.log - Adding new user Sam N to Map
+[2018-07-18T17:25:08.494] [DEBUG] logs\debug.log - Created User instance Sam N
+[2018-07-18T17:25:08.495] [DEBUG] logs\debug.log - Deducting 552 from Sam N
+[2018-07-18T17:25:08.496] [DEBUG] logs\debug.log - Adding 552 to Sarah T
+[2018-07-18T17:25:08.496] [DEBUG] logs\debug.log - Converting 807 to string
+[2018-07-18T17:25:08.497] [DEBUG] logs\debug.log - Result of conversion: 8.7
+[2018-07-18T17:25:08.498] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Rob S £8.7
+@Wed Feb 06 2013 00:00:00 GMT+0000 message: Snooker Night
+[2018-07-18T17:25:08.517] [DEBUG] logs\debug.log - Deducting 807 from Dan W
+[2018-07-18T17:25:08.518] [DEBUG] logs\debug.log - Adding 807 to Rob S
+[2018-07-18T17:25:08.519] [DEBUG] logs\debug.log - Converting 763 to string
+[2018-07-18T17:25:08.520] [DEBUG] logs\debug.log - Result of conversion: 7.63
+[2018-07-18T17:25:08.521] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Laura B £7.63
+@Thu Feb 07 2013 00:00:00 GMT+0000 message: Beers
+[2018-07-18T17:25:08.527] [DEBUG] logs\debug.log - Deducting 763 from Rob S
+[2018-07-18T17:25:08.528] [DEBUG] logs\debug.log - Adding 763 to Laura B
+[2018-07-18T17:25:08.529] [DEBUG] logs\debug.log - Converting 1004 to string
+[2018-07-18T17:25:08.534] [DEBUG] logs\debug.log - Result of conversion: 10.4
+[2018-07-18T17:25:08.535] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Todd £10.4
+@Sun Feb 10 2013 00:00:00 GMT+0000 message: Snooker Night
+[2018-07-18T17:25:08.536] [DEBUG] logs\debug.log - Deducting 1004 from Stephen S
+[2018-07-18T17:25:08.541] [DEBUG] logs\debug.log - Adding 1004 to Todd
+[2018-07-18T17:25:08.542] [DEBUG] logs\debug.log - Converting 576 to string
+[2018-07-18T17:25:08.543] [DEBUG] logs\debug.log - Result of conversion: 5.76
+[2018-07-18T17:25:08.544] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Chris W £5.76
+@Tue Feb 12 2013 00:00:00 GMT+0000 message: Misc Morale
+[2018-07-18T17:25:08.545] [DEBUG] logs\debug.log - Deducting 576 from Ben B
+[2018-07-18T17:25:08.545] [DEBUG] logs\debug.log - Adding 576 to Chris W
+[2018-07-18T17:25:08.546] [DEBUG] logs\debug.log - Converting 154 to string
+[2018-07-18T17:25:08.547] [DEBUG] logs\debug.log - Result of conversion: 1.54
+[2018-07-18T17:25:08.548] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Chris W £1.54
+@Fri Feb 15 2013 00:00:00 GMT+0000 message: Lunch
+[2018-07-18T17:25:08.555] [DEBUG] logs\debug.log - Deducting 154 from Sam N
+[2018-07-18T17:25:08.562] [DEBUG] logs\debug.log - Adding 154 to Chris W
+[2018-07-18T17:25:08.563] [DEBUG] logs\debug.log - Converting 698 to string
+[2018-07-18T17:25:08.568] [DEBUG] logs\debug.log - Result of conversion: 6.98
+[2018-07-18T17:25:08.570] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Sam N £6.98
+@Mon Feb 18 2013 00:00:00 GMT+0000 message: Coffee
+[2018-07-18T17:25:08.571] [DEBUG] logs\debug.log - Deducting 698 from Sarah T
+[2018-07-18T17:25:08.571] [DEBUG] logs\debug.log - Adding 698 to Sam N
+[2018-07-18T17:25:08.572] [DEBUG] logs\debug.log - Converting 877 to string
+[2018-07-18T17:25:08.573] [DEBUG] logs\debug.log - Result of conversion: 8.77
+[2018-07-18T17:25:08.579] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Tim L £8.77
+@Fri Feb 22 2013 00:00:00 GMT+0000 message: Lunch
+[2018-07-18T17:25:08.579] [DEBUG] logs\debug.log - Deducting 877 from Chris W
+[2018-07-18T17:25:08.580] [DEBUG] logs\debug.log - Adding 877 to Tim L
+[2018-07-18T17:25:08.586] [DEBUG] logs\debug.log - Converting 594 to string
+[2018-07-18T17:25:08.587] [DEBUG] logs\debug.log - Result of conversion: 5.94
+[2018-07-18T17:25:08.588] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Stephen S £5.94
+@Tue Feb 26 2013 00:00:00 GMT+0000 message: Audit and Other Financial Services
+[2018-07-18T17:25:08.589] [DEBUG] logs\debug.log - Deducting 594 from Sarah T
+[2018-07-18T17:25:08.590] [DEBUG] logs\debug.log - Adding 594 to Stephen S
+[2018-07-18T17:25:08.596] [DEBUG] logs\debug.log - Converting 1058 to string
+[2018-07-18T17:25:08.597] [DEBUG] logs\debug.log - Result of conversion: 10.58
+[2018-07-18T17:25:08.598] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Chris W £10.58
+@Wed Feb 27 2013 00:00:00 GMT+0000 message: Rails Consultancy
+[2018-07-18T17:25:08.598] [DEBUG] logs\debug.log - Deducting 1058 from Jon A
+[2018-07-18T17:25:08.599] [DEBUG] logs\debug.log - Adding 1058 to Chris W
+[2018-07-18T17:25:08.599] [DEBUG] logs\debug.log - Converting 173 to string
+[2018-07-18T17:25:08.600] [DEBUG] logs\debug.log - Result of conversion: 1.73
+[2018-07-18T17:25:08.601] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Stephen S £1.73
+@Sat Mar 02 2013 00:00:00 GMT+0000 message: Audit and Other Financial Services
+[2018-07-18T17:25:08.601] [DEBUG] logs\debug.log - Deducting 173 from Gergana I
+[2018-07-18T17:25:08.602] [DEBUG] logs\debug.log - Adding 173 to Stephen S
+[2018-07-18T17:25:08.603] [DEBUG] logs\debug.log - Converting 726 to string
+[2018-07-18T17:25:08.603] [DEBUG] logs\debug.log - Result of conversion: 7.26
+[2018-07-18T17:25:08.604] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Sam N £7.26
+@Wed Mar 06 2013 00:00:00 GMT+0000 message: Stationary Items
+[2018-07-18T17:25:08.611] [DEBUG] logs\debug.log - Deducting 726 from Laura B
+[2018-07-18T17:25:08.616] [DEBUG] logs\debug.log - Adding 726 to Sam N
+[2018-07-18T17:25:08.617] [DEBUG] logs\debug.log - Converting 602 to string
+[2018-07-18T17:25:08.617] [DEBUG] logs\debug.log - Result of conversion: 6.2
+[2018-07-18T17:25:08.623] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sarah T £6.2
+@Fri Mar 08 2013 00:00:00 GMT+0000 message: Pokemon Training
+[2018-07-18T17:25:08.624] [DEBUG] logs\debug.log - Deducting 602 from Ben B
+[2018-07-18T17:25:08.625] [DEBUG] logs\debug.log - Adding 602 to Sarah T
+[2018-07-18T17:25:08.626] [DEBUG] logs\debug.log - Converting 9 to string
+[2018-07-18T17:25:08.626] [DEBUG] logs\debug.log - Result of conversion: 0.9
+[2018-07-18T17:25:08.627] [DEBUG] logs\debug.log - Started processing transaction Todd -> Jon A £0.9
+@Tue Mar 12 2013 00:00:00 GMT+0000 message: Automated Testing Services
+[2018-07-18T17:25:08.632] [DEBUG] logs\debug.log - Deducting 9 from Todd
+[2018-07-18T17:25:08.633] [DEBUG] logs\debug.log - Adding 9 to Jon A
+[2018-07-18T17:25:08.634] [DEBUG] logs\debug.log - Converting 897 to string
+[2018-07-18T17:25:08.634] [DEBUG] logs\debug.log - Result of conversion: 8.97
+[2018-07-18T17:25:08.635] [DEBUG] logs\debug.log - Started processing transaction Todd -> Chris W £8.97
+@Thu Mar 14 2013 00:00:00 GMT+0000 message: Rails Consultancy
+[2018-07-18T17:25:08.636] [DEBUG] logs\debug.log - Deducting 897 from Todd
+[2018-07-18T17:25:08.636] [DEBUG] logs\debug.log - Adding 897 to Chris W
+[2018-07-18T17:25:08.642] [DEBUG] logs\debug.log - Converting 334 to string
+[2018-07-18T17:25:08.642] [DEBUG] logs\debug.log - Result of conversion: 3.34
+[2018-07-18T17:25:08.643] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Chris W £3.34
+@Sun Mar 17 2013 00:00:00 GMT+0000 message: Audit and Other Financial Services
+[2018-07-18T17:25:08.644] [DEBUG] logs\debug.log - Deducting 334 from Dan W
+[2018-07-18T17:25:08.645] [DEBUG] logs\debug.log - Adding 334 to Chris W
+[2018-07-18T17:25:08.645] [DEBUG] logs\debug.log - Converting 285 to string
+[2018-07-18T17:25:08.646] [DEBUG] logs\debug.log - Result of conversion: 2.85
+[2018-07-18T17:25:08.651] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Rob S £2.85
+@Wed Mar 20 2013 00:00:00 GMT+0000 message: Stationary Items
+[2018-07-18T17:25:08.658] [DEBUG] logs\debug.log - Deducting 285 from Gergana I
+[2018-07-18T17:25:08.659] [DEBUG] logs\debug.log - Adding 285 to Rob S
+[2018-07-18T17:25:08.665] [DEBUG] logs\debug.log - Converting 415 to string
+[2018-07-18T17:25:08.666] [DEBUG] logs\debug.log - Result of conversion: 4.15
+[2018-07-18T17:25:08.672] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Laura B £4.15
+@Fri Mar 22 2013 00:00:00 GMT+0000 message: Git-Fu Rendered
+[2018-07-18T17:25:08.673] [DEBUG] logs\debug.log - Deducting 415 from Chris W
+[2018-07-18T17:25:08.674] [DEBUG] logs\debug.log - Adding 415 to Laura B
+[2018-07-18T17:25:08.680] [DEBUG] logs\debug.log - Converting 239 to string
+[2018-07-18T17:25:08.681] [DEBUG] logs\debug.log - Result of conversion: 2.39
+[2018-07-18T17:25:08.687] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Stephen S £2.39
+@Sun Mar 24 2013 00:00:00 GMT+0000 message: Coffee
+[2018-07-18T17:25:08.687] [DEBUG] logs\debug.log - Deducting 239 from Gergana I
+[2018-07-18T17:25:08.688] [DEBUG] logs\debug.log - Adding 239 to Stephen S
+[2018-07-18T17:25:08.694] [DEBUG] logs\debug.log - Converting 782 to string
+[2018-07-18T17:25:08.695] [DEBUG] logs\debug.log - Result of conversion: 7.82
+[2018-07-18T17:25:08.696] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Dan W £7.82
+@Wed Mar 27 2013 00:00:00 GMT+0000 message: Jenkins Fees
+[2018-07-18T17:25:08.696] [DEBUG] logs\debug.log - Deducting 782 from Stephen S
+[2018-07-18T17:25:08.702] [DEBUG] logs\debug.log - Adding 782 to Dan W
+[2018-07-18T17:25:08.703] [DEBUG] logs\debug.log - Converting 636 to string
+[2018-07-18T17:25:08.704] [DEBUG] logs\debug.log - Result of conversion: 6.36
+[2018-07-18T17:25:08.709] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Stephen S £6.36
+@Thu Mar 28 2013 00:00:00 GMT+0000 message: Sandbox Help
+[2018-07-18T17:25:08.710] [DEBUG] logs\debug.log - Deducting 636 from Ben B
+[2018-07-18T17:25:08.715] [DEBUG] logs\debug.log - Adding 636 to Stephen S
+[2018-07-18T17:25:08.717] [DEBUG] logs\debug.log - Converting 477 to string
+[2018-07-18T17:25:08.717] [DEBUG] logs\debug.log - Result of conversion: 4.77
+[2018-07-18T17:25:08.718] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Tim L £4.77
+@Mon Apr 01 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:08.719] [DEBUG] logs\debug.log - Deducting 477 from Rob S
+[2018-07-18T17:25:08.720] [DEBUG] logs\debug.log - Adding 477 to Tim L
+[2018-07-18T17:25:08.725] [DEBUG] logs\debug.log - Converting 264 to string
+[2018-07-18T17:25:08.726] [DEBUG] logs\debug.log - Result of conversion: 2.64
+[2018-07-18T17:25:08.727] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Stephen S £2.64
+@Wed Apr 03 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:08.728] [DEBUG] logs\debug.log - Deducting 264 from Sarah T
+[2018-07-18T17:25:08.728] [DEBUG] logs\debug.log - Adding 264 to Stephen S
+[2018-07-18T17:25:08.729] [DEBUG] logs\debug.log - Converting 304 to string
+[2018-07-18T17:25:08.730] [DEBUG] logs\debug.log - Result of conversion: 3.4
+[2018-07-18T17:25:08.735] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Chris W £3.4
+@Fri Apr 05 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:08.736] [DEBUG] logs\debug.log - Deducting 304 from Stephen S
+[2018-07-18T17:25:08.737] [DEBUG] logs\debug.log - Adding 304 to Chris W
+[2018-07-18T17:25:08.743] [DEBUG] logs\debug.log - Converting 427 to string
+[2018-07-18T17:25:08.744] [DEBUG] logs\debug.log - Result of conversion: 4.27
+[2018-07-18T17:25:08.744] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Todd £4.27
+@Mon Apr 08 2013 00:00:00 GMT+0100 message: Jenkins Fees
+[2018-07-18T17:25:08.746] [DEBUG] logs\debug.log - Deducting 427 from Tim L
+[2018-07-18T17:25:08.746] [DEBUG] logs\debug.log - Adding 427 to Todd
+[2018-07-18T17:25:08.747] [DEBUG] logs\debug.log - Converting 206 to string
+[2018-07-18T17:25:08.748] [DEBUG] logs\debug.log - Result of conversion: 2.6
+[2018-07-18T17:25:08.753] [DEBUG] logs\debug.log - Started processing transaction Todd -> Gergana I £2.6
+@Tue Apr 09 2013 00:00:00 GMT+0100 message: Misc Morale
+[2018-07-18T17:25:08.754] [DEBUG] logs\debug.log - Deducting 206 from Todd
+[2018-07-18T17:25:08.762] [DEBUG] logs\debug.log - Adding 206 to Gergana I
+[2018-07-18T17:25:08.768] [DEBUG] logs\debug.log - Converting 300 to string
+[2018-07-18T17:25:08.769] [DEBUG] logs\debug.log - Result of conversion: 3.0
+[2018-07-18T17:25:08.770] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Sarah T £3.0
+@Thu Apr 11 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:08.770] [DEBUG] logs\debug.log - Deducting 300 from Gergana I
+[2018-07-18T17:25:08.771] [DEBUG] logs\debug.log - Adding 300 to Sarah T
+[2018-07-18T17:25:08.772] [DEBUG] logs\debug.log - Converting 549 to string
+[2018-07-18T17:25:08.778] [DEBUG] logs\debug.log - Result of conversion: 5.49
+[2018-07-18T17:25:08.779] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Chris W £5.49
+@Mon Apr 15 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:08.779] [DEBUG] logs\debug.log - Deducting 549 from Rob S
+[2018-07-18T17:25:08.780] [DEBUG] logs\debug.log - Adding 549 to Chris W
+[2018-07-18T17:25:08.780] [DEBUG] logs\debug.log - Converting 907 to string
+[2018-07-18T17:25:08.786] [DEBUG] logs\debug.log - Result of conversion: 9.7
+[2018-07-18T17:25:08.787] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Ben B £9.7
+@Thu Apr 18 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:08.793] [DEBUG] logs\debug.log - Deducting 907 from Gergana I
+[2018-07-18T17:25:08.799] [DEBUG] logs\debug.log - Adding 907 to Ben B
+[2018-07-18T17:25:08.800] [DEBUG] logs\debug.log - Converting 532 to string
+[2018-07-18T17:25:08.801] [DEBUG] logs\debug.log - Result of conversion: 5.32
+[2018-07-18T17:25:08.801] [DEBUG] logs\debug.log - Started processing transaction Todd -> Sarah T £5.32
+@Sun Apr 21 2013 00:00:00 GMT+0100 message: Sandcastle Help
+[2018-07-18T17:25:08.802] [DEBUG] logs\debug.log - Deducting 532 from Todd
+[2018-07-18T17:25:08.803] [DEBUG] logs\debug.log - Adding 532 to Sarah T
+[2018-07-18T17:25:08.808] [DEBUG] logs\debug.log - Converting 115 to string
+[2018-07-18T17:25:08.809] [DEBUG] logs\debug.log - Result of conversion: 1.15
+[2018-07-18T17:25:08.810] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Tim L £1.15
+@Wed Apr 24 2013 00:00:00 GMT+0100 message: Fantasy Football
+[2018-07-18T17:25:08.811] [DEBUG] logs\debug.log - Deducting 115 from Ben B
+[2018-07-18T17:25:08.811] [DEBUG] logs\debug.log - Adding 115 to Tim L
+[2018-07-18T17:25:08.817] [DEBUG] logs\debug.log - Converting 247 to string
+[2018-07-18T17:25:08.818] [DEBUG] logs\debug.log - Result of conversion: 2.47
+[2018-07-18T17:25:08.818] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Jon A £2.47
+@Thu Apr 25 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:08.827] [DEBUG] logs\debug.log - Deducting 247 from Stephen S
+[2018-07-18T17:25:08.832] [DEBUG] logs\debug.log - Adding 247 to Jon A
+[2018-07-18T17:25:08.833] [DEBUG] logs\debug.log - Converting 901 to string
+[2018-07-18T17:25:08.834] [DEBUG] logs\debug.log - Result of conversion: 9.1
+[2018-07-18T17:25:08.835] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Jon A £9.1
+@Fri Apr 26 2013 00:00:00 GMT+0100 message: Misc Morale
+[2018-07-18T17:25:08.840] [DEBUG] logs\debug.log - Deducting 901 from Stephen S
+[2018-07-18T17:25:08.841] [DEBUG] logs\debug.log - Adding 901 to Jon A
+[2018-07-18T17:25:08.847] [DEBUG] logs\debug.log - Converting 991 to string
+[2018-07-18T17:25:08.848] [DEBUG] logs\debug.log - Result of conversion: 9.91
+[2018-07-18T17:25:08.848] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Chris W £9.91
+@Sat Apr 27 2013 00:00:00 GMT+0100 message: Rails Consultancy
+[2018-07-18T17:25:08.849] [DEBUG] logs\debug.log - Deducting 991 from Ben B
+[2018-07-18T17:25:08.850] [DEBUG] logs\debug.log - Adding 991 to Chris W
+[2018-07-18T17:25:08.858] [DEBUG] logs\debug.log - Converting 985 to string
+[2018-07-18T17:25:08.859] [DEBUG] logs\debug.log - Result of conversion: 9.85
+[2018-07-18T17:25:08.860] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Dan W £9.85
+@Wed May 01 2013 00:00:00 GMT+0100 message: Git-Fu Rendered
+[2018-07-18T17:25:08.861] [DEBUG] logs\debug.log - Deducting 985 from Ben B
+[2018-07-18T17:25:08.867] [DEBUG] logs\debug.log - Adding 985 to Dan W
+[2018-07-18T17:25:08.868] [DEBUG] logs\debug.log - Converting 134 to string
+[2018-07-18T17:25:08.868] [DEBUG] logs\debug.log - Result of conversion: 1.34
+[2018-07-18T17:25:08.869] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Dan W £1.34
+@Sat May 04 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:08.870] [DEBUG] logs\debug.log - Deducting 134 from Laura B
+[2018-07-18T17:25:08.871] [DEBUG] logs\debug.log - Adding 134 to Dan W
+[2018-07-18T17:25:08.877] [DEBUG] logs\debug.log - Converting 51 to string
+[2018-07-18T17:25:08.878] [DEBUG] logs\debug.log - Result of conversion: 0.51
+[2018-07-18T17:25:08.879] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Ben B £0.51
+@Sun May 05 2013 00:00:00 GMT+0100 message: Beers
+[2018-07-18T17:25:08.879] [DEBUG] logs\debug.log - Deducting 51 from Sarah T
+[2018-07-18T17:25:08.880] [DEBUG] logs\debug.log - Adding 51 to Ben B
+[2018-07-18T17:25:08.881] [DEBUG] logs\debug.log - Converting 492 to string
+[2018-07-18T17:25:08.881] [DEBUG] logs\debug.log - Result of conversion: 4.92
+[2018-07-18T17:25:08.882] [DEBUG] logs\debug.log - Started processing transaction Todd -> Dan W £4.92
+@Mon May 06 2013 00:00:00 GMT+0100 message: Git-Fu Rendered
+[2018-07-18T17:25:08.892] [DEBUG] logs\debug.log - Deducting 492 from Todd
+[2018-07-18T17:25:08.893] [DEBUG] logs\debug.log - Adding 492 to Dan W
+[2018-07-18T17:25:08.894] [DEBUG] logs\debug.log - Converting 594 to string
+[2018-07-18T17:25:08.895] [DEBUG] logs\debug.log - Result of conversion: 5.94
+[2018-07-18T17:25:08.895] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Tim L £5.94
+@Wed May 08 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:08.896] [DEBUG] logs\debug.log - Deducting 594 from Chris W
+[2018-07-18T17:25:08.897] [DEBUG] logs\debug.log - Adding 594 to Tim L
+[2018-07-18T17:25:08.898] [DEBUG] logs\debug.log - Converting 227 to string
+[2018-07-18T17:25:08.899] [DEBUG] logs\debug.log - Result of conversion: 2.27
+[2018-07-18T17:25:08.899] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Tim L £2.27
+@Thu May 09 2013 00:00:00 GMT+0100 message: White Water Rafting
+[2018-07-18T17:25:08.900] [DEBUG] logs\debug.log - Deducting 227 from Gergana I
+[2018-07-18T17:25:08.901] [DEBUG] logs\debug.log - Adding 227 to Tim L
+[2018-07-18T17:25:08.902] [DEBUG] logs\debug.log - Converting 1107 to string
+[2018-07-18T17:25:08.907] [DEBUG] logs\debug.log - Result of conversion: 11.7
+[2018-07-18T17:25:08.908] [DEBUG] logs\debug.log - Started processing transaction Todd -> Ben B £11.7
+@Mon May 13 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:08.909] [DEBUG] logs\debug.log - Deducting 1107 from Todd
+[2018-07-18T17:25:08.910] [DEBUG] logs\debug.log - Adding 1107 to Ben B
+[2018-07-18T17:25:08.910] [DEBUG] logs\debug.log - Converting 996 to string
+[2018-07-18T17:25:08.911] [DEBUG] logs\debug.log - Result of conversion: 9.96
+[2018-07-18T17:25:08.912] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Dan W £9.96
+@Tue May 14 2013 00:00:00 GMT+0100 message: Rails Consultancy
+[2018-07-18T17:25:08.913] [DEBUG] logs\debug.log - Deducting 996 from Ben B
+[2018-07-18T17:25:08.913] [DEBUG] logs\debug.log - Adding 996 to Dan W
+[2018-07-18T17:25:08.919] [DEBUG] logs\debug.log - Converting 1194 to string
+[2018-07-18T17:25:08.920] [DEBUG] logs\debug.log - Result of conversion: 11.94
+[2018-07-18T17:25:08.921] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Sarah T £11.94
+@Sat May 18 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:08.928] [DEBUG] logs\debug.log - Deducting 1194 from Laura B
+[2018-07-18T17:25:08.929] [DEBUG] logs\debug.log - Adding 1194 to Sarah T
+[2018-07-18T17:25:08.929] [DEBUG] logs\debug.log - Converting 924 to string
+[2018-07-18T17:25:08.930] [DEBUG] logs\debug.log - Result of conversion: 9.24
+[2018-07-18T17:25:08.931] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Sam N £9.24
+@Wed May 22 2013 00:00:00 GMT+0100 message: Pokemon Training
+[2018-07-18T17:25:08.931] [DEBUG] logs\debug.log - Deducting 924 from Stephen S
+[2018-07-18T17:25:08.932] [DEBUG] logs\debug.log - Adding 924 to Sam N
+[2018-07-18T17:25:08.933] [DEBUG] logs\debug.log - Converting 285 to string
+[2018-07-18T17:25:08.933] [DEBUG] logs\debug.log - Result of conversion: 2.85
+[2018-07-18T17:25:08.942] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Chris W £2.85
+@Sat May 25 2013 00:00:00 GMT+0100 message: Sandbox Help
+[2018-07-18T17:25:08.943] [DEBUG] logs\debug.log - Deducting 285 from Stephen S
+[2018-07-18T17:25:08.943] [DEBUG] logs\debug.log - Adding 285 to Chris W
+[2018-07-18T17:25:08.944] [DEBUG] logs\debug.log - Converting 151 to string
+[2018-07-18T17:25:08.945] [DEBUG] logs\debug.log - Result of conversion: 1.51
+[2018-07-18T17:25:08.950] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Ben B £1.51
+@Wed May 29 2013 00:00:00 GMT+0100 message: Audit and Other Financial Services
+[2018-07-18T17:25:08.951] [DEBUG] logs\debug.log - Deducting 151 from Stephen S
+[2018-07-18T17:25:08.952] [DEBUG] logs\debug.log - Adding 151 to Ben B
+[2018-07-18T17:25:08.957] [DEBUG] logs\debug.log - Converting 1183 to string
+[2018-07-18T17:25:08.958] [DEBUG] logs\debug.log - Result of conversion: 11.83
+[2018-07-18T17:25:08.959] [DEBUG] logs\debug.log - Started processing transaction Todd -> Ben B £11.83
+@Sun Jun 02 2013 00:00:00 GMT+0100 message: Golf Bets
+[2018-07-18T17:25:08.959] [DEBUG] logs\debug.log - Deducting 1183 from Todd
+[2018-07-18T17:25:08.965] [DEBUG] logs\debug.log - Adding 1183 to Ben B
+[2018-07-18T17:25:08.966] [DEBUG] logs\debug.log - Converting 216 to string
+[2018-07-18T17:25:08.967] [DEBUG] logs\debug.log - Result of conversion: 2.16
+[2018-07-18T17:25:08.973] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Rob S £2.16
+@Mon Jun 03 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:08.974] [DEBUG] logs\debug.log - Deducting 216 from Chris W
+[2018-07-18T17:25:08.980] [DEBUG] logs\debug.log - Adding 216 to Rob S
+[2018-07-18T17:25:08.989] [DEBUG] logs\debug.log - Converting 196 to string
+[2018-07-18T17:25:08.990] [DEBUG] logs\debug.log - Result of conversion: 1.96
+[2018-07-18T17:25:08.991] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Dan W £1.96
+@Wed Jun 05 2013 00:00:00 GMT+0100 message: Golf Bets
+[2018-07-18T17:25:08.997] [DEBUG] logs\debug.log - Deducting 196 from Rob S
+[2018-07-18T17:25:08.998] [DEBUG] logs\debug.log - Adding 196 to Dan W
+[2018-07-18T17:25:08.998] [DEBUG] logs\debug.log - Converting 106 to string
+[2018-07-18T17:25:08.999] [DEBUG] logs\debug.log - Result of conversion: 1.6
+[2018-07-18T17:25:09.000] [DEBUG] logs\debug.log - Started processing transaction Todd -> Jon A £1.6
+@Thu Jun 06 2013 00:00:00 GMT+0100 message: Pokemon Training
+[2018-07-18T17:25:09.000] [DEBUG] logs\debug.log - Deducting 106 from Todd
+[2018-07-18T17:25:09.001] [DEBUG] logs\debug.log - Adding 106 to Jon A
+[2018-07-18T17:25:09.002] [DEBUG] logs\debug.log - Converting 1081 to string
+[2018-07-18T17:25:09.002] [DEBUG] logs\debug.log - Result of conversion: 10.81
+[2018-07-18T17:25:09.003] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Gergana I £10.81
+@Mon Jun 10 2013 00:00:00 GMT+0100 message: Lego Assistance
+[2018-07-18T17:25:09.004] [DEBUG] logs\debug.log - Deducting 1081 from Sarah T
+[2018-07-18T17:25:09.004] [DEBUG] logs\debug.log - Adding 1081 to Gergana I
+[2018-07-18T17:25:09.010] [DEBUG] logs\debug.log - Converting 675 to string
+[2018-07-18T17:25:09.011] [DEBUG] logs\debug.log - Result of conversion: 6.75
+[2018-07-18T17:25:09.012] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Ben B £6.75
+@Wed Jun 12 2013 00:00:00 GMT+0100 message: Sandcastle Help
+[2018-07-18T17:25:09.017] [DEBUG] logs\debug.log - Deducting 675 from Jon A
+[2018-07-18T17:25:09.018] [DEBUG] logs\debug.log - Adding 675 to Ben B
+[2018-07-18T17:25:09.019] [DEBUG] logs\debug.log - Converting 515 to string
+[2018-07-18T17:25:09.025] [DEBUG] logs\debug.log - Result of conversion: 5.15
+[2018-07-18T17:25:09.032] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sarah T £5.15
+@Thu Jun 13 2013 00:00:00 GMT+0100 message: Poker Winnings
+[2018-07-18T17:25:09.033] [DEBUG] logs\debug.log - Deducting 515 from Ben B
+[2018-07-18T17:25:09.041] [DEBUG] logs\debug.log - Adding 515 to Sarah T
+[2018-07-18T17:25:09.047] [DEBUG] logs\debug.log - Converting 924 to string
+[2018-07-18T17:25:09.048] [DEBUG] logs\debug.log - Result of conversion: 9.24
+[2018-07-18T17:25:09.049] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Dan W £9.24
+@Sun Jun 16 2013 00:00:00 GMT+0100 message: Misc Morale
+[2018-07-18T17:25:09.055] [DEBUG] logs\debug.log - Deducting 924 from Ben B
+[2018-07-18T17:25:09.056] [DEBUG] logs\debug.log - Adding 924 to Dan W
+[2018-07-18T17:25:09.057] [DEBUG] logs\debug.log - Converting 368 to string
+[2018-07-18T17:25:09.058] [DEBUG] logs\debug.log - Result of conversion: 3.68
+[2018-07-18T17:25:09.064] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Jon A £3.68
+@Wed Jun 19 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:09.065] [DEBUG] logs\debug.log - Deducting 368 from Laura B
+[2018-07-18T17:25:09.066] [DEBUG] logs\debug.log - Adding 368 to Jon A
+[2018-07-18T17:25:09.067] [DEBUG] logs\debug.log - Converting 543 to string
+[2018-07-18T17:25:09.074] [DEBUG] logs\debug.log - Result of conversion: 5.43
+[2018-07-18T17:25:09.075] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Todd £5.43
+@Fri Jun 21 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.076] [DEBUG] logs\debug.log - Deducting 543 from Dan W
+[2018-07-18T17:25:09.076] [DEBUG] logs\debug.log - Adding 543 to Todd
+[2018-07-18T17:25:09.077] [DEBUG] logs\debug.log - Converting 98 to string
+[2018-07-18T17:25:09.078] [DEBUG] logs\debug.log - Result of conversion: 0.98
+[2018-07-18T17:25:09.079] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Tim L £0.98
+@Sat Jun 22 2013 00:00:00 GMT+0100 message: Stationary Items
+[2018-07-18T17:25:09.079] [DEBUG] logs\debug.log - Deducting 98 from Chris W
+[2018-07-18T17:25:09.080] [DEBUG] logs\debug.log - Adding 98 to Tim L
+[2018-07-18T17:25:09.081] [DEBUG] logs\debug.log - Converting 612 to string
+[2018-07-18T17:25:09.087] [DEBUG] logs\debug.log - Result of conversion: 6.12
+[2018-07-18T17:25:09.088] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Jon A £6.12
+@Sun Jun 23 2013 00:00:00 GMT+0100 message: Audit and Other Financial Services
+[2018-07-18T17:25:09.089] [DEBUG] logs\debug.log - Deducting 612 from Stephen S
+[2018-07-18T17:25:09.089] [DEBUG] logs\debug.log - Adding 612 to Jon A
+[2018-07-18T17:25:09.091] [DEBUG] logs\debug.log - Converting 839 to string
+[2018-07-18T17:25:09.100] [DEBUG] logs\debug.log - Result of conversion: 8.39
+[2018-07-18T17:25:09.101] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Sarah T £8.39
+@Wed Jun 26 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.108] [DEBUG] logs\debug.log - Deducting 839 from Rob S
+[2018-07-18T17:25:09.109] [DEBUG] logs\debug.log - Adding 839 to Sarah T
+[2018-07-18T17:25:09.114] [DEBUG] logs\debug.log - Converting 1041 to string
+[2018-07-18T17:25:09.115] [DEBUG] logs\debug.log - Result of conversion: 10.41
+[2018-07-18T17:25:09.116] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Ben B £10.41
+@Thu Jun 27 2013 00:00:00 GMT+0100 message: Beers
+[2018-07-18T17:25:09.117] [DEBUG] logs\debug.log - Deducting 1041 from Chris W
+[2018-07-18T17:25:09.118] [DEBUG] logs\debug.log - Adding 1041 to Ben B
+[2018-07-18T17:25:09.119] [DEBUG] logs\debug.log - Converting 651 to string
+[2018-07-18T17:25:09.120] [DEBUG] logs\debug.log - Result of conversion: 6.51
+[2018-07-18T17:25:09.121] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Laura B £6.51
+@Sun Jun 30 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.123] [DEBUG] logs\debug.log - Deducting 651 from Tim L
+[2018-07-18T17:25:09.124] [DEBUG] logs\debug.log - Adding 651 to Laura B
+[2018-07-18T17:25:09.125] [DEBUG] logs\debug.log - Converting 148 to string
+[2018-07-18T17:25:09.131] [DEBUG] logs\debug.log - Result of conversion: 1.48
+[2018-07-18T17:25:09.132] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Jon A £1.48
+@Mon Jul 01 2013 00:00:00 GMT+0100 message: Misc Morale
+[2018-07-18T17:25:09.133] [DEBUG] logs\debug.log - Deducting 148 from Tim L
+[2018-07-18T17:25:09.134] [DEBUG] logs\debug.log - Adding 148 to Jon A
+[2018-07-18T17:25:09.142] [DEBUG] logs\debug.log - Converting 563 to string
+[2018-07-18T17:25:09.143] [DEBUG] logs\debug.log - Result of conversion: 5.63
+[2018-07-18T17:25:09.144] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Chris W £5.63
+@Thu Jul 04 2013 00:00:00 GMT+0100 message: Poker Winnings
+[2018-07-18T17:25:09.145] [DEBUG] logs\debug.log - Deducting 563 from Tim L
+[2018-07-18T17:25:09.146] [DEBUG] logs\debug.log - Adding 563 to Chris W
+[2018-07-18T17:25:09.146] [DEBUG] logs\debug.log - Converting 673 to string
+[2018-07-18T17:25:09.147] [DEBUG] logs\debug.log - Result of conversion: 6.73
+[2018-07-18T17:25:09.156] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Sam N £6.73
+@Fri Jul 05 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.157] [DEBUG] logs\debug.log - Deducting 673 from Stephen S
+[2018-07-18T17:25:09.157] [DEBUG] logs\debug.log - Adding 673 to Sam N
+[2018-07-18T17:25:09.158] [DEBUG] logs\debug.log - Converting 669 to string
+[2018-07-18T17:25:09.159] [DEBUG] logs\debug.log - Result of conversion: 6.69
+[2018-07-18T17:25:09.160] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Rob S £6.69
+@Sun Jul 07 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.161] [DEBUG] logs\debug.log - Deducting 669 from Jon A
+[2018-07-18T17:25:09.161] [DEBUG] logs\debug.log - Adding 669 to Rob S
+[2018-07-18T17:25:09.162] [DEBUG] logs\debug.log - Converting 388 to string
+[2018-07-18T17:25:09.163] [DEBUG] logs\debug.log - Result of conversion: 3.88
+[2018-07-18T17:25:09.168] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Sarah T £3.88
+@Wed Jul 10 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.174] [DEBUG] logs\debug.log - Deducting 388 from Dan W
+[2018-07-18T17:25:09.175] [DEBUG] logs\debug.log - Adding 388 to Sarah T
+[2018-07-18T17:25:09.183] [DEBUG] logs\debug.log - Converting 208 to string
+[2018-07-18T17:25:09.184] [DEBUG] logs\debug.log - Result of conversion: 2.8
+[2018-07-18T17:25:09.184] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Tim L £2.8
+@Sat Jul 13 2013 00:00:00 GMT+0100 message: Misc Morale
+[2018-07-18T17:25:09.190] [DEBUG] logs\debug.log - Deducting 208 from Chris W
+[2018-07-18T17:25:09.192] [DEBUG] logs\debug.log - Adding 208 to Tim L
+[2018-07-18T17:25:09.193] [DEBUG] logs\debug.log - Converting 695 to string
+[2018-07-18T17:25:09.201] [DEBUG] logs\debug.log - Result of conversion: 6.95
+[2018-07-18T17:25:09.207] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Gergana I £6.95
+@Tue Jul 16 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:09.213] [DEBUG] logs\debug.log - Deducting 695 from Stephen S
+[2018-07-18T17:25:09.214] [DEBUG] logs\debug.log - Adding 695 to Gergana I
+[2018-07-18T17:25:09.215] [DEBUG] logs\debug.log - Converting 321 to string
+[2018-07-18T17:25:09.216] [DEBUG] logs\debug.log - Result of conversion: 3.21
+[2018-07-18T17:25:09.217] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Stephen S £3.21
+@Fri Jul 19 2013 00:00:00 GMT+0100 message: Arcade Social
+[2018-07-18T17:25:09.217] [DEBUG] logs\debug.log - Deducting 321 from Dan W
+[2018-07-18T17:25:09.226] [DEBUG] logs\debug.log - Adding 321 to Stephen S
+[2018-07-18T17:25:09.235] [DEBUG] logs\debug.log - Converting 1117 to string
+[2018-07-18T17:25:09.236] [DEBUG] logs\debug.log - Result of conversion: 11.17
+[2018-07-18T17:25:09.237] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Stephen S £11.17
+@Tue Jul 23 2013 00:00:00 GMT+0100 message: Services Rendered
+[2018-07-18T17:25:09.238] [DEBUG] logs\debug.log - Deducting 1117 from Sarah T
+[2018-07-18T17:25:09.239] [DEBUG] logs\debug.log - Adding 1117 to Stephen S
+[2018-07-18T17:25:09.239] [DEBUG] logs\debug.log - Converting 429 to string
+[2018-07-18T17:25:09.240] [DEBUG] logs\debug.log - Result of conversion: 4.29
+[2018-07-18T17:25:09.247] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Tim L £4.29
+@Sat Jul 27 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:09.247] [DEBUG] logs\debug.log - Deducting 429 from Ben B
+[2018-07-18T17:25:09.248] [DEBUG] logs\debug.log - Adding 429 to Tim L
+[2018-07-18T17:25:09.249] [DEBUG] logs\debug.log - Converting 69 to string
+[2018-07-18T17:25:09.250] [DEBUG] logs\debug.log - Result of conversion: 0.69
+[2018-07-18T17:25:09.256] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Todd £0.69
+@Tue Jul 30 2013 00:00:00 GMT+0100 message: Beers
+[2018-07-18T17:25:09.256] [DEBUG] logs\debug.log - Deducting 69 from Ben B
+[2018-07-18T17:25:09.257] [DEBUG] logs\debug.log - Adding 69 to Todd
+[2018-07-18T17:25:09.258] [DEBUG] logs\debug.log - Converting 102 to string
+[2018-07-18T17:25:09.259] [DEBUG] logs\debug.log - Result of conversion: 1.2
+[2018-07-18T17:25:09.260] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Sam N £1.2
+@Wed Jul 31 2013 00:00:00 GMT+0100 message: Pokemon Training
+[2018-07-18T17:25:09.260] [DEBUG] logs\debug.log - Deducting 102 from Dan W
+[2018-07-18T17:25:09.261] [DEBUG] logs\debug.log - Adding 102 to Sam N
+[2018-07-18T17:25:09.262] [DEBUG] logs\debug.log - Converting 1118 to string
+[2018-07-18T17:25:09.262] [DEBUG] logs\debug.log - Result of conversion: 11.18
+[2018-07-18T17:25:09.270] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Todd £11.18
+@Thu Aug 01 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.271] [DEBUG] logs\debug.log - Deducting 1118 from Ben B
+[2018-07-18T17:25:09.272] [DEBUG] logs\debug.log - Adding 1118 to Todd
+[2018-07-18T17:25:09.277] [DEBUG] logs\debug.log - Converting 1134 to string
+[2018-07-18T17:25:09.278] [DEBUG] logs\debug.log - Result of conversion: 11.34
+[2018-07-18T17:25:09.279] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Tim L £11.34
+@Mon Aug 05 2013 00:00:00 GMT+0100 message: Jenkins Fees
+[2018-07-18T17:25:09.280] [DEBUG] logs\debug.log - Deducting 1134 from Laura B
+[2018-07-18T17:25:09.281] [DEBUG] logs\debug.log - Adding 1134 to Tim L
+[2018-07-18T17:25:09.287] [DEBUG] logs\debug.log - Converting 1078 to string
+[2018-07-18T17:25:09.288] [DEBUG] logs\debug.log - Result of conversion: 10.78
+[2018-07-18T17:25:09.289] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Rob S £10.78
+@Wed Aug 07 2013 00:00:00 GMT+0100 message: Poker Winnings
+[2018-07-18T17:25:09.289] [DEBUG] logs\debug.log - Deducting 1078 from Jon A
+[2018-07-18T17:25:09.290] [DEBUG] logs\debug.log - Adding 1078 to Rob S
+[2018-07-18T17:25:09.291] [DEBUG] logs\debug.log - Converting 1007 to string
+[2018-07-18T17:25:09.292] [DEBUG] logs\debug.log - Result of conversion: 10.7
+[2018-07-18T17:25:09.293] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Stephen S £10.7
+@Thu Aug 08 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.299] [DEBUG] logs\debug.log - Deducting 1007 from Gergana I
+[2018-07-18T17:25:09.300] [DEBUG] logs\debug.log - Adding 1007 to Stephen S
+[2018-07-18T17:25:09.301] [DEBUG] logs\debug.log - Converting 727 to string
+[2018-07-18T17:25:09.301] [DEBUG] logs\debug.log - Result of conversion: 7.27
+[2018-07-18T17:25:09.302] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Chris W £7.27
+@Sun Aug 11 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.307] [DEBUG] logs\debug.log - Deducting 727 from Stephen S
+[2018-07-18T17:25:09.308] [DEBUG] logs\debug.log - Adding 727 to Chris W
+[2018-07-18T17:25:09.309] [DEBUG] logs\debug.log - Converting 996 to string
+[2018-07-18T17:25:09.310] [DEBUG] logs\debug.log - Result of conversion: 9.96
+[2018-07-18T17:25:09.315] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Chris W £9.96
+@Tue Aug 13 2013 00:00:00 GMT+0100 message: Sandcastle Help
+[2018-07-18T17:25:09.316] [DEBUG] logs\debug.log - Deducting 996 from Gergana I
+[2018-07-18T17:25:09.317] [DEBUG] logs\debug.log - Adding 996 to Chris W
+[2018-07-18T17:25:09.318] [DEBUG] logs\debug.log - Converting 1091 to string
+[2018-07-18T17:25:09.323] [DEBUG] logs\debug.log - Result of conversion: 10.91
+[2018-07-18T17:25:09.330] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Ben B £10.91
+@Fri Aug 16 2013 00:00:00 GMT+0100 message: Misc Morale
+[2018-07-18T17:25:09.331] [DEBUG] logs\debug.log - Deducting 1091 from Gergana I
+[2018-07-18T17:25:09.332] [DEBUG] logs\debug.log - Adding 1091 to Ben B
+[2018-07-18T17:25:09.332] [DEBUG] logs\debug.log - Converting 751 to string
+[2018-07-18T17:25:09.333] [DEBUG] logs\debug.log - Result of conversion: 7.51
+[2018-07-18T17:25:09.334] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Sam N £7.51
+@Mon Aug 19 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:09.335] [DEBUG] logs\debug.log - Deducting 751 from Tim L
+[2018-07-18T17:25:09.336] [DEBUG] logs\debug.log - Adding 751 to Sam N
+[2018-07-18T17:25:09.337] [DEBUG] logs\debug.log - Converting 705 to string
+[2018-07-18T17:25:09.343] [DEBUG] logs\debug.log - Result of conversion: 7.5
+[2018-07-18T17:25:09.344] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Laura B £7.5
+@Thu Aug 22 2013 00:00:00 GMT+0100 message: Misc Morale
+[2018-07-18T17:25:09.345] [DEBUG] logs\debug.log - Deducting 705 from Sarah T
+[2018-07-18T17:25:09.346] [DEBUG] logs\debug.log - Adding 705 to Laura B
+[2018-07-18T17:25:09.347] [DEBUG] logs\debug.log - Converting 6 to string
+[2018-07-18T17:25:09.348] [DEBUG] logs\debug.log - Result of conversion: 0.6
+[2018-07-18T17:25:09.349] [DEBUG] logs\debug.log - Started processing transaction Todd -> Sam N £0.6
+@Fri Aug 23 2013 00:00:00 GMT+0100 message: Beers
+[2018-07-18T17:25:09.350] [DEBUG] logs\debug.log - Deducting 6 from Todd
+[2018-07-18T17:25:09.350] [DEBUG] logs\debug.log - Adding 6 to Sam N
+[2018-07-18T17:25:09.351] [DEBUG] logs\debug.log - Converting 385 to string
+[2018-07-18T17:25:09.352] [DEBUG] logs\debug.log - Result of conversion: 3.85
+[2018-07-18T17:25:09.360] [DEBUG] logs\debug.log - Started processing transaction Todd -> Rob S £3.85
+@Mon Aug 26 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.361] [DEBUG] logs\debug.log - Deducting 385 from Todd
+[2018-07-18T17:25:09.367] [DEBUG] logs\debug.log - Adding 385 to Rob S
+[2018-07-18T17:25:09.368] [DEBUG] logs\debug.log - Converting 545 to string
+[2018-07-18T17:25:09.368] [DEBUG] logs\debug.log - Result of conversion: 5.45
+[2018-07-18T17:25:09.369] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Gergana I £5.45
+@Tue Aug 27 2013 00:00:00 GMT+0100 message: Fantasy Football
+[2018-07-18T17:25:09.370] [DEBUG] logs\debug.log - Deducting 545 from Sam N
+[2018-07-18T17:25:09.371] [DEBUG] logs\debug.log - Adding 545 to Gergana I
+[2018-07-18T17:25:09.377] [DEBUG] logs\debug.log - Converting 1113 to string
+[2018-07-18T17:25:09.383] [DEBUG] logs\debug.log - Result of conversion: 11.13
+[2018-07-18T17:25:09.384] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Chris W £11.13
+@Wed Aug 28 2013 00:00:00 GMT+0100 message: Jenkins Fees
+[2018-07-18T17:25:09.385] [DEBUG] logs\debug.log - Deducting 1113 from Rob S
+[2018-07-18T17:25:09.385] [DEBUG] logs\debug.log - Adding 1113 to Chris W
+[2018-07-18T17:25:09.386] [DEBUG] logs\debug.log - Converting 554 to string
+[2018-07-18T17:25:09.387] [DEBUG] logs\debug.log - Result of conversion: 5.54
+[2018-07-18T17:25:09.388] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Laura B £5.54
+@Sat Aug 31 2013 00:00:00 GMT+0100 message: Pokemon Training
+[2018-07-18T17:25:09.394] [DEBUG] logs\debug.log - Deducting 554 from Gergana I
+[2018-07-18T17:25:09.395] [DEBUG] logs\debug.log - Adding 554 to Laura B
+[2018-07-18T17:25:09.396] [DEBUG] logs\debug.log - Converting 948 to string
+[2018-07-18T17:25:09.396] [DEBUG] logs\debug.log - Result of conversion: 9.48
+[2018-07-18T17:25:09.402] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Ben B £9.48
+@Tue Sep 03 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:09.402] [DEBUG] logs\debug.log - Deducting 948 from Chris W
+[2018-07-18T17:25:09.409] [DEBUG] logs\debug.log - Adding 948 to Ben B
+[2018-07-18T17:25:09.410] [DEBUG] logs\debug.log - Converting 1058 to string
+[2018-07-18T17:25:09.411] [DEBUG] logs\debug.log - Result of conversion: 10.58
+[2018-07-18T17:25:09.412] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Tim L £10.58
+@Thu Sep 05 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.412] [DEBUG] logs\debug.log - Deducting 1058 from Dan W
+[2018-07-18T17:25:09.413] [DEBUG] logs\debug.log - Adding 1058 to Tim L
+[2018-07-18T17:25:09.414] [DEBUG] logs\debug.log - Converting 332 to string
+[2018-07-18T17:25:09.415] [DEBUG] logs\debug.log - Result of conversion: 3.32
+[2018-07-18T17:25:09.416] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Laura B £3.32
+@Sat Sep 07 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.416] [DEBUG] logs\debug.log - Deducting 332 from Rob S
+[2018-07-18T17:25:09.417] [DEBUG] logs\debug.log - Adding 332 to Laura B
+[2018-07-18T17:25:09.418] [DEBUG] logs\debug.log - Converting 868 to string
+[2018-07-18T17:25:09.418] [DEBUG] logs\debug.log - Result of conversion: 8.68
+[2018-07-18T17:25:09.424] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Ben B £8.68
+@Tue Sep 10 2013 00:00:00 GMT+0100 message: Misc Morale
+[2018-07-18T17:25:09.433] [DEBUG] logs\debug.log - Deducting 868 from Tim L
+[2018-07-18T17:25:09.438] [DEBUG] logs\debug.log - Adding 868 to Ben B
+[2018-07-18T17:25:09.447] [DEBUG] logs\debug.log - Converting 253 to string
+[2018-07-18T17:25:09.449] [DEBUG] logs\debug.log - Result of conversion: 2.53
+[2018-07-18T17:25:09.452] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Laura B £2.53
+@Thu Sep 12 2013 00:00:00 GMT+0100 message: Lego Assistance
+[2018-07-18T17:25:09.459] [DEBUG] logs\debug.log - Deducting 253 from Tim L
+[2018-07-18T17:25:09.468] [DEBUG] logs\debug.log - Adding 253 to Laura B
+[2018-07-18T17:25:09.469] [DEBUG] logs\debug.log - Converting 196 to string
+[2018-07-18T17:25:09.470] [DEBUG] logs\debug.log - Result of conversion: 1.96
+[2018-07-18T17:25:09.471] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Laura B £1.96
+@Fri Sep 13 2013 00:00:00 GMT+0100 message: Services Rendered
+[2018-07-18T17:25:09.471] [DEBUG] logs\debug.log - Deducting 196 from Stephen S
+[2018-07-18T17:25:09.472] [DEBUG] logs\debug.log - Adding 196 to Laura B
+[2018-07-18T17:25:09.473] [DEBUG] logs\debug.log - Converting 281 to string
+[2018-07-18T17:25:09.473] [DEBUG] logs\debug.log - Result of conversion: 2.81
+[2018-07-18T17:25:09.474] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Rob S £2.81
+@Mon Sep 16 2013 00:00:00 GMT+0100 message: Beers
+[2018-07-18T17:25:09.481] [DEBUG] logs\debug.log - Deducting 281 from Sam N
+[2018-07-18T17:25:09.482] [DEBUG] logs\debug.log - Adding 281 to Rob S
+[2018-07-18T17:25:09.482] [DEBUG] logs\debug.log - Converting 552 to string
+[2018-07-18T17:25:09.483] [DEBUG] logs\debug.log - Result of conversion: 5.52
+[2018-07-18T17:25:09.484] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Gergana I £5.52
+@Thu Sep 19 2013 00:00:00 GMT+0100 message: Beers
+[2018-07-18T17:25:09.485] [DEBUG] logs\debug.log - Deducting 552 from Ben B
+[2018-07-18T17:25:09.491] [DEBUG] logs\debug.log - Adding 552 to Gergana I
+[2018-07-18T17:25:09.492] [DEBUG] logs\debug.log - Converting 928 to string
+[2018-07-18T17:25:09.497] [DEBUG] logs\debug.log - Result of conversion: 9.28
+[2018-07-18T17:25:09.498] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Dan W £9.28
+@Sun Sep 22 2013 00:00:00 GMT+0100 message: Sandbox Help
+[2018-07-18T17:25:09.499] [DEBUG] logs\debug.log - Deducting 928 from Stephen S
+[2018-07-18T17:25:09.500] [DEBUG] logs\debug.log - Adding 928 to Dan W
+[2018-07-18T17:25:09.500] [DEBUG] logs\debug.log - Converting 513 to string
+[2018-07-18T17:25:09.501] [DEBUG] logs\debug.log - Result of conversion: 5.13
+[2018-07-18T17:25:09.507] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Dan W £5.13
+@Mon Sep 23 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:09.508] [DEBUG] logs\debug.log - Deducting 513 from Stephen S
+[2018-07-18T17:25:09.508] [DEBUG] logs\debug.log - Adding 513 to Dan W
+[2018-07-18T17:25:09.514] [DEBUG] logs\debug.log - Converting 705 to string
+[2018-07-18T17:25:09.515] [DEBUG] logs\debug.log - Result of conversion: 7.5
+[2018-07-18T17:25:09.521] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Sarah T £7.5
+@Fri Sep 27 2013 00:00:00 GMT+0100 message: Stationary Items
+[2018-07-18T17:25:09.522] [DEBUG] logs\debug.log - Deducting 705 from Chris W
+[2018-07-18T17:25:09.523] [DEBUG] logs\debug.log - Adding 705 to Sarah T
+[2018-07-18T17:25:09.523] [DEBUG] logs\debug.log - Converting 1013 to string
+[2018-07-18T17:25:09.529] [DEBUG] logs\debug.log - Result of conversion: 10.13
+[2018-07-18T17:25:09.530] [DEBUG] logs\debug.log - Started processing transaction Todd -> Tim L £10.13
+@Tue Oct 01 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:09.531] [DEBUG] logs\debug.log - Deducting 1013 from Todd
+[2018-07-18T17:25:09.532] [DEBUG] logs\debug.log - Adding 1013 to Tim L
+[2018-07-18T17:25:09.533] [DEBUG] logs\debug.log - Converting 596 to string
+[2018-07-18T17:25:09.533] [DEBUG] logs\debug.log - Result of conversion: 5.96
+[2018-07-18T17:25:09.534] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Ben B £5.96
+@Fri Oct 04 2013 00:00:00 GMT+0100 message: Coffee
+[2018-07-18T17:25:09.535] [DEBUG] logs\debug.log - Deducting 596 from Chris W
+[2018-07-18T17:25:09.536] [DEBUG] logs\debug.log - Adding 596 to Ben B
+[2018-07-18T17:25:09.536] [DEBUG] logs\debug.log - Converting 533 to string
+[2018-07-18T17:25:09.537] [DEBUG] logs\debug.log - Result of conversion: 5.33
+[2018-07-18T17:25:09.538] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Laura B £5.33
+@Tue Oct 08 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.544] [DEBUG] logs\debug.log - Deducting 533 from Gergana I
+[2018-07-18T17:25:09.545] [DEBUG] logs\debug.log - Adding 533 to Laura B
+[2018-07-18T17:25:09.546] [DEBUG] logs\debug.log - Converting 1062 to string
+[2018-07-18T17:25:09.551] [DEBUG] logs\debug.log - Result of conversion: 10.62
+[2018-07-18T17:25:09.552] [DEBUG] logs\debug.log - Started processing transaction Todd -> Rob S £10.62
+@Fri Oct 11 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.553] [DEBUG] logs\debug.log - Deducting 1062 from Todd
+[2018-07-18T17:25:09.553] [DEBUG] logs\debug.log - Adding 1062 to Rob S
+[2018-07-18T17:25:09.554] [DEBUG] logs\debug.log - Converting 778 to string
+[2018-07-18T17:25:09.560] [DEBUG] logs\debug.log - Result of conversion: 7.78
+[2018-07-18T17:25:09.561] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Chris W £7.78
+@Sat Oct 12 2013 00:00:00 GMT+0100 message: Jenkins Fees
+[2018-07-18T17:25:09.562] [DEBUG] logs\debug.log - Deducting 778 from Ben B
+[2018-07-18T17:25:09.562] [DEBUG] logs\debug.log - Adding 778 to Chris W
+[2018-07-18T17:25:09.563] [DEBUG] logs\debug.log - Converting 571 to string
+[2018-07-18T17:25:09.564] [DEBUG] logs\debug.log - Result of conversion: 5.71
+[2018-07-18T17:25:09.565] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Rob S £5.71
+@Wed Oct 16 2013 00:00:00 GMT+0100 message: Arcade Social
+[2018-07-18T17:25:09.570] [DEBUG] logs\debug.log - Deducting 571 from Laura B
+[2018-07-18T17:25:09.571] [DEBUG] logs\debug.log - Adding 571 to Rob S
+[2018-07-18T17:25:09.572] [DEBUG] logs\debug.log - Converting 771 to string
+[2018-07-18T17:25:09.578] [DEBUG] logs\debug.log - Result of conversion: 7.71
+[2018-07-18T17:25:09.579] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Jon A £7.71
+@Thu Oct 17 2013 00:00:00 GMT+0100 message: Arcade Social
+[2018-07-18T17:25:09.584] [DEBUG] logs\debug.log - Deducting 771 from Laura B
+[2018-07-18T17:25:09.585] [DEBUG] logs\debug.log - Adding 771 to Jon A
+[2018-07-18T17:25:09.586] [DEBUG] logs\debug.log - Converting 1006 to string
+[2018-07-18T17:25:09.587] [DEBUG] logs\debug.log - Result of conversion: 10.6
+[2018-07-18T17:25:09.593] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Sarah T £10.6
+@Sun Oct 20 2013 00:00:00 GMT+0100 message: Lunch
+[2018-07-18T17:25:09.594] [DEBUG] logs\debug.log - Deducting 1006 from Sam N
+[2018-07-18T17:25:09.596] [DEBUG] logs\debug.log - Adding 1006 to Sarah T
+[2018-07-18T17:25:09.601] [DEBUG] logs\debug.log - Converting 342 to string
+[2018-07-18T17:25:09.602] [DEBUG] logs\debug.log - Result of conversion: 3.42
+[2018-07-18T17:25:09.603] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Todd £3.42
+@Wed Oct 23 2013 00:00:00 GMT+0100 message: Lego Assistance
+[2018-07-18T17:25:09.609] [DEBUG] logs\debug.log - Deducting 342 from Chris W
+[2018-07-18T17:25:09.610] [DEBUG] logs\debug.log - Adding 342 to Todd
+[2018-07-18T17:25:09.611] [DEBUG] logs\debug.log - Converting 689 to string
+[2018-07-18T17:25:09.616] [DEBUG] logs\debug.log - Result of conversion: 6.89
+[2018-07-18T17:25:09.617] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Dan W £6.89
+@Sun Oct 27 2013 00:00:00 GMT+0100 message: Misc Morale
+[2018-07-18T17:25:09.618] [DEBUG] logs\debug.log - Deducting 689 from Sam N
+[2018-07-18T17:25:09.618] [DEBUG] logs\debug.log - Adding 689 to Dan W
+[2018-07-18T17:25:09.624] [DEBUG] logs\debug.log - Converting 999 to string
+[2018-07-18T17:25:09.625] [DEBUG] logs\debug.log - Result of conversion: 9.99
+[2018-07-18T17:25:09.625] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Rob S £9.99
+@Tue Oct 29 2013 00:00:00 GMT+0000 message: Misc Morale
+[2018-07-18T17:25:09.626] [DEBUG] logs\debug.log - Deducting 999 from Dan W
+[2018-07-18T17:25:09.627] [DEBUG] logs\debug.log - Adding 999 to Rob S
+[2018-07-18T17:25:09.628] [DEBUG] logs\debug.log - Converting 701 to string
+[2018-07-18T17:25:09.629] [DEBUG] logs\debug.log - Result of conversion: 7.1
+[2018-07-18T17:25:09.630] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Laura B £7.1
+@Fri Nov 01 2013 00:00:00 GMT+0000 message: Lunch
+[2018-07-18T17:25:09.630] [DEBUG] logs\debug.log - Deducting 701 from Sarah T
+[2018-07-18T17:25:09.631] [DEBUG] logs\debug.log - Adding 701 to Laura B
+[2018-07-18T17:25:09.636] [DEBUG] logs\debug.log - Converting 803 to string
+[2018-07-18T17:25:09.637] [DEBUG] logs\debug.log - Result of conversion: 8.3
+[2018-07-18T17:25:09.638] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Rob S £8.3
+@Tue Nov 05 2013 00:00:00 GMT+0000 message: Spline Reticulation
+[2018-07-18T17:25:09.644] [DEBUG] logs\debug.log - Deducting 803 from Stephen S
+[2018-07-18T17:25:09.645] [DEBUG] logs\debug.log - Adding 803 to Rob S
+[2018-07-18T17:25:09.646] [DEBUG] logs\debug.log - Converting 1009 to string
+[2018-07-18T17:25:09.646] [DEBUG] logs\debug.log - Result of conversion: 10.9
+[2018-07-18T17:25:09.647] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sarah T £10.9
+@Thu Nov 07 2013 00:00:00 GMT+0000 message: Lunch
+[2018-07-18T17:25:09.656] [DEBUG] logs\debug.log - Deducting 1009 from Ben B
+[2018-07-18T17:25:09.657] [DEBUG] logs\debug.log - Adding 1009 to Sarah T
+[2018-07-18T17:25:09.658] [DEBUG] logs\debug.log - Converting 1100 to string
+[2018-07-18T17:25:09.666] [DEBUG] logs\debug.log - Result of conversion: 11.0
+[2018-07-18T17:25:09.667] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Tim L £11.0
+@Sat Nov 09 2013 00:00:00 GMT+0000 message: Stationary Items
+[2018-07-18T17:25:09.673] [DEBUG] logs\debug.log - Deducting 1100 from Rob S
+[2018-07-18T17:25:09.674] [DEBUG] logs\debug.log - Adding 1100 to Tim L
+[2018-07-18T17:25:09.680] [DEBUG] logs\debug.log - Converting 125 to string
+[2018-07-18T17:25:09.686] [DEBUG] logs\debug.log - Result of conversion: 1.25
+[2018-07-18T17:25:09.687] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Sam N £1.25
+@Tue Nov 12 2013 00:00:00 GMT+0000 message: Misc Morale
+[2018-07-18T17:25:09.693] [DEBUG] logs\debug.log - Deducting 125 from Rob S
+[2018-07-18T17:25:09.701] [DEBUG] logs\debug.log - Adding 125 to Sam N
+[2018-07-18T17:25:09.702] [DEBUG] logs\debug.log - Converting 913 to string
+[2018-07-18T17:25:09.703] [DEBUG] logs\debug.log - Result of conversion: 9.13
+[2018-07-18T17:25:09.708] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Tim L £9.13
+@Fri Nov 15 2013 00:00:00 GMT+0000 message: Sandbox Help
+[2018-07-18T17:25:09.709] [DEBUG] logs\debug.log - Deducting 913 from Jon A
+[2018-07-18T17:25:09.710] [DEBUG] logs\debug.log - Adding 913 to Tim L
+[2018-07-18T17:25:09.710] [DEBUG] logs\debug.log - Converting 904 to string
+[2018-07-18T17:25:09.716] [DEBUG] logs\debug.log - Result of conversion: 9.4
+[2018-07-18T17:25:09.717] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Dan W £9.4
+@Mon Nov 18 2013 00:00:00 GMT+0000 message: Services Rendered
+[2018-07-18T17:25:09.717] [DEBUG] logs\debug.log - Deducting 904 from Rob S
+[2018-07-18T17:25:09.718] [DEBUG] logs\debug.log - Adding 904 to Dan W
+[2018-07-18T17:25:09.719] [DEBUG] logs\debug.log - Converting 253 to string
+[2018-07-18T17:25:09.719] [DEBUG] logs\debug.log - Result of conversion: 2.53
+[2018-07-18T17:25:09.720] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Chris W £2.53
+@Thu Nov 21 2013 00:00:00 GMT+0000 message: Misc Morale
+[2018-07-18T17:25:09.729] [DEBUG] logs\debug.log - Deducting 253 from Stephen S
+[2018-07-18T17:25:09.730] [DEBUG] logs\debug.log - Adding 253 to Chris W
+[2018-07-18T17:25:09.731] [DEBUG] logs\debug.log - Converting 759 to string
+[2018-07-18T17:25:09.731] [DEBUG] logs\debug.log - Result of conversion: 7.59
+[2018-07-18T17:25:09.732] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Sam N £7.59
+@Sun Nov 24 2013 00:00:00 GMT+0000 message: Rails Consultancy
+[2018-07-18T17:25:09.733] [DEBUG] logs\debug.log - Deducting 759 from Tim L
+[2018-07-18T17:25:09.733] [DEBUG] logs\debug.log - Adding 759 to Sam N
+[2018-07-18T17:25:09.739] [DEBUG] logs\debug.log - Converting 215 to string
+[2018-07-18T17:25:09.740] [DEBUG] logs\debug.log - Result of conversion: 2.15
+[2018-07-18T17:25:09.741] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Todd £2.15
+@Thu Nov 28 2013 00:00:00 GMT+0000 message: Golf Bets
+[2018-07-18T17:25:09.742] [DEBUG] logs\debug.log - Deducting 215 from Ben B
+[2018-07-18T17:25:09.742] [DEBUG] logs\debug.log - Adding 215 to Todd
+[2018-07-18T17:25:09.743] [DEBUG] logs\debug.log - Converting 401 to string
+[2018-07-18T17:25:09.744] [DEBUG] logs\debug.log - Result of conversion: 4.1
+[2018-07-18T17:25:09.744] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sam N £4.1
+@Fri Nov 29 2013 00:00:00 GMT+0000 message: Pokemon Training
+[2018-07-18T17:25:09.745] [DEBUG] logs\debug.log - Deducting 401 from Ben B
+[2018-07-18T17:25:09.746] [DEBUG] logs\debug.log - Adding 401 to Sam N
+[2018-07-18T17:25:09.746] [DEBUG] logs\debug.log - Converting 635 to string
+[2018-07-18T17:25:09.752] [DEBUG] logs\debug.log - Result of conversion: 6.35
+[2018-07-18T17:25:09.753] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Sarah T £6.35
+@Sun Dec 01 2013 00:00:00 GMT+0000 message: Lunch
+[2018-07-18T17:25:09.754] [DEBUG] logs\debug.log - Deducting 635 from Sam N
+[2018-07-18T17:25:09.755] [DEBUG] logs\debug.log - Adding 635 to Sarah T
+[2018-07-18T17:25:09.755] [DEBUG] logs\debug.log - Converting 1019 to string
+[2018-07-18T17:25:09.756] [DEBUG] logs\debug.log - Result of conversion: 10.19
+[2018-07-18T17:25:09.757] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Todd £10.19
+@Mon Dec 02 2013 00:00:00 GMT+0000 message: Misc Morale
+[2018-07-18T17:25:09.766] [DEBUG] logs\debug.log - Deducting 1019 from Jon A
+[2018-07-18T17:25:09.766] [DEBUG] logs\debug.log - Adding 1019 to Todd
+[2018-07-18T17:25:09.767] [DEBUG] logs\debug.log - Converting 900 to string
+[2018-07-18T17:25:09.768] [DEBUG] logs\debug.log - Result of conversion: 9.0
+[2018-07-18T17:25:09.769] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sam N £9.0
+@Thu Dec 05 2013 00:00:00 GMT+0000 message: Coffee
+[2018-07-18T17:25:09.769] [DEBUG] logs\debug.log - Deducting 900 from Ben B
+[2018-07-18T17:25:09.770] [DEBUG] logs\debug.log - Adding 900 to Sam N
+[2018-07-18T17:25:09.771] [DEBUG] logs\debug.log - Converting 939 to string
+[2018-07-18T17:25:09.772] [DEBUG] logs\debug.log - Result of conversion: 9.39
+[2018-07-18T17:25:09.773] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Tim L £9.39
+@Mon Dec 09 2013 00:00:00 GMT+0000 message: Rails Consultancy
+[2018-07-18T17:25:09.773] [DEBUG] logs\debug.log - Deducting 939 from Laura B
+[2018-07-18T17:25:09.774] [DEBUG] logs\debug.log - Adding 939 to Tim L
+[2018-07-18T17:25:09.775] [DEBUG] logs\debug.log - Converting 1144 to string
+[2018-07-18T17:25:09.776] [DEBUG] logs\debug.log - Result of conversion: 11.44
+[2018-07-18T17:25:09.776] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Tim L £11.44
+@Thu Dec 12 2013 00:00:00 GMT+0000 message: Coffee
+[2018-07-18T17:25:09.777] [DEBUG] logs\debug.log - Deducting 1144 from Chris W
+[2018-07-18T17:25:09.778] [DEBUG] logs\debug.log - Adding 1144 to Tim L
+[2018-07-18T17:25:09.778] [DEBUG] logs\debug.log - Converting 919 to string
+[2018-07-18T17:25:09.779] [DEBUG] logs\debug.log - Result of conversion: 9.19
+[2018-07-18T17:25:09.785] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Tim L £9.19
+@Fri Dec 13 2013 00:00:00 GMT+0000 message: Misc Morale
+[2018-07-18T17:25:09.786] [DEBUG] logs\debug.log - Deducting 919 from Rob S
+[2018-07-18T17:25:09.786] [DEBUG] logs\debug.log - Adding 919 to Tim L
+[2018-07-18T17:25:09.792] [DEBUG] logs\debug.log - Converting 872 to string
+[2018-07-18T17:25:09.793] [DEBUG] logs\debug.log - Result of conversion: 8.72
+[2018-07-18T17:25:09.795] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Ben B £8.72
+@Tue Dec 17 2013 00:00:00 GMT+0000 message: Pokemon Training
+[2018-07-18T17:25:09.796] [DEBUG] logs\debug.log - Deducting 872 from Sarah T
+[2018-07-18T17:25:09.796] [DEBUG] logs\debug.log - Adding 872 to Ben B
+[2018-07-18T17:25:09.797] [DEBUG] logs\debug.log - Converting 872 to string
+[2018-07-18T17:25:09.798] [DEBUG] logs\debug.log - Result of conversion: 8.72
+[2018-07-18T17:25:09.804] [DEBUG] logs\debug.log - Started processing transaction Todd -> Ben B £8.72
+@Thu Dec 19 2013 00:00:00 GMT+0000 message: Pokemon Training
+[2018-07-18T17:25:09.805] [DEBUG] logs\debug.log - Deducting 872 from Todd
+[2018-07-18T17:25:09.805] [DEBUG] logs\debug.log - Adding 872 to Ben B
+[2018-07-18T17:25:09.806] [DEBUG] logs\debug.log - Converting 132 to string
+[2018-07-18T17:25:09.807] [DEBUG] logs\debug.log - Result of conversion: 1.32
+[2018-07-18T17:25:09.808] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Sam N £1.32
+@Sun Dec 22 2013 00:00:00 GMT+0000 message: Lunch
+[2018-07-18T17:25:09.809] [DEBUG] logs\debug.log - Deducting 132 from Gergana I
+[2018-07-18T17:25:09.810] [DEBUG] logs\debug.log - Adding 132 to Sam N
+[2018-07-18T17:25:09.811] [DEBUG] logs\debug.log - Converting 1014 to string
+[2018-07-18T17:25:09.816] [DEBUG] logs\debug.log - Result of conversion: 10.14
+[2018-07-18T17:25:09.817] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Rob S £10.14
+@Tue Dec 24 2013 00:00:00 GMT+0000 message: Snooker Night
+[2018-07-18T17:25:09.818] [DEBUG] logs\debug.log - Deducting 1014 from Ben B
+[2018-07-18T17:25:09.819] [DEBUG] logs\debug.log - Adding 1014 to Rob S
+[2018-07-18T17:25:09.819] [DEBUG] logs\debug.log - Converting 434 to string
+[2018-07-18T17:25:09.820] [DEBUG] logs\debug.log - Result of conversion: 4.34
+[2018-07-18T17:25:09.821] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Todd £4.34
+@Fri Dec 27 2013 00:00:00 GMT+0000 message: Spline Reticulation
+[2018-07-18T17:25:09.822] [DEBUG] logs\debug.log - Deducting 434 from Stephen S
+[2018-07-18T17:25:09.822] [DEBUG] logs\debug.log - Adding 434 to Todd
+[2018-07-18T17:25:09.823] [DEBUG] logs\debug.log - Converting 599 to string
+[2018-07-18T17:25:09.824] [DEBUG] logs\debug.log - Result of conversion: 5.99
+[2018-07-18T17:25:09.825] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Chris W £5.99
+@Sat Dec 28 2013 00:00:00 GMT+0000 message: Beers
+[2018-07-18T17:25:09.831] [DEBUG] logs\debug.log - Deducting 599 from Jon A
+[2018-07-18T17:25:09.832] [DEBUG] logs\debug.log - Adding 599 to Chris W
+[2018-07-18T17:25:09.833] [DEBUG] logs\debug.log - Converting 254 to string
+[2018-07-18T17:25:09.833] [DEBUG] logs\debug.log - Result of conversion: 2.54
+[2018-07-18T17:25:09.834] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Sam N £2.54
+@Mon Dec 30 2013 00:00:00 GMT+0000 message: Misc Morale
+[2018-07-18T17:25:09.835] [DEBUG] logs\debug.log - Deducting 254 from Rob S
+[2018-07-18T17:25:09.836] [DEBUG] logs\debug.log - Adding 254 to Sam N
+[2018-07-18T17:25:09.842] [DEBUG] logs\debug.log - Transactions have been processed
+[2018-07-18T17:25:09.843] [DEBUG] logs\debug.log - Starting to print out users' info
+[2018-07-18T17:25:09.850] [DEBUG] logs\debug.log - Converting -2577 to string
+[2018-07-18T17:25:09.851] [DEBUG] logs\debug.log - Result of conversion: -25.77
+[2018-07-18T17:25:09.858] [DEBUG] logs\debug.log - Converting -3151 to string
+[2018-07-18T17:25:09.859] [DEBUG] logs\debug.log - Result of conversion: -31.51
+[2018-07-18T17:25:09.860] [DEBUG] logs\debug.log - Converting 2695 to string
+[2018-07-18T17:25:09.861] [DEBUG] logs\debug.log - Result of conversion: 26.95
+[2018-07-18T17:25:09.862] [DEBUG] logs\debug.log - Converting 2932 to string
+[2018-07-18T17:25:09.869] [DEBUG] logs\debug.log - Result of conversion: 29.32
+[2018-07-18T17:25:09.873] [DEBUG] logs\debug.log - Converting -7330 to string
+[2018-07-18T17:25:09.874] [DEBUG] logs\debug.log - Result of conversion: -73.30
+[2018-07-18T17:25:09.875] [DEBUG] logs\debug.log - Converting 8599 to string
+[2018-07-18T17:25:09.876] [DEBUG] logs\debug.log - Result of conversion: 85.99
+[2018-07-18T17:25:09.877] [DEBUG] logs\debug.log - Converting -2695 to string
+[2018-07-18T17:25:09.878] [DEBUG] logs\debug.log - Result of conversion: -26.95
+[2018-07-18T17:25:09.879] [DEBUG] logs\debug.log - Converting 2530 to string
+[2018-07-18T17:25:09.892] [DEBUG] logs\debug.log - Result of conversion: 25.30
+[2018-07-18T17:25:09.893] [DEBUG] logs\debug.log - Converting 345 to string
+[2018-07-18T17:25:09.894] [DEBUG] logs\debug.log - Result of conversion: 3.45
+[2018-07-18T17:25:09.895] [DEBUG] logs\debug.log - Converting -1180 to string
+[2018-07-18T17:25:09.896] [DEBUG] logs\debug.log - Result of conversion: -11.80
+[2018-07-18T17:25:09.905] [DEBUG] logs\debug.log - Converting -2757 to string
+[2018-07-18T17:25:09.906] [DEBUG] logs\debug.log - Result of conversion: -27.57
+[2018-07-18T17:25:09.907] [DEBUG] logs\debug.log - Converting 2589 to string
+[2018-07-18T17:25:09.914] [DEBUG] logs\debug.log - Result of conversion: 25.89

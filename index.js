@@ -7,7 +7,7 @@ const moment = require('moment');
 const log4js = require('log4js');
 const logger = log4js.getLogger('logs\\debug.log');
 
-const fileName = `DodgyTransactions2015.csv`;
+const fileName = `Transactions2013.json`;
 
 // Logging config
 log4js.configure({
@@ -33,7 +33,13 @@ class Transaction {
         this.date = moment(dateString, 'DD/MM/YYYY');
 
         if (!this.date.isValid()) {
-            logger.warn(`Invaild date (or wrong format): ${dateString}`);
+            
+            // Try different fomrat (neccessary since also parsing JSON)
+            this.date = moment(dateString)
+            if (!this.date.isValid()) {
+                // If still not valid
+                logger.warn(`Invaild date (or wrong format): ${dateString}`);
+            }
         }
 
         this.from = from;
@@ -79,20 +85,50 @@ logger.debug(`User has entered operation mode: ${response}`);
 
 if (response === 'List All') {
     logger.debug('User input has been matched to List All');
-    const transactions = parseCSV(fileName);
+    const transactions = loadDocument(fileName);
     getAllUsers(transactions);
 
 } else if (response.substring(0, 5) === 'List ') {
     logger.debug('User input has been mathced to List [NAME]');
     const userName = response.substring(5); 
     logger.debug(`User has inputted name: ${userName}`);
-    const transactions = parseCSV(fileName);
+    const transactions = loadDocument(fileName);
     getUser(userName, transactions);
 
 } else {
     logger.debug('User input has not been recognized');
     console.log('Wrong mode of operation');
 }
+
+function loadDocument(fileName) {
+    logger.debug(`Trying to load file: ${fileName}`);
+
+    // Reading json file to string
+    let rawFile;
+    try {
+        rawFile = fs.readFileSync(fileName, 'utf8');
+    } catch (err) {
+        logger.error(`Could not open ${fileName}; error message:`);
+        logger.error(`${err.message}`);
+        return null;
+    }
+
+    if (fileName.substr(-3) === 'csv') {
+        logger.debug('CSV format detected');
+        return parseCSV(rawFile);
+    }
+
+    if (fileName.substr(-4) === 'json') {
+        logger.debug('JSON format detected');
+        return parseJSON(rawFile);    
+    }
+
+    // Non-accepted format
+    logger.fatal('Not accepted file format')
+    return null;
+    
+}
+
 
 // Logs specific user's bank account
 function getUser(name, tranactions) {
@@ -120,40 +156,60 @@ function getAllUsers(transactions) {
     });
 }
 
-function parseCSV(fileName) {
 
-    logger.debug(`Starting to read CSV file; file name: ${fileName}`);
+function createTransactions(records) {
 
-    // Reading csv file to string
-    let rawFile;
-    try {
-        rawFile = fs.readFileSync(fileName, 'utf8');
-    } catch (err) {
-        logger.error(`Could not open ${fileName}; error message:`);
-        logger.error(`${err.message}`);
-        return null;
+    // Creating an array of tranactions
+    const len = records.length;
+    const transactions = [];
+    logger.debug(`Length of transactions (including header): ${len}`);
+
+    // Iterating from 1 (first row is header)
+    for (let i = 1; i < len; i++) {
+        transactions[i] = new Transaction(records[i]);
     }
 
+    logger.debug('Transactions have been successfully parsed');
+    return transactions;
+}
+
+function parseJSON(rawFile) {
+
     // Parsing to [[TRANSACTION-DETAILS], ...]
-    logger.debug('Parsing string');
+    logger.debug('Parsing string as JSON');
+
     try {
-        const records = parse(rawFile);
+        const records = JSON.parse(rawFile);
+        const recordsArray = [];
 
-        // Creating an array of tranactions
-        const len = records.length;
-        const transactions = [];
-        logger.debug(`Length of transactions (including header): ${len}`);
+        // Turning JSON ojects into arrays
+        for (let i = 0; i < records.length; i++) {
+            const record = records[i];
+            const currentArray = [record.Date, record.FromAccount, record.ToAccount, record.Narrative, record.Amount];
 
-        // Iterating from 1 (first row is header)
-        for (let i = 1; i < len; i++) {
-            transactions[i] = new Transaction(records[i]);
+            // Include the header row in CSV
+            recordsArray[i+1] = currentArray;
         }
-
-        logger.debug('Transactions have been successfully parsed');
-        return transactions;
+        
+        return createTransactions(recordsArray);
 
     } catch(err) {
-        logger.error(`Could not parse ${fileName} as CVS; error message:`);
+        logger.error(`Could not parse file as JSON; error message:`);
+        logger.error(`${err.message}`);
+        return null;
+    } 
+}
+
+function parseCSV(rawFile) {
+
+    // Parsing to [[TRANSACTION-DETAILS], ...]
+    logger.debug('Parsing string as CVS');
+    try {
+        const records = parse(rawFile);
+        return createTransactions(records);
+
+    } catch(err) {
+        logger.error(`Could not parse file as CVS; error message:`);
         logger.error(`${err.message}`);
         return null;
     }
@@ -212,7 +268,7 @@ function calculateAccounts(transactions) {
 // Converts money from "xx.yy" to xxyy (int)
 function convertMoneyStringToInt(amt) {
     logger.debug(`Converting ${amt} to int`);
-    const parts = amt.split(`.`);
+    const parts = String(amt).split(`.`);
     
     if (isNaN(amt)) {
         logger.error(`Trying to convert non-money format: ${amt}`);
