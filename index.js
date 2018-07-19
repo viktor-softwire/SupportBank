@@ -6,8 +6,9 @@ const parse = require('csv-parse/lib/sync');
 const moment = require('moment');
 const log4js = require('log4js');
 const logger = log4js.getLogger('logs\\debug.log');
+const XMLparser = require('xml-parser');
 
-const fileName = `Transactions2013.json`;
+const fileName = `Transactions2014.csv`;
 
 // Logging config
 log4js.configure({
@@ -33,9 +34,10 @@ class Transaction {
         this.date = moment(dateString, 'DD/MM/YYYY');
 
         if (!this.date.isValid()) {
-            
+
             // Try different fomrat (neccessary since also parsing JSON)
             this.date = moment(dateString)
+
             if (!this.date.isValid()) {
                 // If still not valid
                 logger.warn(`Invaild date (or wrong format): ${dateString}`);
@@ -46,6 +48,7 @@ class Transaction {
         this.to = to;
         this.narrative = narrative;
         this.ammount = convertMoneyStringToInt(amountStrig);
+    
     }
 }
 
@@ -78,7 +81,7 @@ class User {
 logger.debug('Application has started');
 
 console.log('Please select mode: ');
-console.log('(List All  or  List [Account])');
+console.log('(List All  or  List [Account]  or  Export File [FileName])');
 const response = readLine.prompt();
 
 logger.debug(`User has entered operation mode: ${response}`);
@@ -95,9 +98,33 @@ if (response === 'List All') {
     const transactions = loadDocument(fileName);
     getUser(userName, transactions);
 
+} else if (response.substring(0, 11) === 'Export File') {
+    logger.debug('User input has been mathced to Export File [NAME]');
+    const outputFileName = response.substring(11);
+    logger.debug(`User has inputted export file name ${outputFileName}`);
+    const transactions = loadDocument(fileName);
+    exportTransactions(transactions, outputFileName);
+
 } else {
     logger.debug('User input has not been recognized');
     console.log('Wrong mode of operation');
+}
+
+
+function exportTransactions(tranactions, outputFileName) {
+
+    logger.debug('Starting to write out transactions');
+    const outputJSON = JSON.stringify(tranactions.slice(1));    // Slicing needed because first entry is null (header line)
+    
+    try {
+        fs.writeFileSync(outputFileName, outputJSON, 'utf-8');
+        logger.debug('Transactions have been successfully written out');
+    } catch(err) {
+        logger.error(`Cannot write transactions to ${outputFileName}; error message: `);
+        logger.error(err);
+        console.log('Transactions could not have been written out');
+    }
+
 }
 
 function loadDocument(fileName) {
@@ -116,6 +143,11 @@ function loadDocument(fileName) {
     if (fileName.substr(-3) === 'csv') {
         logger.debug('CSV format detected');
         return parseCSV(rawFile);
+    }
+
+    if (fileName.substr(-3) === 'xml') {
+        logger.debug('XML format detected');
+        return parseXML(rawFile);
     }
 
     if (fileName.substr(-4) === 'json') {
@@ -147,7 +179,7 @@ function getUser(name, tranactions) {
 
 // Logs all users' bank accounts
 function getAllUsers(transactions) {
-    logger.debug(`Getting all users' info`);
+    logger.debug('Getting all users\' info');
     const users = calculateAccounts(transactions);
     
     logger.debug('Starting to print out users\' info');
@@ -194,7 +226,42 @@ function parseJSON(rawFile) {
         return createTransactions(recordsArray);
 
     } catch(err) {
-        logger.error(`Could not parse file as JSON; error message:`);
+        logger.error('Could not parse file as JSON; error message:');
+        logger.error(`${err.message}`);
+        return null;
+    } 
+}
+
+
+function parseXML(rawFile) {
+
+    logger.debug('Parsing string as JSON');
+
+    try {
+        // Turn it into JSON
+        const rawTransactionList = XMLparser(rawFile);
+        const rawObjects = rawTransactionList.root.children;
+
+        // Getting the array representation
+        const recordsArray = [];
+        for(let i = 0; i < rawObjects.length; i++) {
+            const rawRecord = rawObjects[i];
+            const recordDate = rawRecord.attributes.Date;
+            const recordNarrative = rawRecord.children[0].content;
+            const recordValue = rawRecord.children[1].content;
+            const recordParties = rawRecord.children[2].children;
+            const recordFrom = recordParties[0].content;
+            const recordTo = recordParties[1].content;
+
+            const currentArray = [recordDate, recordFrom, recordTo, recordNarrative, recordValue];
+            recordsArray[i] = currentArray;
+            
+        }
+
+        return createTransactions(recordsArray);
+    
+    } catch(err) {
+        logger.error('Could not parse file as JSON; error message:');
         logger.error(`${err.message}`);
         return null;
     } 
@@ -209,7 +276,7 @@ function parseCSV(rawFile) {
         return createTransactions(records);
 
     } catch(err) {
-        logger.error(`Could not parse file as CVS; error message:`);
+        logger.error('Could not parse file as CVS; error message:');
         logger.error(`${err.message}`);
         return null;
     }
@@ -267,7 +334,7 @@ function calculateAccounts(transactions) {
 
 // Converts money from "xx.yy" to xxyy (int)
 function convertMoneyStringToInt(amt) {
-    logger.debug(`Converting ${amt} to int`);
+    logger.trace(`Converting ${amt} to int`);
     const parts = String(amt).split(`.`);
     
     if (isNaN(amt)) {
@@ -282,7 +349,7 @@ function convertMoneyStringToInt(amt) {
     const pence = parts[1] || 0;
     const sign = (+parts[0]) < 0 ? -1 : 1;
     const result = (+parts[0])*100 + sign*(+pence);
-    logger.debug(`Result of conversion: ${result}`); 
+    logger.trace(`Result of conversion: ${result}`); 
     return result;
 }
 
@@ -290,7 +357,7 @@ function convertMoneyStringToInt(amt) {
 // Converts money from xxyy (int) to "xx.yy"
 function convertMoneyIntToString(amt) {
     
-    logger.debug(`Converting ${amt} to string`);
+    logger.trace(`Converting ${amt} to string`);
 
     if (!Number.isInteger(amt)) {
         logger.error(`Trying to convert a non-integer number: ${amt}`);
@@ -308,7 +375,7 @@ function convertMoneyIntToString(amt) {
 
     const pennies = amtToUse % 100;
     const pounds = (amtToUse - pennies) / 100;
-    logger.debug(`Result of conversion: ${sign}${pounds}.${pennies}`);
+    logger.trace(`Result of conversion: ${sign}${pounds}.${pennies}`);
     return `${sign}${pounds}.${pennies}`;
 
 

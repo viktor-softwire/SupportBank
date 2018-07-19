@@ -12,6 +12,8 @@
     "csv": "^3.1.0",
     "log4js": "^3.0.0",
     "moment": "^2.22.2",
-    "readline-sync": "^1.4.9"
+    "readline-sync": "^1.4.9",
+    "xml-parser": "^1.2.1",
+    "xml2js-parser": "^1.1.1"
   }
 }
