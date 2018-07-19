@@ -35,25 +35,25 @@ class Transaction {
         this.from = from;
         this.to = to;
         this.narrative = narrative;
-        this.ammount = moneyConverter.convertMoneyStringToInt(amountStrig);
+        this.ammount = moneyConverter.convertMoneyStringToInt(amountStrig, logger);
     
     }
 
 }
 
-function createTransactions(records) {
+function createTransactions(records, logger) {
 
     // Creating an array of tranactions
     const len = records.length;
     const transactions = [];
-    loggerMessages.logDebug(`Length of transactions (including header): ${len}`);
+    loggerMessages.logDebug(`Length of transactions (including header): ${len}`, logger);
 
     // Iterating from 1 (first row is header)
     for (let i = 1; i < len; i++) {
-        transactions[i] = new Transaction(records[i]);
+        transactions[i] = new Transaction(records[i], logger);
     }
 
-    loggerMessages.logDebug('Transactions have been successfully parsed');
+    loggerMessages.logDebug('Transactions have been successfully parsed', logger);
     return transactions;
 }
 

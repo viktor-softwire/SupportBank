@@ -7,7 +7,7 @@ const logger = log4js.getLogger('logs\\debug.log');
 const TransactionsLib = require('./TransactionsLib');
 const UsersLib = require('./UsersLib');
 const loadDocument = require('./loadDocument');
-const fileName = `Transactions2012.xml`;
+const fileName = `DodgyTransactions2015.csv`;
 
 // Logging config
 log4js.configure({
@@ -48,7 +48,7 @@ if (response === 'List All') {
     const outputFileName = response.substring(11);
     logger.debug(`User has inputted export file name ${outputFileName}`);
     const transactions = loadDocument(fileName, logger);
-    TransactionsLib.exportTransactions(transactions, outputFileName);
+    TransactionsLib.exportTransactions(transactions, outputFileName, logger);
 
 } else {
 

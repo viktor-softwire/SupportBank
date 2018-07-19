@@ -27,10 +27,10 @@ class User {
 // Logs specific user's bank account
 function getUser(name, tranactions, logger) {
     loggerMessages.logDebug(`Getting account information on ${name}`, logger);
-    const users = calculateAccounts(tranactions);
+    const users = calculateAccounts(tranactions, logger);
     if (users.has(name)) {
         loggerMessages.logDebug('User has been found', logger);
-        users.get(name).logAccount();
+        users.get(name).logAccount(logger);
     } else {
         loggerMessages.logDebug('User has not been found', logger);
         console.log('User not found');
@@ -40,11 +40,11 @@ function getUser(name, tranactions, logger) {
 // Logs all users' bank accounts
 function getAllUsers(transactions, logger) {
     loggerMessages.logDebug('Getting all users\' info', logger);
-    const users = calculateAccounts(transactions);
+    const users = calculateAccounts(transactions, logger);
     
     loggerMessages.logDebug('Starting to print out users\' info', logger);
     users.forEach(function(value) {
-        value.logAccount();
+        value.logAccount(logger);
     });
 }
 
@@ -63,7 +63,7 @@ function calculateAccounts(transactions, logger) {
     for (let i = 1; i < len; i++) {
 
         const current = transactions[i];
-        loggerMessages.logDebug(`Started processing transaction ${current.from} -> ${current.to} £${moneyConverter.convertMoneyIntToString(current.ammount)}\n` + 
+        loggerMessages.logDebug(`Started processing transaction ${current.from} -> ${current.to} £${moneyConverter.convertMoneyIntToString(current.ammount, logger)}\n` + 
                         `@${current.date} message: ${current.narrative}`, logger);
 
         // Deduct from `from`
@@ -72,7 +72,7 @@ function calculateAccounts(transactions, logger) {
             accounts.get(current.from).deduct(current.ammount);
         } else {
             loggerMessages.logTrace(`Adding new user ${current.from} to Map`, logger);
-            const newUser = new User(current.from);
+            const newUser = new User(current.from, logger);
             loggerMessages.logTrace(`Deducting ${current.ammount} from ${current.from}`, logger);
             newUser.deduct(current.ammount);
             accounts.set(current.from, newUser);
@@ -84,7 +84,7 @@ function calculateAccounts(transactions, logger) {
             accounts.get(current.to).add(current.ammount);
         } else {
             loggerMessages.logTrace(`Adding new user ${current.to} to Map`, logger);
-            const newUser = new User(current.to);
+            const newUser = new User(current.to, logger);
             loggerMessages.logTrace(`Adding ${current.ammount} to ${current.to}`, logger);
             newUser.add(current.ammount);
             accounts.set(current.to, newUser);

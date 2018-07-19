@@ -12,19 +12,19 @@ module.exports = function(fileName, logger) {
     if (fileName.substr(-3) === 'csv') {
         loggerMessages.logDebug('CSV format detected', logger);
         const rawData = CVSparser(rawFile, logger);
-        return TransactionsLib.createTransactions(rawData);
+        return TransactionsLib.createTransactions(rawData, logger);
     }
 
     if (fileName.substr(-3) === 'xml') {
         loggerMessages.logDebug('XML format detected', logger);
         const rawData = XMLparser(rawFile, logger);
-        return TransactionsLib.createTransactions(rawData);
+        return TransactionsLib.createTransactions(rawData, logger);
     }
 
     if (fileName.substr(-4) === 'json') {
         loggerMessages.logDebug('JSON format detected', logger);
         const rawData = JSONparser(rawFile, logger); 
-        return TransactionsLib.createTransactions(rawData);   
+        return TransactionsLib.createTransactions(rawData, logger);   
     }
 
     // Non-accepted format
