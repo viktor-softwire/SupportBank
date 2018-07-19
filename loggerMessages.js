@@ -1,9 +1,7 @@
 function logTrace(msg, logger) {
-    /*
     if (logger) {
         logger.trace(msg);
-    }*/
-    logger.trace(msg);
+    }
 }
 
 function logDebug(msg, logger) {

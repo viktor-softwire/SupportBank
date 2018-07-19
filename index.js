@@ -7,7 +7,7 @@ const logger = log4js.getLogger('logs\\debug.log');
 const TransactionsLib = require('./TransactionsLib');
 const UsersLib = require('./UsersLib');
 const loadDocument = require('./loadDocument');
-const fileName = `DodgyTransactions2015.csv`;
+const fileName = `Transactions2012.xml`;
 
 // Logging config
 log4js.configure({

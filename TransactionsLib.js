@@ -13,16 +13,37 @@ class Transaction {
 
         const [dateString, from, to, narrative, amountStrig] = transactionDetails;
 
-        this.date = moment(dateString, 'DD/MM/YYYY');
+        this.date = parseTime(dateString, logger);
+        this.from = from;
+        this.to = to;
+        this.narrative = narrative;
+        this.ammount = moneyConverter.convertMoneyStringToInt(amountStrig, logger);
+    
+    }
 
-        if (!this.date.isValid()) {
+}
+
+function parseTime(dateString, logger) {
+    
+    // CVS format
+    date = moment(dateString, 'DD/MM/YYYY');
+
+    if (date.isValid()) {
+
+        // If no. days since 1900-01-01 (XML format)
+        if (Number.isInteger(+dateString)) {
+
+            const baseDate = moment('19000101');
+            date = baseDate.add((+dateString), 'days');
+
+        } else {
 
             try {
 
-                // Try different fomrat (neccessary since also parsing JSON)
-                this.date = moment(dateString)
+                // Try different fomrat (neccessary since also parsing JSON and XML)
+                date = moment(dateString)
 
-                if (!this.date.isValid()) {
+                if (!date.isValid()) {
                     // If still not valid
                     loggerMessages.loggWarn(`Invaild date (or wrong format): ${dateString}`, logger);
                 }
@@ -30,14 +51,8 @@ class Transaction {
             } catch(err) {
                 loggerMessages.logWarn(`Invaild date (or wrong format): ${dateString}`, logger);
             }
-        }   
-
-        this.from = from;
-        this.to = to;
-        this.narrative = narrative;
-        this.ammount = moneyConverter.convertMoneyStringToInt(amountStrig, logger);
-    
-    }
+        }
+    }   
 
 }
 

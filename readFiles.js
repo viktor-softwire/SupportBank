@@ -1,4 +1,5 @@
 const fs = require('fs');
+const loggerMessages = require('./loggerMessages')
 
 module.exports = function(fileName, logger) {
 
@@ -6,22 +7,10 @@ module.exports = function(fileName, logger) {
 
     // Reading json file to string
     try {
-        return fs.readFileSync(fileName, 'utf8');;
+        return fs.readFileSync(fileName, 'utf8');
     } catch (err) {
-        logError(`Could not open ${fileName}; error message:`, logger);
-        logError(`${err.message}`, logger);
+        loggerMessages.logError(`Could not open ${fileName}; error message:`, logger);
+        loggerMessages.logError(`${err.message}`, logger);
         return null;
-    }
-}
-
-function logDebug(msg, logger) {
-    if (!logger) {
-        logger.debug(msg);
-    }
-}
-
-function logError(msg, logger) {
-    if (!logger) {
-        logger.error(msg);
     }
 }
