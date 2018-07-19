@@ -1,11 +1,129 @@
-[2018-07-19T11:19:51.763] [DEBUG] logs\debug.log - Application has started
-[2018-07-19T11:20:07.194] [DEBUG] logs\debug.log - User has entered operation mode: Export File exported2014.json
-[2018-07-19T11:20:07.195] [DEBUG] logs\debug.log - User input has been mathced to Export File [NAME]
-[2018-07-19T11:20:07.201] [DEBUG] logs\debug.log - User has inputted export file name  exported2014.json
-[2018-07-19T11:20:07.202] [DEBUG] logs\debug.log - Trying to load file: Transactions2014.csv
-[2018-07-19T11:20:07.206] [DEBUG] logs\debug.log - CSV format detected
-[2018-07-19T11:20:07.212] [DEBUG] logs\debug.log - Parsing string as CVS
-[2018-07-19T11:20:07.240] [DEBUG] logs\debug.log - Length of transactions (including header): 149
-[2018-07-19T11:20:07.256] [DEBUG] logs\debug.log - Transactions have been successfully parsed
-[2018-07-19T11:20:07.257] [DEBUG] logs\debug.log - Starting to write out transactions
-[2018-07-19T11:20:07.267] [DEBUG] logs\debug.log - Transactions have been successfully written out
+[2018-07-19T13:34:32.133] [DEBUG] logs\debug.log - Application has started
+[2018-07-19T13:34:35.447] [DEBUG] logs\debug.log - User has entered operation mode: List All
+[2018-07-19T13:34:35.448] [DEBUG] logs\debug.log - User input has been matched to List All
+[2018-07-19T13:34:35.449] [DEBUG] logs\debug.log - Trying to load file: DodgyTransactions2015.csv
+[2018-07-19T13:34:35.450] [DEBUG] logs\debug.log - CSV format detected
+[2018-07-19T13:34:35.455] [DEBUG] logs\debug.log - Parsing string as CVS
+[2018-07-19T13:34:35.470] [DEBUG] logs\debug.log - Length of transactions (including header): 52
+[2018-07-19T13:34:35.479] [ERROR] logs\debug.log - Trying to convert non-money format: One Cheeseburger
+[2018-07-19T13:34:35.510] [WARN] logs\debug.log - Invaild date (or wrong format): Last Thursday
+[2018-07-19T13:34:35.511] [DEBUG] logs\debug.log - Transactions have been successfully parsed
+[2018-07-19T13:34:35.512] [DEBUG] logs\debug.log - Getting all users' info
+[2018-07-19T13:34:35.518] [DEBUG] logs\debug.log - Started calculating accounts
+[2018-07-19T13:34:35.523] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Sarah T £10.54
+@Thu Jan 01 2015 00:00:00 GMT+0000 message: Misc Morale
+[2018-07-19T13:34:35.524] [DEBUG] logs\debug.log - Created User instance Laura B
+[2018-07-19T13:34:35.524] [DEBUG] logs\debug.log - Created User instance Sarah T
+[2018-07-19T13:34:35.530] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Gergana I £3.22
+@Sun Jan 04 2015 00:00:00 GMT+0000 message: Lunch
+[2018-07-19T13:34:35.531] [DEBUG] logs\debug.log - Created User instance Stephen S
+[2018-07-19T13:34:35.536] [DEBUG] logs\debug.log - Created User instance Gergana I
+[2018-07-19T13:34:35.536] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Jon A £9.93
+@Wed Jan 07 2015 00:00:00 GMT+0000 message: Fantasy Football
+[2018-07-19T13:34:35.541] [DEBUG] logs\debug.log - Created User instance Ben B
+[2018-07-19T13:34:35.541] [DEBUG] logs\debug.log - Created User instance Jon A
+[2018-07-19T13:34:35.542] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Todd £7.33
+@Sun Jan 11 2015 00:00:00 GMT+0000 message: Lunch
+[2018-07-19T13:34:35.548] [DEBUG] logs\debug.log - Created User instance Todd
+[2018-07-19T13:34:35.549] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Ben B £8.94
+@Mon Jan 12 2015 00:00:00 GMT+0000 message: Beers
+[2018-07-19T13:34:35.553] [DEBUG] logs\debug.log - Started processing transaction Todd -> Rob S £10.19
+@Thu Jan 15 2015 00:00:00 GMT+0000 message: Beers
+[2018-07-19T13:34:35.554] [DEBUG] logs\debug.log - Created User instance Rob S
+[2018-07-19T13:34:35.555] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Jon A £0.69
+@Fri Jan 16 2015 00:00:00 GMT+0000 message: Lego Assistance
+[2018-07-19T13:34:35.555] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Sarah T £10.73
+@Sun Jan 18 2015 00:00:00 GMT+0000 message: Coffee
+[2018-07-19T13:34:35.556] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Todd £0.8
+@Thu Jan 22 2015 00:00:00 GMT+0000 message: Coffee
+[2018-07-19T13:34:35.557] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Chris W £8.49
+@Sat Jan 24 2015 00:00:00 GMT+0000 message: Coffee
+[2018-07-19T13:34:35.563] [DEBUG] logs\debug.log - Created User instance Chris W
+[2018-07-19T13:34:35.564] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Tim L £0.52
+@Tue Jan 27 2015 00:00:00 GMT+0000 message: Jenkins Fees
+[2018-07-19T13:34:35.569] [DEBUG] logs\debug.log - Created User instance Tim L
+[2018-07-19T13:34:35.569] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Chris W £9.1
+@Thu Jan 29 2015 00:00:00 GMT+0000 message: Lunch
+[2018-07-19T13:34:35.570] [DEBUG] logs\debug.log - Created User instance Sam N
+[2018-07-19T13:34:35.571] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Laura B £7.53
+@Sun Feb 01 2015 00:00:00 GMT+0000 message: Coffee
+[2018-07-19T13:34:35.576] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Rob S £7.43
+@Mon Feb 02 2015 00:00:00 GMT+0000 message: Fantasy Football
+[2018-07-19T13:34:35.576] [DEBUG] logs\debug.log - Started processing transaction Rob S -> Stephen S £5.78
+@Wed Feb 04 2015 00:00:00 GMT+0000 message: Fantasy Football
+[2018-07-19T13:34:35.577] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Gergana I £10.29
+@Fri Feb 06 2015 00:00:00 GMT+0000 message: Automated Testing Services
+[2018-07-19T13:34:35.583] [DEBUG] logs\debug.log - Created User instance Dan W
+[2018-07-19T13:34:35.584] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Chris W £7.37
+@Sat Feb 07 2015 00:00:00 GMT+0000 message: Rails Consultancy
+[2018-07-19T13:34:35.589] [DEBUG] logs\debug.log - Started processing transaction Sam N -> Gergana I £9.84
+@Tue Feb 10 2015 00:00:00 GMT+0000 message: Sandbox Help
+[2018-07-19T13:34:35.594] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Stephen S £0.68
+@Wed Feb 11 2015 00:00:00 GMT+0000 message: Misc Morale
+[2018-07-19T13:34:35.595] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Gergana I £6.56
+@Fri Feb 13 2015 00:00:00 GMT+0000 message: Beers
+[2018-07-19T13:34:35.596] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Dan W £1.28
+@Mon Feb 16 2015 00:00:00 GMT+0000 message: Jenkins Fees
+[2018-07-19T13:34:35.601] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Dan W £11.48
+@Tue Feb 17 2015 00:00:00 GMT+0000 message: Sandbox Help
+[2018-07-19T13:34:35.602] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Rob S £4.83
+@Wed Feb 18 2015 00:00:00 GMT+0000 message: Lego Assistance
+[2018-07-19T13:34:35.603] [DEBUG] logs\debug.log - Started processing transaction Dan W -> Ben B £0.5
+@Sat Feb 21 2015 00:00:00 GMT+0000 message: Pokemon Training
+[2018-07-19T13:34:35.608] [DEBUG] logs\debug.log - Started processing transaction Todd -> Gergana I £9.8
+@Tue Feb 24 2015 00:00:00 GMT+0000 message: Coffee
+[2018-07-19T13:34:35.609] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Jon A £4.23
+@Thu Feb 26 2015 00:00:00 GMT+0000 message: Pokemon Training
+[2018-07-19T13:34:35.610] [ERROR] logs\debug.log - Trying to convert a non-integer number: null
+[2018-07-19T13:34:35.611] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sam N £null
+@Sun Mar 01 2015 00:00:00 GMT+0000 message: Lunch
+[2018-07-19T13:34:35.611] [DEBUG] logs\debug.log - Started processing transaction Todd -> Chris W £1.92
+@Mon Mar 02 2015 00:00:00 GMT+0000 message: Sandbox Help
+[2018-07-19T13:34:35.612] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Jon A £9.9
+@Wed Mar 04 2015 00:00:00 GMT+0000 message: Sandcastle Help
+[2018-07-19T13:34:35.613] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Gergana I £9.4
+@Fri Mar 06 2015 00:00:00 GMT+0000 message: Lego Assistance
+[2018-07-19T13:34:35.614] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sam N £11.32
+@Sun Mar 08 2015 00:00:00 GMT+0000 message: Pokemon Training
+[2018-07-19T13:34:35.619] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Jon A £11.57
+@Wed Mar 11 2015 00:00:00 GMT+0000 message: Sandcastle Help
+[2018-07-19T13:34:35.620] [DEBUG] logs\debug.log - Started processing transaction Todd -> Sam N £2.29
+@Sun Mar 15 2015 00:00:00 GMT+0000 message: Pokemon Training
+[2018-07-19T13:34:35.621] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Chris W £9.96
+@Thu Mar 19 2015 00:00:00 GMT+0000 message: Coffee
+[2018-07-19T13:34:35.622] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Gergana I £7.54
+@Sat Mar 21 2015 00:00:00 GMT+0000 message: Beers
+[2018-07-19T13:34:35.623] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Ben B £2.39
+@Wed Mar 25 2015 00:00:00 GMT+0000 message: Automated Testing Services
+[2018-07-19T13:34:35.624] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Tim L £5.83
+@Sat Mar 28 2015 00:00:00 GMT+0000 message: Lunch
+[2018-07-19T13:34:35.629] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Ben B £10.85
+@Sun Mar 29 2015 00:00:00 GMT+0000 message: Audit and Other Financial Services
+[2018-07-19T13:34:35.629] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Todd £8.6
+@Mon Mar 30 2015 00:00:00 GMT+0100 message: Pokemon Training
+[2018-07-19T13:34:35.635] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Chris W £1.11
+@Thu Apr 02 2015 00:00:00 GMT+0100 message: Pokemon Training
+[2018-07-19T13:34:35.636] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Ben B £0.96
+@Sun Apr 05 2015 00:00:00 GMT+0100 message: Lunch
+[2018-07-19T13:34:35.637] [DEBUG] logs\debug.log - Started processing transaction Chris W -> Rob S £11.79
+@Thu Apr 09 2015 00:00:00 GMT+0100 message: Audit and Other Financial Services
+[2018-07-19T13:34:35.643] [DEBUG] logs\debug.log - Started processing transaction Gergana I -> Laura B £8.37
+@Sun Apr 12 2015 00:00:00 GMT+0100 message: Stationary Items
+[2018-07-19T13:34:35.644] [DEBUG] logs\debug.log - Started processing transaction Laura B -> Tim L £1.27
+@Mon Apr 13 2015 00:00:00 GMT+0100 message: Services Rendered
+[2018-07-19T13:34:35.645] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Sam N £8.5
+@Wed Apr 15 2015 00:00:00 GMT+0100 message: Lego Assistance
+[2018-07-19T13:34:35.650] [DEBUG] logs\debug.log - Started processing transaction Stephen S -> Chris W £8.91
+@Sun Apr 19 2015 00:00:00 GMT+0100 message: White Water Rafting
+[2018-07-19T13:34:35.651] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Todd £8.1
+@Thu Apr 23 2015 00:00:00 GMT+0100 message: Misc Morale
+[2018-07-19T13:34:35.657] [DEBUG] logs\debug.log - Started processing transaction Tim L -> Sarah T £6.38
+@Fri Apr 24 2015 00:00:00 GMT+0100 message: Arcade Social
+[2018-07-19T13:34:35.662] [DEBUG] logs\debug.log - Started processing transaction Jon A -> Todd £8.44
+@Sun Apr 26 2015 00:00:00 GMT+0100 message: Stationary Items
+[2018-07-19T13:34:35.664] [DEBUG] logs\debug.log - Started processing transaction Ben B -> Jon A £10.91
+@Mon Apr 27 2015 00:00:00 GMT+0100 message: Pokemon Training
+[2018-07-19T13:34:35.669] [DEBUG] logs\debug.log - Started processing transaction Sarah T -> Dan W £5.42
+@Invalid date message: Beers
+[2018-07-19T13:34:35.670] [DEBUG] logs\debug.log - Transactions have been processed
+[2018-07-19T13:34:35.671] [DEBUG] logs\debug.log - Starting to print out users' info

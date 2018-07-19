@@ -8,17 +8,18 @@ const log4js = require('log4js');
 const logger = log4js.getLogger('logs\\debug.log');
 const XMLparser = require('xml-parser');
 
-const fileName = `Transactions2014.csv`;
+const fileName = `DodgyTransactions2015.csv`;
 
 // Logging config
 log4js.configure({
     appenders: {
-        file: { type: 'fileSync', filename: 'logs\\debug.log' }
+        file: { type: 'fileSync', filename: 'logs\\debug.log', level: 'debug' } ,
     },
     categories: {
-        default: { appenders: ['file'], level: 'debug'}
+        default: { appenders: ['file'], level: 'debug'}, 
     }
 });
+
 
 // Each instance represents one tranaction (one line in file)
 class Transaction {
@@ -35,11 +36,17 @@ class Transaction {
 
         if (!this.date.isValid()) {
 
-            // Try different fomrat (neccessary since also parsing JSON)
-            this.date = moment(dateString)
+            try {
 
-            if (!this.date.isValid()) {
-                // If still not valid
+                // Try different fomrat (neccessary since also parsing JSON)
+                this.date = moment(dateString)
+
+                if (!this.date.isValid()) {
+                    // If still not valid
+                    logger.warn(`Invaild date (or wrong format): ${dateString}`);
+                }
+
+            } catch(err) {
                 logger.warn(`Invaild date (or wrong format): ${dateString}`);
             }
         }
@@ -303,24 +310,24 @@ function calculateAccounts(transactions) {
 
         // Deduct from `from`
         if (accounts.has(current.from)) {
-            logger.debug(`Deducting ${current.ammount} from ${current.from}`);
+            logger.trace(`Deducting ${current.ammount} from ${current.from}`);
             accounts.get(current.from).deduct(current.ammount);
         } else {
-            logger.debug(`Adding new user ${current.from} to Map`);
+            logger.trace(`Adding new user ${current.from} to Map`);
             const newUser = new User(current.from);
-            logger.debug(`Deducting ${current.ammount} from ${current.from}`);
+            logger.trace(`Deducting ${current.ammount} from ${current.from}`);
             newUser.deduct(current.ammount);
             accounts.set(current.from, newUser);
         }
 
         // Then add to `to`
         if (accounts.has(current.to)) {
-            logger.debug(`Adding ${current.ammount} to ${current.to}`);
+            logger.trace(`Adding ${current.ammount} to ${current.to}`);
             accounts.get(current.to).add(current.ammount);
         } else {
-            logger.debug(`Adding new user ${current.to} to Map`);
+            logger.trace(`Adding new user ${current.to} to Map`);
             const newUser = new User(current.to);
-            logger.debug(`Adding ${current.ammount} to ${current.to}`);
+            logger.trace(`Adding ${current.ammount} to ${current.to}`);
             newUser.add(current.ammount);
             accounts.set(current.to, newUser);
         }
