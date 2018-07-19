@@ -28,31 +28,32 @@ function parseTime(dateString, logger) {
     // CVS format
     date = moment(dateString, 'DD/MM/YYYY');
 
-    if (date.isValid()) {
+    if (!date.isValid()) {
 
         // If no. days since 1900-01-01 (XML format)
         if (Number.isInteger(+dateString)) {
 
             const baseDate = moment('19000101');
-            date = baseDate.add((+dateString), 'days');
+            return date = baseDate.add((+dateString), 'days');
 
-        } else {
-
-            try {
-
-                // Try different fomrat (neccessary since also parsing JSON and XML)
-                date = moment(dateString)
-
-                if (!date.isValid()) {
-                    // If still not valid
-                    loggerMessages.loggWarn(`Invaild date (or wrong format): ${dateString}`, logger);
-                }
-
-            } catch(err) {
-                loggerMessages.logWarn(`Invaild date (or wrong format): ${dateString}`, logger);
-            }
         }
-    }   
+
+        // Otherwise
+        try {
+
+            // Try different fomrat (neccessary since also parsing JSON and XML)
+            date = moment(dateString)
+
+            if (!date.isValid()) {
+                // If still not valid
+                loggerMessages.loggWarn(`Invaild date (or wrong format): ${dateString}`, logger);
+            }
+
+        } catch(err) {
+            loggerMessages.logWarn(`Invaild date (or wrong format): ${dateString}`, logger);
+        }
+    }
+       
 
 }
 

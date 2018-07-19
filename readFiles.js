@@ -3,7 +3,7 @@ const loggerMessages = require('./loggerMessages')
 
 module.exports = function(fileName, logger) {
 
-    logDebug(`Trying to load file: ${fileName}`, logger);
+    loggerMessages.logDebug(`Trying to load file: ${fileName}`, logger);
 
     // Reading json file to string
     try {
