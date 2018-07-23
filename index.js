@@ -6,7 +6,7 @@ const UsersLib = require('./UsersLib');
 const loadDocument = require('./loadDocument');
 const logMessages = require('./loggerMessages');
 
-const fileName = `Transactions2012.xml`;
+const fileName = `DodgyTransactions2015.csv`;
 
 logMessages.configureLogger();
 
