@@ -6,18 +6,18 @@ const fs = require('fs');
 class Transaction {
     constructor(transactionDetails) {
 
-        if (transactionDetails.length !== 5) {
+        if (Object.values(transactionDetails).length !== 5) {
             loggerMessages.logFatal('Wrong number of parameters for Transaction constructor\n' +
-                                `(have ${transactionDetails.length} instead of 5)`)
+                                `(have ${Object.values(transactionDetails).length} instead of 5)`)
         }
 
-        const [dateString, from, to, narrative, amountStrig] = transactionDetails;
+        const {date, from, to, narrative, value} = transactionDetails;
 
-        this.date = parseTime(dateString);
+        this.date = parseTime(date);
         this.from = from;
         this.to = to;
         this.narrative = narrative;
-        this.ammount = moneyConverter.convertMoneyStringToInt(amountStrig);
+        this.ammount = moneyConverter.convertMoneyStringToInt(value);
     
     }
 

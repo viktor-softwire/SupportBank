@@ -10,9 +10,8 @@ module.exports = function(rawFile) {
         const rawObjects = rawTransactionList.root.children;
 
         // Getting the array representation
-        const recordsArray = [];
-        for(let i = 0; i < rawObjects.length; i++) {
-            const rawRecord = rawObjects[i];
+        const recordsArray = rawObjects.map(rawRecord => {
+
             const recordDate = rawRecord.attributes.Date;
             const recordNarrative = rawRecord.children[0].content;
             const recordValue = rawRecord.children[1].content;
@@ -20,10 +19,10 @@ module.exports = function(rawFile) {
             const recordFrom = recordParties[0].content;
             const recordTo = recordParties[1].content;
 
-            const currentArray = [recordDate, recordFrom, recordTo, recordNarrative, recordValue];
-            recordsArray[i] = currentArray;
+            const currentArray = {date: recordDate, from: recordFrom, to: recordTo, narrative: recordNarrative, value: recordValue};
+            return currentArray;
             
-        }
+        });
 
         return recordsArray;
     

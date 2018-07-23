@@ -1,12 +1,13 @@
 'use strict';
 
 const readLine = require('readline-sync');
+
 const Transaction = require('./Transaction');
 const User = require('./User');
 const loadDocument = require('./loadDocument');
 const logMessages = require('./loggerMessages');
 
-const fileName = `Transactions2012.xml`;
+const fileName = `Transactions2014.csv`;
 
 logMessages.configureLogger();
 

@@ -7,17 +7,10 @@ module.exports = function(rawFile) {
 
     try {
         const records = JSON.parse(rawFile);
-        const recordsArray = [];
-
-        // Turning JSON ojects into arrays
-        for (let i = 0; i < records.length; i++) {
-            const record = records[i];
-            const currentArray = [record.Date, record.FromAccount, record.ToAccount, record.Narrative, record.Amount];
-
-            // Include the header row in CSV
-            recordsArray[i+1] = currentArray;
-        }
-        
+        const recordsArray = records.map(record => {
+            return {date: record.Date, from: record.FromAccount, to: record.ToAccount, narrative: record.Narrative, value: record.Amount};
+        });
+               
         return recordsArray;
 
     } catch(err) {

@@ -12,6 +12,7 @@ function convertMoneyStringToInt(amt) {
     
     if ((parts.length === 0) || (parts.length > 2)) {
         loggerMessages.logError(`Invalid format: ${amt}`);
+        return null;
     }
 
     const pence = parts[1] || 0;
@@ -32,14 +33,13 @@ function convertMoneyIntToString(amt) {
         return null;
     }
 
-
     if (typeof(amt) !== 'number') {
         loggerMessages.logFatal('Trying to a convert not a number');
+        return null;
     }
 
     const sign = amt < 0 ? '-' : '';
     const amtToUse = Math.abs(amt);
-
 
     const pennies = amtToUse % 100;
     const pounds = (amtToUse - pennies) / 100;

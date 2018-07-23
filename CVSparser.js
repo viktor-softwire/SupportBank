@@ -7,7 +7,9 @@ module.exports = function(rawFile) {
     loggerMessages.logDebug('Parsing string as CVS');
     try {
         const records = parse(rawFile);
-        return records;
+        return records.map(record => {
+            return {date: record[0], from: record[1], to: record[2], narrative: record[3], value: record[4]};
+        });
 
     } catch(err) {
         loggerMessages.logError('Could not parse file as CVS; error message:');

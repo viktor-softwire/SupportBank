@@ -9,25 +9,29 @@ module.exports = function(fileName) {
 
     const rawFile = readFiles(fileName);
     
+    let parser;
     if (fileName.substr(-3) === 'csv') {
         loggerMessages.logDebug('CSV format detected');
-        const rawData = CVSparser(rawFile);
-        return Transaction.createTransactions(rawData);
+        parser = CVSparser
     }
 
     if (fileName.substr(-3) === 'xml') {
         loggerMessages.logDebug('XML format detected');
-        const rawData = XMLparser(rawFile);
-        return Transaction.createTransactions(rawData);
+        parser = XMLparser;
     }
 
     if (fileName.substr(-4) === 'json') {
         loggerMessages.logDebug('JSON format detected');
-        const rawData = JSONparser(rawFile); 
-        return Transaction.createTransactions(rawData);   
+        parser = JSONparser; 
     }
 
+    
     // Non-accepted format
-    loggerMessages.logFatal('Not accepted file format');
-    return null;
+    if (!parser) {
+        loggerMessages.logFatal('Not accepted file format');
+        return null;
+    }
+
+    const rawData = parser(rawFile);
+    return Transaction.createTransactions(rawData);
 }
