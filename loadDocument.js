@@ -5,29 +5,29 @@ const XMLparser = require('./XMLparser');
 const loggerMessages = require('./loggerMessages');
 const TransactionsLib = require('./TransactionsLib');
 
-module.exports = function(fileName, logger) {
+module.exports = function(fileName) {
 
-    const rawFile = readFiles(fileName, logger);
+    const rawFile = readFiles(fileName);
     
     if (fileName.substr(-3) === 'csv') {
-        loggerMessages.logDebug('CSV format detected', logger);
-        const rawData = CVSparser(rawFile, logger);
-        return TransactionsLib.createTransactions(rawData, logger);
+        loggerMessages.logDebug('CSV format detected');
+        const rawData = CVSparser(rawFile);
+        return TransactionsLib.createTransactions(rawData);
     }
 
     if (fileName.substr(-3) === 'xml') {
-        loggerMessages.logDebug('XML format detected', logger);
-        const rawData = XMLparser(rawFile, logger);
-        return TransactionsLib.createTransactions(rawData, logger);
+        loggerMessages.logDebug('XML format detected');
+        const rawData = XMLparser(rawFile);
+        return TransactionsLib.createTransactions(rawData);
     }
 
     if (fileName.substr(-4) === 'json') {
-        loggerMessages.logDebug('JSON format detected', logger);
-        const rawData = JSONparser(rawFile, logger); 
-        return TransactionsLib.createTransactions(rawData, logger);   
+        loggerMessages.logDebug('JSON format detected');
+        const rawData = JSONparser(rawFile); 
+        return TransactionsLib.createTransactions(rawData);   
     }
 
     // Non-accepted format
-    loggerMessages.logFatal('Not accepted file format', logger);
+    loggerMessages.logFatal('Not accepted file format');
     return null;
 }

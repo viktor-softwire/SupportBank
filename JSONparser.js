@@ -1,9 +1,9 @@
 const loggerMessages = require('./loggerMessages');
 
-module.exports = function(rawFile, logger) {
+module.exports = function(rawFile) {
     
     // Parsing to [[TRANSACTION-DETAILS], ...]
-    loggerMessages.logDebug('Parsing string as JSON', logger);
+    loggerMessages.logDebug('Parsing string as JSON');
 
     try {
         const records = JSON.parse(rawFile);
@@ -21,8 +21,8 @@ module.exports = function(rawFile, logger) {
         return recordsArray;
 
     } catch(err) {
-        loggerMessages.logError('Could not parse file as JSON; error message:', logger);
-        loggerMessages.logError(`${err.message}`, logger);
+        loggerMessages.logError('Could not parse file as JSON; error message:');
+        loggerMessages.logError(`${err.message}`);
         return null;
     } 
 }
