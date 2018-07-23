@@ -1,12 +1,12 @@
 'use strict';
 
 const readLine = require('readline-sync');
-const TransactionsLib = require('./TransactionsLib');
-const UsersLib = require('./UsersLib');
+const Transaction = require('./Transaction');
+const User = require('./User');
 const loadDocument = require('./loadDocument');
 const logMessages = require('./loggerMessages');
 
-const fileName = `DodgyTransactions2015.csv`;
+const fileName = `Transactions2012.xml`;
 
 logMessages.configureLogger();
 
@@ -23,21 +23,21 @@ logMessages.logDebug(`User has entered operation mode: ${response}`);
 if (response === 'List All') {
     logMessages.logDebug('User input has been matched to List All');
     const transactions = loadDocument(fileName);
-    UsersLib.getAllUsers(transactions);
+    User.getAllUsers(transactions);
 
 } else if (response.substring(0, 5) === 'List ') {
     logMessages.logDebug('User input has been mathced to List [NAME]');
     const userName = response.substring(5); 
     logMessages.logDebug(`User has inputted name: ${userName}`);
     const transactions = loadDocument(fileName);
-    UsersLib.getUser(userName, transactions);
+    User.getUser(userName, transactions);
 
 } else if (response.substring(0, 11) === 'Export File') {
     logMessages.logDebug('User input has been mathced to Export File [NAME]');
     const outputFileName = response.substring(11);
     logMessages.logDebug(`User has inputted export file name ${outputFileName}`);
     const transactions = loadDocument(fileName);
-    TransactionsLib.exportTransactions(transactions, outputFileName);
+    Transaction.exportTransactions(transactions, outputFileName);
 
 } else {
 

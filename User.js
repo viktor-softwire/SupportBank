@@ -9,6 +9,10 @@ class User {
         this.account = 0;
     }
 
+    updateAccount(ammount) {
+        this.account += ammount;
+    }
+
     deduct(ammount) {
         this.account -= ammount;
     }
@@ -25,12 +29,13 @@ class User {
 }
 
 // Logs specific user's bank account
-function getUser(name, tranactions) {
+function getUser(name, transactions) {
     loggerMessages.logDebug(`Getting account information on ${name}`);
-    const users = calculateAccounts(tranactions);
-    if (users.has(name)) {
+    const users = calculateAccounts(transactions);
+    const user = users.get(name);
+    if (user) {
         loggerMessages.logDebug('User has been found');
-        users.get(name).logAccount();
+        user.logAccount();
     } else {
         loggerMessages.logDebug('User has not been found');
         console.log('User not found');
@@ -67,34 +72,35 @@ function calculateAccounts(transactions) {
                         `@${current.date} message: ${current.narrative}`);
 
         // Deduct from `from`
-        if (accounts.has(current.from)) {
-            loggerMessages.logTrace(`Deducting ${current.ammount} from ${current.from}`);
-            accounts.get(current.from).deduct(current.ammount);
-        } else {
-            loggerMessages.logTrace(`Adding new user ${current.from} to Map`);
-            const newUser = new User(current.from);
-            loggerMessages.logTrace(`Deducting ${current.ammount} from ${current.from}`);
-            newUser.deduct(current.ammount);
-            accounts.set(current.from, newUser);
-        }
-
+        processTrasactionForUser(current.from, accounts, -current.ammount);
+        
         // Then add to `to`
-        if (accounts.has(current.to)) {
-            loggerMessages.logTrace(`Adding ${current.ammount} to ${current.to}`);
-            accounts.get(current.to).add(current.ammount);
-        } else {
-            loggerMessages.logTrace(`Adding new user ${current.to} to Map`);
-            const newUser = new User(current.to);
-            loggerMessages.logTrace(`Adding ${current.ammount} to ${current.to}`);
-            newUser.add(current.ammount);
-            accounts.set(current.to, newUser);
-        }
+        processTrasactionForUser(current.to, accounts, current.ammount);
 
     }
     
     loggerMessages.logDebug('Transactions have been processed');
     // List all accounts
     return accounts;
+}
+
+function processTrasactionForUser(accountName, accounts, ammount) {
+    const currentAccount = accounts.get(accountName);
+
+    // Already in Map
+    if (currentAccount) {
+        loggerMessages.logTrace(`Changing ${currentAccount} with ${ammount}`);
+        currentAccount.updateAccount(ammount);
+
+    // Insert into map
+    } else {
+        loggerMessages.logTrace(`Adding new user ${accountName} to Map`);
+        const newUser = new User(accountName);
+        loggerMessages.logTrace(`Changing ${currentAccount} with ${ammount}`);
+        newUser.updateAccount(ammount);
+        accounts.set(accountName, newUser);
+    }
+
 }
 
 module.exports = {User, getUser, getAllUsers}

@@ -4,7 +4,7 @@ const moneyConverter = require('./moneyConverter');
 const fs = require('fs');
 
 class Transaction {
-    constructor(transactionDetails, logger) {
+    constructor(transactionDetails) {
 
         if (transactionDetails.length !== 5) {
             loggerMessages.logFatal('Wrong number of parameters for Transaction constructor\n' +
@@ -26,7 +26,7 @@ class Transaction {
 function parseTime(dateString) {
     
     // CVS format
-    date = moment(dateString, 'DD/MM/YYYY');
+    const date = moment(dateString, 'DD/MM/YYYY');
 
     if (!date.isValid()) {
 
@@ -34,7 +34,7 @@ function parseTime(dateString) {
         if (Number.isInteger(+dateString)) {
 
             const baseDate = moment('19000101');
-            return date = baseDate.add((+dateString), 'days');
+            return baseDate.add((+dateString), 'days');
 
         }
 
@@ -42,18 +42,23 @@ function parseTime(dateString) {
         try {
 
             // Try different fomrat (neccessary since also parsing JSON and XML)
-            date = moment(dateString)
+            const newDate = moment(dateString)
 
-            if (!date.isValid()) {
+            if (!newDate.isValid()) {
                 // If still not valid
                 loggerMessages.loggWarn(`Invaild date (or wrong format): ${dateString}`);
+                return;
+            } else {
+                return newDate
             }
 
         } catch(err) {
             loggerMessages.logWarn(`Invaild date (or wrong format): ${dateString}`);
+            return;
         }
     }
-       
+    
+    return date;
 
 }
 
@@ -65,10 +70,9 @@ function createTransactions(records) {
     loggerMessages.logDebug(`Length of transactions (including header): ${len}`);
 
     // Iterating from 1 (first row is header)
-    for (let i = 1; i < len; i++) {
-        transactions[i] = new Transaction(records[i]);
-    }
-
+    const slicedRecords = records.slice(1);
+    slicedRecords.map(record => transactions.push(new Transaction(record)));
+    
     loggerMessages.logDebug('Transactions have been successfully parsed');
     return transactions;
 }
